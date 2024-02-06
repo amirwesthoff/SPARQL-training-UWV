@@ -1,0 +1,13 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#>
+
+# Geef alle voorkeurslabels van referentieberoepen in hoofdletters 
+
+SELECT ?referentieberoep ?referentieberoep_prefLabel_uppercase
+WHERE {
+	?referentieberoep a cnluwv:Referentieberoep ;
+  		skos:prefLabel ?referentieberoep_prefLabel .
+  BIND(UCASE(?referentieberoep_prefLabel) AS ?referentieberoep_prefLabel_uppercase)
+}
