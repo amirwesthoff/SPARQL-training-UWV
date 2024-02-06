@@ -11,4 +11,4 @@ SELECT * WHERE {
   	?referentieberoep a cnluwv:Referentieberoep ;
     	skos:broader ?kernberoep ;
     	skos:prefLabel ?referentieberoep_prefLabel .
-} LIMIT 100
+} 
