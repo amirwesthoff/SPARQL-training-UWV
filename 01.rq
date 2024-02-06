@@ -1,0 +1,14 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#>
+
+# Bijv. alle kernberoepen en gekoppelde referentieberoepen + preflabels
+
+SELECT * WHERE {
+  	?kernberoep a cnluwv:Kernberoep ;
+  		skos:prefLabel ?kernberoep_prefLabel .
+  	?referentieberoep a cnluwv:Referentieberoep ;
+    	skos:broader ?kernberoep ;
+    	skos:prefLabel ?referentieberoep_prefLabel .
+} LIMIT 100
