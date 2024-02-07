@@ -1,0 +1,18 @@
+PREFIX ex: <http://example.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+# Koppel de waarde van dbo:abstract bij Broodbakker in alle talen die Dbpedia heeft (11.rq)
+
+SELECT *
+WHERE {
+  	?ref a cnluwv:Referentieberoep ;
+  		skos:prefLabel ?prefLabel .
+  FILTER (CONTAINS(?prefLabel, "Allround broodbakker"))
+  SERVICE <http://dbpedia.org/sparql> {
+  	<http://dbpedia.org/resource/Baker> dbo:abstract ?abstract .
+  }
+}
