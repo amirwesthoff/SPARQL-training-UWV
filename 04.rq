@@ -1,0 +1,18 @@
+PREFIX ex: <http://example.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+# Construeer triples van een aantal kernberoepen, referentieberoepen en verbijzonderingen en hun labels.
+
+CONSTRUCT 
+WHERE {
+	?verbijzondering a cnluwv:VerbijzonderingReferentieberoep ;
+  		skos:broader ?referentieberoep ;
+    	skos:prefLabel ?verbijzondering_prefLabel .
+  ?referentieberoep skos:broader ?kernberoep ;
+    	skos:prefLabel ?referentieberoep_prefLabel .
+  ?kernberoep skos:prefLabel ?kernberoep_prefLabel .
+} LIMIT 50
