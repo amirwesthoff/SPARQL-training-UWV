@@ -9,7 +9,7 @@ PREFIX dbo: <http://dbpedia.org/ontology/>
 
 SELECT *
 WHERE {
-  	?ref a cnluwv:Referentieberoep ;
+  	?referentieberoep a cnluwv:Referentieberoep ;
   		skos:prefLabel ?prefLabel .
   FILTER (CONTAINS(?prefLabel, "Allround broodbakker"))
   SERVICE <http://dbpedia.org/sparql> {
