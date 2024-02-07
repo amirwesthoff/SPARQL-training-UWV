@@ -1,0 +1,3978 @@
+@prefix : <http://mapping.example.com/> .
+@prefix cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#> .
+@prefix cnluwv-data: <https://linkeddata.competentnl.nl/id/beroep/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://linkeddata.competentnl.nl/id/namedgraph/sbc> {
+  cnluwv-data:1 a cnluwv:SBC_Beroepsniveau;
+    skos:prefLabel "elementaire beroepen" .
+  
+  cnluwv-data:11 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:1;
+    skos:prefLabel "elementaire beroepen" .
+  
+  cnluwv-data:111 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:11;
+    skos:prefLabel "elementaire beroepen" .
+  
+  cnluwv-data:11101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "hulparbeider tuinbouw" .
+  
+  cnluwv-data:11104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "schapenscheerder" .
+  
+  cnluwv-data:11105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "griendwerker, rietwerker" .
+  
+  cnluwv-data:11107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "oliebollen-, poffertjesbakker, snackbarbediende (frituur)" .
+  
+  cnluwv-data:11109 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "reinigingsdienstarbeider, dekpersoneel binnenvaart" .
+  
+  cnluwv-data:11110 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "hulparbeider wegenbouw, grondwerk" .
+  
+  cnluwv-data:11111 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "schoonmaker machines, gebouwen, installaties, produkten (geen walserij-, gieterij-produkten)" .
+  
+  cnluwv-data:11112 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "schoonmaker laboratoriummateriaal en -glaswerk" .
+  
+  cnluwv-data:11114 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "constructieschilder, aardewerkspuiter, dompelaar, wegmarkeerder" .
+  
+  cnluwv-data:11115 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "assistent onderhoudsmedewerker (schilder-, metsel-, timmerwerk, eigen gebouw; elementair)" .
+  
+  cnluwv-data:11116 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "textielproduktenmaker (excl textielproduktiemachines bedienen)" .
+  
+  cnluwv-data:11117 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "produktiemedewerker industrie (eenvoudige machine bedienen)" .
+  
+  cnluwv-data:11118 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "produktiemedewerker industrie (samenstellen; geen houtwaren, plastic-, rubberartikelen)" .
+  
+  cnluwv-data:11119 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "inpakker handmatig" .
+  
+  cnluwv-data:11120 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "sloper van gebouwen" .
+  
+  cnluwv-data:11121 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "vakkenvuller winkel, garderobejuffrouw" .
+  
+  cnluwv-data:11122 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "lader, losser, pakhuis-, magazijnknecht, verhuizer" .
+  
+  cnluwv-data:11123 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "colporteur kranten, tijdschriften, folders, wasgoed" .
+  
+  cnluwv-data:11124 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "bezorger, koerier" .
+  
+  cnluwv-data:11125 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "sjouwer, opperman" .
+  
+  cnluwv-data:11126 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "opruimer-schoonmaker" .
+  
+  cnluwv-data:11127 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "trekkerchauffeur intern transport (excl landbouw), bouwliftbediener" .
+  
+  cnluwv-data:11128 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "kantoorhulp (kopiëren, bezorgen interne post ed)" .
+  
+  cnluwv-data:11129 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "animeermeisje, callgirl, prostituée" .
+  
+  cnluwv-data:11132 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "bewaker, wachter (element)" .
+  
+  cnluwv-data:11133 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "glazenwasser, interieurverzorger, keukenknecht, medewerker huishoudelijke dienst" .
+  
+  cnluwv-data:11134 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:111;
+    skos:prefLabel "postsorteerder ptt, grondstof-, produktensorteerder, meteropnemer water-, energiebedrijf" .
+  
+  cnluwv-data:2 a cnluwv:SBC_Beroepsniveau;
+    skos:prefLabel "lagere beroepen" .
+  
+  cnluwv-data:21 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere niet-specialistische beroepen" .
+  
+  cnluwv-data:211 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:21;
+    skos:prefLabel "lagere niet-specialistische beroepen" .
+  
+  cnluwv-data:21101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "astroloog, waarzegger" .
+  
+  cnluwv-data:21102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "enquêteur, codeur, verkeersteller" .
+  
+  cnluwv-data:21103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "ondersteunende administratieve functies: kantoormachines bedienen" .
+  
+  cnluwv-data:21104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "afvalopkoper-afvalverkoper (incl oud metaal)" .
+  
+  cnluwv-data:21105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "circusartiest" .
+  
+  cnluwv-data:21106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "disc-jockey" .
+  
+  cnluwv-data:21107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "mannequin, model, toneelfigurant" .
+  
+  cnluwv-data:21108 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:211;
+    skos:prefLabel "beroepssporter (excl denksporten)" .
+  
+  cnluwv-data:22 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere docenten sportvakken" .
+  
+  cnluwv-data:234 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:22;
+    skos:prefLabel "lagere docenten sportvakken" .
+  
+  cnluwv-data:23401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:234;
+    skos:prefLabel "zweminstructeur" .
+  
+  cnluwv-data:24 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere agrarische beroepen" .
+  
+  cnluwv-data:242 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:24;
+    skos:prefLabel "lagere algemeen agrarische beroepen" .
+  
+  cnluwv-data:24202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "jager" .
+  
+  cnluwv-data:24203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider tuinbouw" .
+  
+  cnluwv-data:24204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider groen-, terreinverzorging" .
+  
+  cnluwv-data:24205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider akkerbouw" .
+  
+  cnluwv-data:24206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider landbouw gemengd bedrijf" .
+  
+  cnluwv-data:24207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider veeteelt" .
+  
+  cnluwv-data:24208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider bosbouw" .
+  
+  cnluwv-data:24209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "arbeider viskwekerij" .
+  
+  cnluwv-data:24210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "dierenverzorger kinderboerderij, asyl, laboratorium, bosbouw" .
+  
+  cnluwv-data:24212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "jachtopziener, jachtopzichter" .
+  
+  cnluwv-data:24213 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "controleur, keurder agrarische produkten op veiling" .
+  
+  cnluwv-data:24214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:242;
+    skos:prefLabel "selecteur zaad, bollen, planten" .
+  
+  cnluwv-data:243 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:24;
+    skos:prefLabel "lagere technisch agrarische beroepen" .
+  
+  cnluwv-data:24301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:243;
+    skos:prefLabel "landbouwmachinebestuurder" .
+  
+  cnluwv-data:24302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:243;
+    skos:prefLabel "stuurman-visser" .
+  
+  cnluwv-data:24303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:243;
+    skos:prefLabel "visser, vis-, schaaldierenkweker" .
+  
+  cnluwv-data:24304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:243;
+    skos:prefLabel "landbouw-, hoefsmid" .
+  
+  cnluwv-data:25 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:251 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:25;
+    skos:prefLabel "lagere wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:25101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:251;
+    skos:prefLabel "scheikundig laboratoriumbediende, leerling-analist, laborant melkcontrole" .
+  
+  cnluwv-data:25102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:251;
+    skos:prefLabel "sterilisatie-assistent (laboratorium, operatiekamer)" .
+  
+  cnluwv-data:26 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere technische beroepen" .
+  
+  cnluwv-data:261 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere technische beroepen (ongeacht specialisatie)" .
+  
+  cnluwv-data:26102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "autowasserettehouder, objectleider schoonmaakdienst, filterreiniger procesindustrie" .
+  
+  cnluwv-data:26103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "mandenmaker (handmatig); rekwisietenmaker (excl timmer- of decorschilderwerk)" .
+  
+  cnluwv-data:26104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "borstel-, manden-, mattenmaker (machinaal); delfstoffenbewerker neg" .
+  
+  cnluwv-data:26105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "mergelgroeve-, veenarbeider; zand-, grind-, kleidelver" .
+  
+  cnluwv-data:26106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "concierge, huisbewaarder (beveiligen), kustlichtwachter" .
+  
+  cnluwv-data:26107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:261;
+    skos:prefLabel "concierge, huisbewaarder (beveiligen en schoonmaken), koster" .
+  
+  cnluwv-data:262 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere bouwkundige beroepen" .
+  
+  cnluwv-data:26205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "isoleerder: isolatiewerker bouwnijverheid" .
+  
+  cnluwv-data:26207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "steigermaker" .
+  
+  cnluwv-data:26208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "metselaar, tegelzetter, voeger, steenbewerker" .
+  
+  cnluwv-data:26209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "stukadoor, beton-, cement-, terrazzovloerenlegger, -afwerker" .
+  
+  cnluwv-data:26210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "betonwerker, -produktenmaker, -ijzervlechter; cement- ea minerale produktenmaker" .
+  
+  cnluwv-data:26211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "betontimmerman, parketvloerenlegger, monteur systeembouw; bouwvaktimmerman (lager)" .
+  
+  cnluwv-data:26212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "grafkisten-, rietmeubelmaker, kuiper, stoelenmatter" .
+  
+  cnluwv-data:26213 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "machinaal houtbewerker" .
+  
+  cnluwv-data:26214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "houtwarensamensteller" .
+  
+  cnluwv-data:26215 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "behanger; vloerlegger rubber, kurk" .
+  
+  cnluwv-data:26216 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "schilder-behanger" .
+  
+  cnluwv-data:26217 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "huisschilder, verfspuiter (excl constructiewerk, wegmarkering, auto's, decoratie aardewerk)" .
+  
+  cnluwv-data:26218 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "glazenmaker, glaszetter" .
+  
+  cnluwv-data:26219 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "dakdekker" .
+  
+  cnluwv-data:26224 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "kunststof ramen-, kozijnenmaker" .
+  
+  cnluwv-data:26225 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:262;
+    skos:prefLabel "controleur-keurder houten produkten" .
+  
+  cnluwv-data:263 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere weg- en waterbouwkundige beroepen" .
+  
+  cnluwv-data:26302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:263;
+    skos:prefLabel "kantonnier" .
+  
+  cnluwv-data:26304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:263;
+    skos:prefLabel "kabelwerker, gasleidinglegger" .
+  
+  cnluwv-data:26305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:263;
+    skos:prefLabel "wegenbouwarbeider, grondwerker bouw, straatmaker" .
+  
+  cnluwv-data:26306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:263;
+    skos:prefLabel "laadschopbestuurder (bouwnijverheid), heier" .
+  
+  cnluwv-data:26307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:263;
+    skos:prefLabel "heibaas" .
+  
+  cnluwv-data:264 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere metaalkundige beroepen" .
+  
+  cnluwv-data:26402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "vormer, kernmaker, glas- ea mineralenbewerker" .
+  
+  cnluwv-data:26403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "machinaal verspaner metaal, metaalfrezer" .
+  
+  cnluwv-data:26406 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "glasgraveur, -etser; diamant-, edelsteen- en edelmetaalbewerker (lager)" .
+  
+  cnluwv-data:26407 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "burgersmid; metaalbuiger, -forceur, -perser, -walser (excl plaatwerk, automaatbediende)" .
+  
+  cnluwv-data:26409 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "plaatwerker (excl scheeps-, vliegtuigplaatwerker)" .
+  
+  cnluwv-data:26410 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "soldeerder, metaalbrander, -snijder, -sloper; lasser (lager)" .
+  
+  cnluwv-data:26411 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "constructiesamenbouwer; stalen, aluminium ramen-, kozijnenmaker (lager)" .
+  
+  cnluwv-data:26412 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "machinaal metaalbewerker (excl bankwerk)" .
+  
+  cnluwv-data:26414 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "samensteller metaalwaren" .
+  
+  cnluwv-data:26415 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:264;
+    skos:prefLabel "controleur, tester metaalwaren (excl voertuigen, machines)" .
+  
+  cnluwv-data:265 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere werktuigbouwkundige beroepen ed" .
+  
+  cnluwv-data:26501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "smeerder (excl schepen)" .
+  
+  cnluwv-data:26503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "boorpersoneel (geen boorder)" .
+  
+  cnluwv-data:26505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "rijwiel-, motorrijwiel-, bromfietshersteller, hulpautomonteur" .
+  
+  cnluwv-data:26507 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "scheepsschilder" .
+  
+  cnluwv-data:26509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "omsteller cokesbereiding, spindoppenmonteur" .
+  
+  cnluwv-data:26510 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "spoelingscontroleur (boringen)" .
+  
+  cnluwv-data:26511 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "samensteller voertuigen, kantoormachines (excl elektro); voertuigbekleder" .
+  
+  cnluwv-data:267 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere elektrotechnische beroepen" .
+  
+  cnluwv-data:26701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:267;
+    skos:prefLabel "elektrotechnisch bankwerker, monteur, installateur (sterkstroom); elektromonteur huishoudelijke apparaten (lager)" .
+  
+  cnluwv-data:26702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:267;
+    skos:prefLabel "audio-visueel onderwijstechnicus, studio-elektricien, belichter (lager)" .
+  
+  cnluwv-data:26703 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:267;
+    skos:prefLabel "elektrotechnisch monteur, installateur (zwakstroom)" .
+  
+  cnluwv-data:26705 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:267;
+    skos:prefLabel "wikkelaar ankers, spoelen; samensteller elektronische apparatuur" .
+  
+  cnluwv-data:26706 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:267;
+    skos:prefLabel "controleur, tester elektrotechnische apparaten en onderdelen (excl meet- en regeltechniek)" .
+  
+  cnluwv-data:268 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere grafische beroepen" .
+  
+  cnluwv-data:26801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:268;
+    skos:prefLabel "zetters; drukwerkvoorbereiders grafische industrie (lager)" .
+  
+  cnluwv-data:26802 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:268;
+    skos:prefLabel "lichtdrukker, drukker aardewerkmotieven, zeefdrukker" .
+  
+  cnluwv-data:26803 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:268;
+    skos:prefLabel "binderijpersoneel (geen boekbinder)" .
+  
+  cnluwv-data:26804 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:268;
+    skos:prefLabel "papierwaren-, dozenmaker, kartonnagewerker; papiervernisser drukkerij" .
+  
+  cnluwv-data:26805 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:268;
+    skos:prefLabel "fotolaboratoriumbediende (geen laborant); tweede camera-assistent" .
+  
+  cnluwv-data:271 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere procestechnische beroepen" .
+  
+  cnluwv-data:27101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "slager-verkoper (lager)" .
+  
+  cnluwv-data:27107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "slachter, slachterij-arbeider, worst-vleeswarenmaker; visfileerder, -snijder, schaaldierenpeller" .
+  
+  cnluwv-data:27108 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "brood-, koek-, banketbakker, chocolademaker (ambachtelijk; excl in-, verkoop; lager)" .
+  
+  cnluwv-data:27109 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "machinebediende glas-, aardewerk-, papier-, textiel-, voedings- en genotmiddelen-, procesindustrie" .
+  
+  cnluwv-data:27112 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "mechanisch operator glas-, aardewerk-, papier-, textiel-, voedings- en genotmiddelen-, procesindustrie" .
+  
+  cnluwv-data:27113 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "samensteller rubber-, plasticartikelen" .
+  
+  cnluwv-data:27114 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "textielopmaker textielindustrie" .
+  
+  cnluwv-data:27115 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "sigarenmaker, glas- en aardewerkschilder, nettenboeter (handmatig)" .
+  
+  cnluwv-data:27116 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:271;
+    skos:prefLabel "controleur, keurder procesindustrie (excl delfstoffen, olie en gas), sigaren" .
+  
+  cnluwv-data:272 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:26;
+    skos:prefLabel "lagere technische beroepen neg" .
+  
+  cnluwv-data:27202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "hoofd wasserij, wasser, perser, ontvlekker wasserij" .
+  
+  cnluwv-data:27203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "meubelstoffeerder; woningstoffeerder (excl in-, verkoop)" .
+  
+  cnluwv-data:27204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "confectie-, woning- en meubelstoffennaaister; kleermaker, zeil-, tenten, markiezen-, dekkledenmaker (excl patroontekenen, in-, verkoop)" .
+  
+  cnluwv-data:27206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "schoenfabrieksarbeider; schoenhersteller, lederwarenmaker (excl kleding, in-, verkoop)" .
+  
+  cnluwv-data:27208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "bioscoopoperateur" .
+  
+  cnluwv-data:27209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:272;
+    skos:prefLabel "controleur, keurder, completeerder confectie" .
+  
+  cnluwv-data:28 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere transportberoepen" .
+  
+  cnluwv-data:282 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:28;
+    skos:prefLabel "lagere algemene transportberoepen" .
+  
+  cnluwv-data:28204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "buschauffeur groepsvervoer binnen- en buitenland" .
+  
+  cnluwv-data:28205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "taxi-chauffeur" .
+  
+  cnluwv-data:28206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "postexpediteur ptt" .
+  
+  cnluwv-data:28207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "bootsman havenbedrijf, bootsman zeevaart" .
+  
+  cnluwv-data:28209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "vrachtwagenchauffeur" .
+  
+  cnluwv-data:28210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "bezorger-chauffeur bestelauto" .
+  
+  cnluwv-data:28211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "heftruckchauffeur, lier-, winchdrijver" .
+  
+  cnluwv-data:28213 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "metro-, trambestuurder, rangeerder; treinmachinist (excl ns)" .
+  
+  cnluwv-data:28214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "chauffeur bibliotheek-, informatiebus; chauffeur znd" .
+  
+  cnluwv-data:28215 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "buschauffeur (lijn- of stadsdienst)" .
+  
+  cnluwv-data:28216 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "chauffeur personenbusje (klein rijbewijs); directie-, particulier chauffeur" .
+  
+  cnluwv-data:28217 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:282;
+    skos:prefLabel "brug-, overweg-, seinhuis-, sluiswachter" .
+  
+  cnluwv-data:28302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:265;
+    skos:prefLabel "motordrijver (scheepvaart)" .
+  
+  cnluwv-data:28501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "steward, passagiersschip, bus, trein" .
+  
+  cnluwv-data:29 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere (para)medische beroepen" .
+  
+  cnluwv-data:292 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:29;
+    skos:prefLabel "lagere (para)medische beroepen" .
+  
+  cnluwv-data:29201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:292;
+    skos:prefLabel "ambulancechauffeur (excl verpleegkundige)" .
+  
+  cnluwv-data:29501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:292;
+    skos:prefLabel "verpleeghulp; leerling-ziekenverzorgende" .
+  
+  cnluwv-data:31 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere administratieve, commerciële beroepen ed" .
+  
+  cnluwv-data:315 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:31;
+    skos:prefLabel "lagere administratieve beroepen" .
+  
+  cnluwv-data:31502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "magazijnbediende (administratief; lager)" .
+  
+  cnluwv-data:31504 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "facturist; assistent boekhouder, bedrijfskassier, loonadministrateur (lager)" .
+  
+  cnluwv-data:31508 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "incasseerder, kwitantieloper, (huur)inner" .
+  
+  cnluwv-data:31509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "administratief employé (eenvoudige repetitieve, administratieve werkzaamheden, lager)" .
+  
+  cnluwv-data:31510 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "postbediende (interne post); verzekeringsemployé (administratieve ondersteuning)" .
+  
+  cnluwv-data:31511 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "typist, data-typist" .
+  
+  cnluwv-data:31514 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "bode-bezorger (kantoor)" .
+  
+  cnluwv-data:31515 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "receptionist, baliemedewerker" .
+  
+  cnluwv-data:31516 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "hotelportier (lager)" .
+  
+  cnluwv-data:31517 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:315;
+    skos:prefLabel "telefonist" .
+  
+  cnluwv-data:316 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:31;
+    skos:prefLabel "lagere (technisch-) commerciële beroepen" .
+  
+  cnluwv-data:31603 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:316;
+    skos:prefLabel "berekenaar premies, uitkeringen (verzekeringen)" .
+  
+  cnluwv-data:31604 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:316;
+    skos:prefLabel "polisopmaker, -controleur verzekeringen" .
+  
+  cnluwv-data:31605 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:316;
+    skos:prefLabel "hostess felicitatiedienst" .
+  
+  cnluwv-data:31606 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:316;
+    skos:prefLabel "demonstrateur" .
+  
+  cnluwv-data:317 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:31;
+    skos:prefLabel "lagere verkoopberoepen" .
+  
+  cnluwv-data:31701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:317;
+    skos:prefLabel "winkelbediende, markt-, straatverkoper (excl kiosk, vlees); debitant staatsloterij" .
+  
+  cnluwv-data:31702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:317;
+    skos:prefLabel "bloemschikker-verkoper" .
+  
+  cnluwv-data:31703 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:317;
+    skos:prefLabel "kassamedewerker" .
+  
+  cnluwv-data:33 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere beveiligingsberoepen" .
+  
+  cnluwv-data:342 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:33;
+    skos:prefLabel "lagere beveiligingsberoepen" .
+  
+  cnluwv-data:34201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:342;
+    skos:prefLabel "parketwacht politie" .
+  
+  cnluwv-data:34202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:342;
+    skos:prefLabel "adspirant agent politie; militair lagere rangen dan onderofficier; portier (excl hotel); bewaker (lager)" .
+  
+  cnluwv-data:37 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:2;
+    skos:prefLabel "lagere verzorgende beroepen" .
+  
+  cnluwv-data:372 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:37;
+    skos:prefLabel "lagere algemeen verzorgende beroepen ed" .
+  
+  cnluwv-data:37202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "huishoudster, butler, valet" .
+  
+  cnluwv-data:37203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "kelner, serveerster" .
+  
+  cnluwv-data:37204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "hoofd linnenkamer hotel, inrichting, schip" .
+  
+  cnluwv-data:37205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "hulpkok, keukenassistent (koken en schoonmaken)" .
+  
+  cnluwv-data:37206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "huishoudhulp in inrichting, tehuis" .
+  
+  cnluwv-data:37207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "kok (lager)" .
+  
+  cnluwv-data:37208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "alpha-hulp; gezins-, bejaardenverzorgende thuiszorg, inrichtingsassistente (lager)" .
+  
+  cnluwv-data:37209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "leerling-verpleegkundige z, kinderverzorgende particulieren; bejaarden-, zwakzinnigenverzorgende (lager)" .
+  
+  cnluwv-data:37210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:372;
+    skos:prefLabel "manicure, pedicure, kappershulp, schoonheidsmasseur sauna" .
+  
+  cnluwv-data:373 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:37;
+    skos:prefLabel "lagere commercieel-verzorgende beroepen" .
+  
+  cnluwv-data:37301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:373;
+    skos:prefLabel "snackbarhouder" .
+  
+  cnluwv-data:37302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:373;
+    skos:prefLabel "café-, barhouder" .
+  
+  cnluwv-data:37303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:373;
+    skos:prefLabel "begrafenispersoneel (excl ondernemer)" .
+  
+  cnluwv-data:4 a cnluwv:SBC_Beroepsniveau;
+    skos:prefLabel "middelbare beroepen" .
+  
+  cnluwv-data:41101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "nieuwslezer, programma-aankondiger" .
+  
+  cnluwv-data:41102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "scheidsrechter" .
+  
+  cnluwv-data:41103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "corrector, collationist" .
+  
+  cnluwv-data:42 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare docenten transport-, sportvakken" .
+  
+  cnluwv-data:42601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:626;
+    skos:prefLabel "bedrijfsleermeester technische praktijkvakken" .
+  
+  cnluwv-data:427 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:42;
+    skos:prefLabel "middelbare docenten transportvakken" .
+  
+  cnluwv-data:42701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:427;
+    skos:prefLabel "autorij-instructeur" .
+  
+  cnluwv-data:42702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:427;
+    skos:prefLabel "rij-examinator" .
+  
+  cnluwv-data:42801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:625;
+    skos:prefLabel "instructeur ehbo" .
+  
+  cnluwv-data:43301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:633;
+    skos:prefLabel "dansleraar ballroom, volksdansen" .
+  
+  cnluwv-data:434 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:42;
+    skos:prefLabel "middelbare docenten sportvakken" .
+  
+  cnluwv-data:43401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:434;
+    skos:prefLabel "sportinstructeur (excl zweminstructeur)" .
+  
+  cnluwv-data:43501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:625;
+    skos:prefLabel "docent kappersvak" .
+  
+  cnluwv-data:44 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare agrarische beroepen" .
+  
+  cnluwv-data:442 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:44;
+    skos:prefLabel "middelbare (technisch-) agrarische beroepen" .
+  
+  cnluwv-data:44205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "boomchirurg, bosbaas, boswachter" .
+  
+  cnluwv-data:44206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "dierenverzorger luchtvaartmaatschappij" .
+  
+  cnluwv-data:44207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "vee-inseminator, veeverloskundige" .
+  
+  cnluwv-data:44208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "dierentrainer; dierenverzorger, -oppasser dierentuin, safaripark" .
+  
+  cnluwv-data:44209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "bloemschikker, bloemsierkunstenaar (middelbaar)" .
+  
+  cnluwv-data:44210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "keurmeester, controleur land-, tuin-, bosbouw, veeteelt (middelbaar)" .
+  
+  cnluwv-data:44211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "chef plantsoendienst, opzichter tuinonderhoud" .
+  
+  cnluwv-data:44212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "leidinggevend boswachter" .
+  
+  cnluwv-data:44301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "bodemkundig onderzoeker, karteerder, cultuurtechnicus (middelbaar)" .
+  
+  cnluwv-data:44303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:442;
+    skos:prefLabel "leidinggevend opzichter cultuurtechnische werken" .
+  
+  cnluwv-data:444 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:44;
+    skos:prefLabel "middelbare commercieel-agrarische beroepen" .
+  
+  cnluwv-data:44403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd klein tuinbouwbedrijf" .
+  
+  cnluwv-data:44404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd klein hoveniersbedrijf" .
+  
+  cnluwv-data:44405 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd klein akkerbouwbedrijf" .
+  
+  cnluwv-data:44406 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd klein gemengd landbouwbedrijf" .
+  
+  cnluwv-data:44407 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd kleine (pluim)veehouderij" .
+  
+  cnluwv-data:44409 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "hondentrimmer, dierenasylhouder" .
+  
+  cnluwv-data:44410 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgrote manege" .
+  
+  cnluwv-data:44412 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgroot landbouwloonbedrijf" .
+  
+  cnluwv-data:44414 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgroot tuinbouwbedrijf" .
+  
+  cnluwv-data:44415 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgroot hoveniersbedrijf" .
+  
+  cnluwv-data:44416 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgroot akkerbouwbedrijf" .
+  
+  cnluwv-data:44417 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgroot gemengd landbouwbedrijf" .
+  
+  cnluwv-data:44418 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:444;
+    skos:prefLabel "bedrijfshoofd middelgrote (pluim)veehouderij" .
+  
+  cnluwv-data:45 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:451 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:45;
+    skos:prefLabel "middelbare wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:45102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:451;
+    skos:prefLabel "geologisch, meteorologisch assistent, -waarnemer" .
+  
+  cnluwv-data:45103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:451;
+    skos:prefLabel "biologisch, zoölogisch, botanisch, natuurkundig, scheikundig laborant" .
+  
+  cnluwv-data:45104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:451;
+    skos:prefLabel "wiskundig rekenaar, wiskundig assistent (middelbaar)" .
+  
+  cnluwv-data:45105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:451;
+    skos:prefLabel "statistisch employé" .
+  
+  cnluwv-data:46 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare technische beroepen" .
+  
+  cnluwv-data:461 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare technische beroepen (ongeacht specialisatie)" .
+  
+  cnluwv-data:46101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:461;
+    skos:prefLabel "hoofd kleine technische dienst (middelbaar)" .
+  
+  cnluwv-data:46102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:461;
+    skos:prefLabel "muziekinstrumentenmaker, -reparateur (incl in-, verkoop)" .
+  
+  cnluwv-data:46105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:461;
+    skos:prefLabel "pianostemmer" .
+  
+  cnluwv-data:46106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:461;
+    skos:prefLabel "werkmeester werkplaats, inrichting, gevangenis, sociale werkplaats" .
+  
+  cnluwv-data:462 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare bouwkundige beroepen" .
+  
+  cnluwv-data:46201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "aftekenaar, afschrijver hout" .
+  
+  cnluwv-data:46202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "bouwcalculator (middelbaar)" .
+  
+  cnluwv-data:46203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "bouwkundig, meubeltekenaar; bouwkundig tekenaar-constructeur (middelbaar)" .
+  
+  cnluwv-data:46204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "meubelmaker (ambachtelijk)" .
+  
+  cnluwv-data:46205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "assistent uitvoerder bouw; bouwkundig werkvoorbereider (middelbaar)" .
+  
+  cnluwv-data:46207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "aannemer metselwerk (klein bedrijf)" .
+  
+  cnluwv-data:46208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "aannemer timmerwerk (klein bedrijf)" .
+  
+  cnluwv-data:46209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "allround loodgieter" .
+  
+  cnluwv-data:46210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "isoleerder : akoestisch" .
+  
+  cnluwv-data:46211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "sanitair-, verwarmingsinstallateur (aanleg en onderhoud); gas-, pijpfitter" .
+  
+  cnluwv-data:46213 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "decor-, markiezen-, rolluikentimmerman; bouwvaktimmerman (middelbaar)" .
+  
+  cnluwv-data:46214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "houtsnijder, meubelbeeldhouwer, allround klompenmaker" .
+  
+  cnluwv-data:46216 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "voorman-timmerman (timmerfabriek)" .
+  
+  cnluwv-data:46217 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "glas in lood-zetter" .
+  
+  cnluwv-data:46219 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "algemeen onderhoudsman: timmeren, gas, water, elektro (eigen gebouw; middelbaar)" .
+  
+  cnluwv-data:46220 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "onderhoudsloodgieter, verwarmingsonderhoudsmonteur" .
+  
+  cnluwv-data:46221 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "betonmolenbaas bouwnijverheid" .
+  
+  cnluwv-data:46222 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "insteller houtbewerkingsmachines" .
+  
+  cnluwv-data:46223 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "bouwkundig opzichter (middelbaar)" .
+  
+  cnluwv-data:46224 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "bestekzoeker, besteksorteerder" .
+  
+  cnluwv-data:46226 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "uitvoerder bouw en -installatiewerk" .
+  
+  cnluwv-data:46229 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:462;
+    skos:prefLabel "bedrijfshoofd middelgroot bouw-, bouwinstallatiebedrijf (excl elektrotechnisch)" .
+  
+  cnluwv-data:463 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare weg- en waterbouwkundige beroepen" .
+  
+  cnluwv-data:46301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "weg- en waterbouwkundig calculator (middelbaar)" .
+  
+  cnluwv-data:46302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "landmeettechnicus, weg- en waterbouwk tekenaar; cartografisch, landmeetk tekenaar, weg- en waterbouwk tekenaar-constructeur (middelbaar)" .
+  
+  cnluwv-data:46303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "assistent uitvoerder weg- en waterbouw" .
+  
+  cnluwv-data:46304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "bedrijfshoofd klein weg- en waterbouw-, grondwerkbedrijf" .
+  
+  cnluwv-data:46305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "steenzetter waterbouwkundige werken" .
+  
+  cnluwv-data:46306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "betonmolenbaas, asfaltmolenbaas weg- en waterbouw" .
+  
+  cnluwv-data:46307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "hei-, grondverzet-, wegenbouwmachinist" .
+  
+  cnluwv-data:46308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "baggermachinist" .
+  
+  cnluwv-data:46309 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "weg- en waterbouwkundig opzichter (middelbaar)" .
+  
+  cnluwv-data:46310 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "duiker, onderwaterwerker" .
+  
+  cnluwv-data:46311 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "uitvoerder weg- en waterbouw" .
+  
+  cnluwv-data:46314 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "bedrijfshoofd middelgroot weg- en waterbouw-, grondwerkbedrijf" .
+  
+  cnluwv-data:46315 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:463;
+    skos:prefLabel "leidinggevend baggermachinist" .
+  
+  cnluwv-data:464 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare metaalkundige beroepen" .
+  
+  cnluwv-data:46401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "afschrijver, aftekenaar, traceur metaal" .
+  
+  cnluwv-data:46402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "metaalkundige, gieterijtechnicus, lastechnicus (middelbaar)" .
+  
+  cnluwv-data:46403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "houtmodelmaker" .
+  
+  cnluwv-data:46404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "amanuensis, practicum onderwijsassistent (middelbaar)" .
+  
+  cnluwv-data:46405 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "bedrijfshoofd klein metaalbewerkingsbedrijf" .
+  
+  cnluwv-data:46407 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "metaalgieter, gietmachinebediener" .
+  
+  cnluwv-data:46408 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "cnc-programmeur-verspaner, -polijster, -schuurder" .
+  
+  cnluwv-data:46409 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "allround machinebankwerker, modelmaker metaal" .
+  
+  cnluwv-data:46410 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "constructiebankwerker (incl samenbouwen; middelbaar)" .
+  
+  cnluwv-data:46411 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "fijnbankwerker, uurwerkmaker, -reparateur, optisch glasslijper, (glas)instrumentmaker; gereedschapsmaker (middelbaar)" .
+  
+  cnluwv-data:46412 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "diamant-, edelsteen- en edelmetaalbewerker (middelbaar)" .
+  
+  cnluwv-data:46413 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "gereedschapssmid, vormenmaker, modelmaker gips" .
+  
+  cnluwv-data:46415 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "scheeps-, vliegtuigplaatwerker" .
+  
+  cnluwv-data:46416 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "lasser (metaal; middelbaar)" .
+  
+  cnluwv-data:46417 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "vliegtuigrompensamenbouwer; constructiesamenbouwer; stalen, aluminium ramen-, kozijnenmaker (middelbaar)" .
+  
+  cnluwv-data:46418 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "galvaniseur metaal (elektrolytisch)" .
+  
+  cnluwv-data:46419 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "procesoperator smelten erts, staal, non-ferro" .
+  
+  cnluwv-data:46420 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "glasblazer (hand; massa-fabricage)" .
+  
+  cnluwv-data:46421 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "goud- en zilversmid (massa-fabricage)" .
+  
+  cnluwv-data:46422 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "bergingsduiker" .
+  
+  cnluwv-data:46423 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:464;
+    skos:prefLabel "werkmeester metaal(waren)produktie, glasblazerij" .
+  
+  cnluwv-data:465 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare werktuigbouwkundige beroepen ed" .
+  
+  cnluwv-data:46501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "tekenaar werktuigbouw (excl liften); tekenaar-constructeur (excl liften; middelbaar)" .
+  
+  cnluwv-data:46502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "technisch voorlichter alarmcentrale" .
+  
+  cnluwv-data:46503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "technisch calculator (excl bouw, grafische-, machine-, proces- en textielind)" .
+  
+  cnluwv-data:46504 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "bedrijfshoofd kleine machine-, voertuig-, vliegtuigfabriek, scheepswerf" .
+  
+  cnluwv-data:46505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "machinebankwerker-monteur machines, werktuigen, fabrieksinstallaties (excl motoren, elektro)" .
+  
+  cnluwv-data:46506 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "machinebankwerker-motormonteur (excl elektro)" .
+  
+  cnluwv-data:46509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "autoplaatwerker en -spuiter" .
+  
+  cnluwv-data:46510 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "framebouwer rijwielframes (handmatig)" .
+  
+  cnluwv-data:46511 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "monteur fabrieksinstallaties (procestechniek; incl installatietechniek excl elektro)" .
+  
+  cnluwv-data:46512 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "torenkraanmonteur, botenbouwer (geen houtconstructie)" .
+  
+  cnluwv-data:46513 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "carrosseriebouwer, wagenmaker (houtbouw); vliegtuigtimmerman" .
+  
+  cnluwv-data:46514 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "monteur lift-, boorinstallaties, machines, werktuigen (excl installatietechniek)" .
+  
+  cnluwv-data:46515 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "boormachinist, bronboorder" .
+  
+  cnluwv-data:46516 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "onderhoudsmonteur kantoor-, huishoudnaaimachines, motoren; motormonteur, tuiger, takelaar" .
+  
+  cnluwv-data:46517 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "landbouwwerktuigenhersteller (middelbaar)" .
+  
+  cnluwv-data:46518 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "storingsmonteur, onderhoudsmonteur materieel spoorwegen" .
+  
+  cnluwv-data:46519 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "automonteur (onderhoud, reparatie)" .
+  
+  cnluwv-data:46520 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "scheepselektricien" .
+  
+  cnluwv-data:46521 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "auto-, vliegtuigelektricien" .
+  
+  cnluwv-data:46522 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "scheepstimmerman, scheepsbeschieter (excl varend)" .
+  
+  cnluwv-data:46523 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "auto-, rijtuigspuiter" .
+  
+  cnluwv-data:46524 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "bank-, stempel-, walsinsteller, cnc-programmeur (instellen)" .
+  
+  cnluwv-data:46525 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "machinist stationaire machines" .
+  
+  cnluwv-data:46526 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "kraan-, hijsmachinist (excl grondverzet)" .
+  
+  cnluwv-data:46527 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "inspecteur, controleur gas- en waterleidingbedrijf (middelbaar)" .
+  
+  cnluwv-data:46528 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "controleur, tester voertuigen, machines (excl elektro; middelbaar)" .
+  
+  cnluwv-data:46529 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "werkmeester afd werktuigbouw, onderhoud produktie-apparaten, gas-, waterdistributie" .
+  
+  cnluwv-data:466 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare elektrotechnische beroepen (automatisering ed)" .
+  
+  cnluwv-data:46603 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:466;
+    skos:prefLabel "elektronicamonteur (nieuwbouw, onderhoud computer-, meet- en regeltechnische apparatuur; middelbaar)" .
+  
+  cnluwv-data:46604 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:466;
+    skos:prefLabel "controleur, tester meet- en regeltechnische apparatuur" .
+  
+  cnluwv-data:467 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare elektrotechnische beroepen (excl automatisering ed)" .
+  
+  cnluwv-data:46701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "tekenaar elektrotechniek; tekenaar-constructeur elektrotechniek (excl meet- en regel-, informatietechniek; middelbaar)" .
+  
+  cnluwv-data:46702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "installateur beveiligingsinstallaties (incl ontwerp)" .
+  
+  cnluwv-data:46703 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "radiograaf" .
+  
+  cnluwv-data:46704 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "bedrijfshoofd klein bedrijf bouw en reparatie elektrische apparatuur, elektrotechnisch installatiebedrijf" .
+  
+  cnluwv-data:46706 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "bedrijfshoofd klein bedrijf bouw en reparatie elektronica (excl computers)" .
+  
+  cnluwv-data:46707 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "elektricien-installateur (bouwnijverheid), elektrotechnisch bankwerker-monteur (motoren); elektromonteur huish elektr apparaten (middelbaar)" .
+  
+  cnluwv-data:46708 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "onderhoudselektricien bedrijfsinstallaties, elektrotechnisch bankwerker-monteur (transformatoren, schakelapparatuur)" .
+  
+  cnluwv-data:46709 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "audio-visueel onderwijstechnicus, studio-elektricien, belichter (middelbaar)" .
+  
+  cnluwv-data:46710 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "telefoon-, telecommunicatiemonteur (excl (aan)leggen kabels)" .
+  
+  cnluwv-data:46711 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "elektronicamonteur (nieuwbouw, onderhoud; excl computer-, meet- en regeltechnische apparatuur; middelbaar)" .
+  
+  cnluwv-data:46714 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "zend-, geluids-, beeldapparatuurbedieners" .
+  
+  cnluwv-data:46716 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "controleur, tester elektrische installaties" .
+  
+  cnluwv-data:46718 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:467;
+    skos:prefLabel "leidinggevend elektrotechnisch opzichter (middelbaar)" .
+  
+  cnluwv-data:468 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare grafische beroepen ed" .
+  
+  cnluwv-data:46801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "lithografisch, reproduktietekenaar, technisch illustrator" .
+  
+  cnluwv-data:46804 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "bedrijfshoofd kleine binderij" .
+  
+  cnluwv-data:46805 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "bedrijfshoofd klein drukvoorbereidingsbedrijf" .
+  
+  cnluwv-data:46806 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "drukwerkvoorbereiders grafische industrie (middelbaar)" .
+  
+  cnluwv-data:46808 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "hoog-, diep-, offset-, blok-, textieldrukker" .
+  
+  cnluwv-data:46809 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "boekbinder" .
+  
+  cnluwv-data:46810 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "bedrijfshoofd klein fotolaboratorium, -ontwikkelcentrale" .
+  
+  cnluwv-data:46812 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "fotograaf, film- en tv-camera-operateur, film-editor, -monteur, fotolaborant" .
+  
+  cnluwv-data:46813 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "bedrijfshoofd middelgroot fotolaboratorium, -ontwikkelcentrale; werkmeester grafische industrie" .
+  
+  cnluwv-data:46815 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "leidinggevend drukker" .
+  
+  cnluwv-data:471 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare procestechnische beroepen" .
+  
+  cnluwv-data:47102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "technisch calculator (proces- en textielindustrie)" .
+  
+  cnluwv-data:47104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "bedrijfshoofd, filiaalhouder kleine slagerij" .
+  
+  cnluwv-data:47105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "brood-banketbakker (ambachtelijk; incl in-, verkoop)" .
+  
+  cnluwv-data:47106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "slager-verkoper (middelbaar)" .
+  
+  cnluwv-data:47107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "brood-, koek-, banketbakker, chocolademaker (ambachtelijk; excl in-, verkoop; middelbaar)" .
+  
+  cnluwv-data:47110 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "procesoperator glas-, aardewerk-, papier-, textiel-, voedings- en genotmiddelen-, procesindustrie (middelbaar)" .
+  
+  cnluwv-data:47112 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "werkmeester afd glas-, aardewerk-, papier-, textiel-, voedings- en genotmiddelen-, (petro)chemische industrie" .
+  
+  cnluwv-data:47114 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:471;
+    skos:prefLabel "leidinggevend brood-banketbakker (ambachtelijk; incl in-, verkoop)" .
+  
+  cnluwv-data:472 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare technische beroepen neg" .
+  
+  cnluwv-data:47202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "patroontekenaar kleding, schoeisel" .
+  
+  cnluwv-data:47203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "(bont)kleermaker, zeil-, tenten-, markiezen-, dekkledenmaker (incl patroontekenen, in-, verkoop)" .
+  
+  cnluwv-data:47204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "kleermaker (excl bont), zeil-, tenten-, markiezen-, dekkledenmaker (incl patroontekenen, excl in-, verkoop)" .
+  
+  cnluwv-data:47206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "woningstoffeerder (incl in-, verkoop)" .
+  
+  cnluwv-data:47208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "schoenhersteller, lederwarenmaker (excl kleding, incl in-, verkoop)" .
+  
+  cnluwv-data:47211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "modelnaaister, patroonmaker (kleding)" .
+  
+  cnluwv-data:47212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "maatschoenmaker" .
+  
+  cnluwv-data:47213 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "werkmeester kleding-, schoenfabricage, kwaliteitscontroledienst kleding, schoeisel" .
+  
+  cnluwv-data:47214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:472;
+    skos:prefLabel "bedrijfshoofd middelgroot bedrijf confectie-industrie" .
+  
+  cnluwv-data:473 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:46;
+    skos:prefLabel "middelbare technische beveiligingsberoepen" .
+  
+  cnluwv-data:47301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:473;
+    skos:prefLabel "brandveiligheidsdeskundige (middelbaar)" .
+  
+  cnluwv-data:47302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:473;
+    skos:prefLabel "brandwacht" .
+  
+  cnluwv-data:47303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:473;
+    skos:prefLabel "bedrijfshoofd kleine bewakingsdienst" .
+  
+  cnluwv-data:47304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:473;
+    skos:prefLabel "brandmeester" .
+  
+  cnluwv-data:47305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:473;
+    skos:prefLabel "brandweeronderofficier, chef bedrijfsbrandweer" .
+  
+  cnluwv-data:48 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare transportberoepen ed" .
+  
+  cnluwv-data:482 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:48;
+    skos:prefLabel "middelbare algemene transportberoepen" .
+  
+  cnluwv-data:48201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "ladingmeester, stuwadoor; dienstleider, opzichter vervoersdiensten (middelbaar)" .
+  
+  cnluwv-data:48202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "havenmeester binnenhaven, kanaalmeester" .
+  
+  cnluwv-data:48203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "assistent-treindienstleider" .
+  
+  cnluwv-data:48204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "schipper binnenvaart, kapitein sleepdienst, stuurman khv, loods binnenvaart" .
+  
+  cnluwv-data:48205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "conducteur trein, tram, bus" .
+  
+  cnluwv-data:48206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "perronopzichter ns, stationschef autobusvervoer" .
+  
+  cnluwv-data:48207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "walschipper binnenvaart" .
+  
+  cnluwv-data:48208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "dokmeester, loodschef, pakhuischef, terreinchef; hoofd besteldienst ptt" .
+  
+  cnluwv-data:48209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:482;
+    skos:prefLabel "kapitein zeesleepvaart (kust), zeevisserij" .
+  
+  cnluwv-data:48301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "scheepswerktuigkundige khv" .
+  
+  cnluwv-data:48302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "treinbestuurder ns" .
+  
+  cnluwv-data:48303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:465;
+    skos:prefLabel "radarwaarnemer" .
+  
+  cnluwv-data:484 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:48;
+    skos:prefLabel "middelbare economisch-adminstratieve transportberoepen" .
+  
+  cnluwv-data:48401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "transportplanner, administratief employé bevrachting" .
+  
+  cnluwv-data:48402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "expedient, waterklerk" .
+  
+  cnluwv-data:48405 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "bedrijfshoofd klein binnenvaart-, zeevaartbedrijf" .
+  
+  cnluwv-data:48406 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "bedrijfshoofd klein transport-, expeditiebedrijf" .
+  
+  cnluwv-data:48409 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "controleur bus-, tramdiensten" .
+  
+  cnluwv-data:48411 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "bedrijfshoofd middelgroot taxibedrijf; districtschef wegenwacht" .
+  
+  cnluwv-data:48412 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "bedrijfshoofd middelgroot touringcarbedrijf" .
+  
+  cnluwv-data:48413 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:484;
+    skos:prefLabel "bedrijfshoofd middelgroot transport-, expeditie-, stuwadoorsbedrijf" .
+  
+  cnluwv-data:485 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:48;
+    skos:prefLabel "middelbare verzorgende transportberoepen" .
+  
+  cnluwv-data:48501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:485;
+    skos:prefLabel "steward, stewardess luchtvaart" .
+  
+  cnluwv-data:48502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:485;
+    skos:prefLabel "scheepskok" .
+  
+  cnluwv-data:48503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:485;
+    skos:prefLabel "grondsteward, grondstewardess" .
+  
+  cnluwv-data:49 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare (para)medische beroepen" .
+  
+  cnluwv-data:492 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:49;
+    skos:prefLabel "middelbare algemene (para)medische beroepen" .
+  
+  cnluwv-data:49202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "doktersassistent" .
+  
+  cnluwv-data:49203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "dierenartsassistent" .
+  
+  cnluwv-data:49204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "chiropractic-, kruidendokter, magnetiseur, osteopaat" .
+  
+  cnluwv-data:49205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "verbandmeester, fysiotherapie-assistent, leerling-verloskundige" .
+  
+  cnluwv-data:49206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "operatie-assistent" .
+  
+  cnluwv-data:49207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "sociaal, sociaal-psychiatrisch verpleegkundige" .
+  
+  cnluwv-data:49208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "ambulanceverpleegkundige; verpleegkundige (psychiatrisch) ziekenhuis (middelbaar)" .
+  
+  cnluwv-data:49209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "kraamverzorgende" .
+  
+  cnluwv-data:49210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "arbeidstherapeut (middelbaar)" .
+  
+  cnluwv-data:49211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:492;
+    skos:prefLabel "keurmeester vee en vlees" .
+  
+  cnluwv-data:493 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:49;
+    skos:prefLabel "middelbare technisch-(para)medische beroepen" .
+  
+  cnluwv-data:49301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "orthopedisch instrumentmaker" .
+  
+  cnluwv-data:49302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "medisch laborant" .
+  
+  cnluwv-data:49303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "bedrijfshoofd klein tandtechnisch laboratorium, orthopedische schoenmakerij, optische glasmakerij" .
+  
+  cnluwv-data:49304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "medisch instrumentmaker (excl elektrotechnisch), orthopedisch bandagist" .
+  
+  cnluwv-data:49305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "tandtechnicus" .
+  
+  cnluwv-data:49306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "mouldroomtechnicus" .
+  
+  cnluwv-data:49307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "medisch assistent elektronica" .
+  
+  cnluwv-data:49308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "orthopedisch schoenmaker" .
+  
+  cnluwv-data:49309 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "audicien, opticien (incl in-, verkoop)" .
+  
+  cnluwv-data:49310 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "apothekersassistent" .
+  
+  cnluwv-data:49311 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:493;
+    skos:prefLabel "eeg-, ecg-, hart-, longfunctieassistent (middelbaar); leerling-radiologisch laborant; audicien, opticien (excl in-, verkoop)" .
+  
+  cnluwv-data:494 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:49;
+    skos:prefLabel "middelbare economisch-administratieve (para)medische beroepen" .
+  
+  cnluwv-data:49401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:494;
+    skos:prefLabel "medisch secretaresse" .
+  
+  cnluwv-data:49402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:494;
+    skos:prefLabel "beheerder medisch archief" .
+  
+  cnluwv-data:495 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:49;
+    skos:prefLabel "middelbare verzorgend-(para)medische beroepen" .
+  
+  cnluwv-data:49502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:495;
+    skos:prefLabel "sociotherapeut (incl leerling)" .
+  
+  cnluwv-data:51 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare administratieve, commerciële beroepen ed" .
+  
+  cnluwv-data:51203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "bedrijfshoofd middelgrote bioscoop" .
+  
+  cnluwv-data:513 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare bedrijfskundige beroepen" .
+  
+  cnluwv-data:51301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:513;
+    skos:prefLabel "produktieplanner, werkvoorbereider (administratief, excl bijdrage begroting; middelbaar)" .
+  
+  cnluwv-data:51302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:513;
+    skos:prefLabel "produktieplanner, werkvoorbereider (administratief, incl bijdrage begroting; middelbaar)" .
+  
+  cnluwv-data:514 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare administratieve beroepen (automatisering ed) ed" .
+  
+  cnluwv-data:51401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:514;
+    skos:prefLabel "produktiebegeleider automatisering (administratieve toepassingen; middelbaar)" .
+  
+  cnluwv-data:51402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:514;
+    skos:prefLabel "programmeur (geen systeem-, wetens-), computeroperator, systeembeheerder, netwerkbeheerder (middelbaar)" .
+  
+  cnluwv-data:515 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare administratieve beroepen (excl automatisering ed) ed" .
+  
+  cnluwv-data:51502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "directiesecretaresse, directie-assistent (middelbaar)" .
+  
+  cnluwv-data:51503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "voorraadadministrateur" .
+  
+  cnluwv-data:51506 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "vergaderstenograaf, -notulist; secretaresse (excl directie- en medisch; middelbaar)" .
+  
+  cnluwv-data:51507 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "assistent-boekhouder, boekhouder, bedrijfskassier, loonadministrateur (middelbaar)" .
+  
+  cnluwv-data:51508 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "administratief medewerker behandeling declaraties, pensioen-, subsidie-studiefinancieringaanvragen (middelbaar)" .
+  
+  cnluwv-data:51509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "personeelsadministratie-employé: personeels- en loonadministratie (middelbaar)" .
+  
+  cnluwv-data:51510 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "handelscorrespondent, secretariaatsmedewerker studentenadministratie; administratief employé (middelbaar)" .
+  
+  cnluwv-data:51514 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "hotelportier (middelbaar)" .
+  
+  cnluwv-data:51516 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "hoofd secretariaat, tekstverwerking, post- en archiefzaken; office manager (middelbaar)" .
+  
+  cnluwv-data:51519 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:515;
+    skos:prefLabel "leidinggevend magazijnbeheerder (administratief)" .
+  
+  cnluwv-data:516 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare commerciële beroepen ed" .
+  
+  cnluwv-data:51601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "bijkantoorhouder bank, postkantoor" .
+  
+  cnluwv-data:51603 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "public relations adviseur, voorlichtingsfunctionaris (middelbaar)" .
+  
+  cnluwv-data:51604 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "reisleider, museumgids" .
+  
+  cnluwv-data:51605 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "reisprogrammeur reisorganisatie" .
+  
+  cnluwv-data:51607 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "bank-, spaarbankemployé (geen balie-, loketwerk); bank-, wisselkassier, marketingassistent" .
+  
+  cnluwv-data:51608 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "acceptant, schadecorrespondent verzekeringen" .
+  
+  cnluwv-data:51609 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "controleur buitendienst sociale verzekeringen, documentencontroleur bank" .
+  
+  cnluwv-data:51610 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "verzekeringsagent" .
+  
+  cnluwv-data:51611 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "commercieel-administratief medewerker verkoopafdeling" .
+  
+  cnluwv-data:51612 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "toeristisch informant (geen reisverkoper)" .
+  
+  cnluwv-data:51613 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "balie-employé reisbureau, reisverkoper" .
+  
+  cnluwv-data:51614 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "bookmaker, totalisatormedewerker" .
+  
+  cnluwv-data:51615 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "inkoper (middelbaar)" .
+  
+  cnluwv-data:51616 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "vertegenwoordiger artikelen en produkten neg" .
+  
+  cnluwv-data:51617 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "acquisiteurs van zakelijke diensten (geen advertenties, reclame, verzekeringen)" .
+  
+  cnluwv-data:51618 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "advertentie-, reclameacquisiteur; verkoper groothandel, produktiebedrijf, zakelijke diensten" .
+  
+  cnluwv-data:51619 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "lokettist postkantoor, spoorwegen; baliemedewerker bank" .
+  
+  cnluwv-data:51621 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "schadetaxateur, -expert" .
+  
+  cnluwv-data:51622 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "verkoopchef groothandel (binnendienst)" .
+  
+  cnluwv-data:517 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare verkoopberoepen" .
+  
+  cnluwv-data:51701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "detailhandelaar auto's, rijwielen (klein bedrijf)" .
+  
+  cnluwv-data:51702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "detailhandelaar vis (klein bedrijf)" .
+  
+  cnluwv-data:51703 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "wasserettehouder, filiaalhouder wasserette (excl autowasserette)" .
+  
+  cnluwv-data:51704 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "veilinghouder, afslager" .
+  
+  cnluwv-data:51705 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "detailhandelaar (geen slagerij, vis, auto's, rijwielen; klein bedrijf)" .
+  
+  cnluwv-data:51706 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "eerste verkoper detailhandel" .
+  
+  cnluwv-data:51707 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "eerste caissière" .
+  
+  cnluwv-data:51708 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "detailhandelaar middelgroot bedrijf (excl slagerij)" .
+  
+  cnluwv-data:51709 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:517;
+    skos:prefLabel "leidinggevend verkoper detailhandel" .
+  
+  cnluwv-data:51801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:516;
+    skos:prefLabel "uitgever (middelbaar), bedrijfshoofd kleine uitgeverij (excl bladen)" .
+  
+  cnluwv-data:521 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:51;
+    skos:prefLabel "middelbare technisch-, wiskundig- commerciële, administratieve beroepen" .
+  
+  cnluwv-data:52101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:521;
+    skos:prefLabel "technisch werkvoorbereider, planner (excl bouwnijverheid; middelbaar)" .
+  
+  cnluwv-data:52102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:521;
+    skos:prefLabel "reclame-, decoratieschilder" .
+  
+  cnluwv-data:52105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:521;
+    skos:prefLabel "vertegenwoordiger technische produkten (excl automatisering; middelbaar)" .
+  
+  cnluwv-data:52106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:521;
+    skos:prefLabel "etaleur (middelbaar)" .
+  
+  cnluwv-data:53 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare juridische, bestuurlijke, beveiligingsberoepen" .
+  
+  cnluwv-data:532 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:53;
+    skos:prefLabel "middelbare juridische, bestuurlijke beroepen" .
+  
+  cnluwv-data:53203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:532;
+    skos:prefLabel "belastingambtenaar, -assistent, douaneambtenaar" .
+  
+  cnluwv-data:53204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:532;
+    skos:prefLabel "administratief medewerker notaris, advocaat, rechtbank" .
+  
+  cnluwv-data:53205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:532;
+    skos:prefLabel "deurwaarder (excl gerechtsdeurwaarder)" .
+  
+  cnluwv-data:53206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:532;
+    skos:prefLabel "buitendienstmedewerker sociale voorzieningen ed, reinigingspolitie" .
+  
+  cnluwv-data:542 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:53;
+    skos:prefLabel "middelbare beveiligingsberoepen" .
+  
+  cnluwv-data:54201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:542;
+    skos:prefLabel "bedrijfspolitie-agent, -rechercheur, particulier detective; militair onderofficier" .
+  
+  cnluwv-data:54202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:542;
+    skos:prefLabel "rechercheur (excl bedrijfsrecherche; middelbaar)" .
+  
+  cnluwv-data:54203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:542;
+    skos:prefLabel "politie-agent, wachtmeester" .
+  
+  cnluwv-data:54205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:542;
+    skos:prefLabel "leidinggevend beveiligingsbeambte, militair onderofficier" .
+  
+  cnluwv-data:55 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare taalkundige, culturele beroepen" .
+  
+  cnluwv-data:553 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:55;
+    skos:prefLabel "middelbare taalkundige beroepen ed" .
+  
+  cnluwv-data:55301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "bibliotheekassistent (incl uitleen)" .
+  
+  cnluwv-data:55302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "bibliotheekassistent (excl uitleen); archivaris, archiefmedewerker, literatuuronderzoeker (middelbaar)" .
+  
+  cnluwv-data:554 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:55;
+    skos:prefLabel "middelbare kunstzinnige beroepen" .
+  
+  cnluwv-data:55401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:554;
+    skos:prefLabel "boekillustrator, sneltekenaar; decor-, reclame-, grafisch ontwerper (middelbaar)" .
+  
+  cnluwv-data:56 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare beroepen op het terrein van gedrag en maatschappij" .
+  
+  cnluwv-data:563 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:56;
+    skos:prefLabel "middelbare sociaal-maatschappelijke beroepen ed" .
+  
+  cnluwv-data:56301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "assistent sociaal raadsman" .
+  
+  cnluwv-data:56303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "consulent opbouwwerk (middelbaar)" .
+  
+  cnluwv-data:56304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "administratief medewerker arbeidsbemiddeling; personeelsfunctionaris werving, selectie, studievoorlichting (middelbaar)" .
+  
+  cnluwv-data:56305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "beheerder buurthuis (geen concierge)" .
+  
+  cnluwv-data:56306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "recreatie-, activiteitenleider" .
+  
+  cnluwv-data:56307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "maatschappelijk, sociaal-cultureel werker (excl recreatie-, activiteitenleider; middelbaar)" .
+  
+  cnluwv-data:56401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:553;
+    skos:prefLabel "fotoredacteur; leerling-journalist, journalistiek medewerker" .
+  
+  cnluwv-data:56501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:765;
+    skos:prefLabel "assistent-onderzoeker planologisch, psychologisch onderzoek (middelbaar)" .
+  
+  cnluwv-data:57 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:4;
+    skos:prefLabel "middelbare verzorgende beroepen ed" .
+  
+  cnluwv-data:572 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:57;
+    skos:prefLabel "middelbare algemeen verzorgende beroepen" .
+  
+  cnluwv-data:57201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "hoofd kleine afd huishouding, verzorging inrichting, hotel" .
+  
+  cnluwv-data:57202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "peuterwerker" .
+  
+  cnluwv-data:57203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "bedrijfshoofd (tevens kok) klein restaurant" .
+  
+  cnluwv-data:57204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "chefkok kleine keuken" .
+  
+  cnluwv-data:57206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "oberkelner" .
+  
+  cnluwv-data:57207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "instellings-, dieetkok; kok (middelbaar)" .
+  
+  cnluwv-data:57208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "gezins-, bejaardenverzorgende thuiszorg, inrichtingsassistent (middelbaar)" .
+  
+  cnluwv-data:57210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "crècheleidster; bejaarden-, zwakzinnigenverzorgende (middelbaar)" .
+  
+  cnluwv-data:57211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "bedrijfshoofd klein schoonmaakbedrijf" .
+  
+  cnluwv-data:57212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "kapper, pruikenmaker, grimeur, schoonheidsspecialist" .
+  
+  cnluwv-data:57214 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "chefkok grote keuken, bedrijfshoofd (tevens kok) middelgroot restaurant" .
+  
+  cnluwv-data:57215 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:572;
+    skos:prefLabel "bedrijfshoofd middelgroot schoonmaakbedrijf, wasserij, kapperszaak" .
+  
+  cnluwv-data:573 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:57;
+    skos:prefLabel "middelbare commercieel-verzorgende beroepen ed" .
+  
+  cnluwv-data:57301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd kleine begrafenisonderneming" .
+  
+  cnluwv-data:57302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd klein restaurant, kantine" .
+  
+  cnluwv-data:57303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "croupier" .
+  
+  cnluwv-data:57304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd klein hotel, pension, vakantiecentrum" .
+  
+  cnluwv-data:57305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd kamerverhuurbedrijf" .
+  
+  cnluwv-data:57306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "saunahouder" .
+  
+  cnluwv-data:57307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd middelgrote begrafenisonderneming" .
+  
+  cnluwv-data:57308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "bedrijfshoofd middelgroot hotel, pension, vakantiecentrum, restaurant, kantine, café, bar, snackbar" .
+  
+  cnluwv-data:57401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:563;
+    skos:prefLabel "penitentiair inrichtingswerker" .
+  
+  cnluwv-data:58501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager fotolaboratorium" .
+  
+  cnluwv-data:6 a cnluwv:SBC_Beroepsniveau;
+    skos:prefLabel "hogere beroepen" .
+  
+  cnluwv-data:62 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere pedagogische beroepen" .
+  
+  cnluwv-data:622 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "hogere onderwijskundige, pedagogische beroepen" .
+  
+  cnluwv-data:62201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:622;
+    skos:prefLabel "beleidsambtenaar onderwijs en wetenschappen, onderwijszaken (hoger)" .
+  
+  cnluwv-data:62203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:622;
+    skos:prefLabel "coördinator, consulent onderwijs (hoger)" .
+  
+  cnluwv-data:62205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:622;
+    skos:prefLabel "onderwijskundig medewerker (ontwikkelen les-, cursusmateriaal; hoger)" .
+  
+  cnluwv-data:623 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten basisonderwijs, algemeen vormende vakken" .
+  
+  cnluwv-data:62301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:623;
+    skos:prefLabel "docent basisonderwijs, algemeen vormende vakken" .
+  
+  cnluwv-data:62302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:623;
+    skos:prefLabel "docent speciaal onderwijs" .
+  
+  cnluwv-data:62401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:626;
+    skos:prefLabel "docent agrarische economie, agrarische wetenschappen en praktijkvakken (2e en 3e graads)" .
+  
+  cnluwv-data:625 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten exacte, (para)medische, verzorgende vakken (2e en 3e gr)" .
+  
+  cnluwv-data:62501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:625;
+    skos:prefLabel "docent wiskunde, natuurwetenschappen, statistiek, laboratoriumtechniek (2e en 3e graads); instructeur denksport" .
+  
+  cnluwv-data:626 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten agrarische, technische, transportvakken (2e en 3e gr)" .
+  
+  cnluwv-data:62601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:626;
+    skos:prefLabel "docent technische wetenschappen en praktijkvakken (2e en 3e graads)" .
+  
+  cnluwv-data:62701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:626;
+    skos:prefLabel "docent transportvakken (2e en 3e graads); instructeur verkeersdienstsimulator, linktrainer" .
+  
+  cnluwv-data:62801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:625;
+    skos:prefLabel "docent paramedische praktijkvakken, leidster-docente kraamcentrum" .
+  
+  cnluwv-data:631 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten economische, administratieve, juridische vakken (2e en 3e gr)" .
+  
+  cnluwv-data:63101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:631;
+    skos:prefLabel "docent economie, commerciële en adm vakken, handelswetenschappen (2e en 3e graads); docent handelscorrespondentie (geen praktijkdipl)" .
+  
+  cnluwv-data:63201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:631;
+    skos:prefLabel "docent openbare orde en veiligheid; recht, bestuurskunde (2e en 3e graads)" .
+  
+  cnluwv-data:633 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten taalkundige, culturele vakken ed (2e en 3e gr)" .
+  
+  cnluwv-data:63301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:633;
+    skos:prefLabel "docent humaniora, muziek, toneel, handwerken, godsdienst, bibliotheek en archief (2e en 3e graads)" .
+  
+  cnluwv-data:634 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:62;
+    skos:prefLabel "docenten sociale, psychologische vakken (2e en 3e gr)" .
+  
+  cnluwv-data:63401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:634;
+    skos:prefLabel "docent aardrijkskunde, opvoedkunde, lichamelijke opvoeding, sociale wetenschappen (2e en 3e graads)" .
+  
+  cnluwv-data:63501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:625;
+    skos:prefLabel "docent huishoudkunde, koksvak (2e en 3e graads)" .
+  
+  cnluwv-data:64 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere landbouwkundige beroepen" .
+  
+  cnluwv-data:642 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:64;
+    skos:prefLabel "hogere landbouwkundige beroepen" .
+  
+  cnluwv-data:64201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "beleidsmedewerker milieuzaken, beleidsambtenaar natuur-, landbouwmilieubeheer, openluchtrecreatie (hoger)" .
+  
+  cnluwv-data:64204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "milieuhygiënist" .
+  
+  cnluwv-data:64206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "tuin- en landschapsarchitect (hoger)" .
+  
+  cnluwv-data:64207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "technisch-agrarisch voorlichter, consulent (hoger)" .
+  
+  cnluwv-data:64208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "keurmeester, controleur land-, tuin-, bosbouw, veeteelt (hoger); technisch ambtenaar milieuzaken (inspectie)" .
+  
+  cnluwv-data:64302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "bodemkundig onderzoeker, karteerder, cultuurtechnicus (hoger)" .
+  
+  cnluwv-data:64402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "voorlichter, consulent agrarische bedrijfskunde (hoger)" .
+  
+  cnluwv-data:64404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:642;
+    skos:prefLabel "vertegenwoordiger agrarische produkten (incl zaai-, pootgoed)" .
+  
+  cnluwv-data:65 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:651 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:65;
+    skos:prefLabel "hogere wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:65101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:651;
+    skos:prefLabel "beleidsambtenaar milieubeheer: afvalstoffen, luchtkwaliteit, bodemgebruik industrie, bouw (hoger)" .
+  
+  cnluwv-data:65103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:651;
+    skos:prefLabel "statistisch analist, statisticus (hoger)" .
+  
+  cnluwv-data:65104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:651;
+    skos:prefLabel "biologisch, zoölogisch, botanisch, natuurkundig, scheikundig analist" .
+  
+  cnluwv-data:65107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:651;
+    skos:prefLabel "keuringsambtenaar ijkwezen" .
+  
+  cnluwv-data:65109 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:651;
+    skos:prefLabel "leidinggevend scheikundig, chemisch analist" .
+  
+  cnluwv-data:66 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere technische beroepen" .
+  
+  cnluwv-data:66104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "technisch tekstschrijver" .
+  
+  cnluwv-data:66107 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "hoofd middelgrote technische dienst (hoger)" .
+  
+  cnluwv-data:662 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere bouwkundigen, technische beveiligingsberoepen" .
+  
+  cnluwv-data:66203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "bouwkundig adviseur (hoger)" .
+  
+  cnluwv-data:66204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "binnenhuisarchitect; architect, bouwkundig ontwerper-constructeur (hoger)" .
+  
+  cnluwv-data:66205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "bouwkundig tekenaar-constructeur (hoger), bouwkundig bestekschrijver" .
+  
+  cnluwv-data:66207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "bouwkundig opzichter (hoger)" .
+  
+  cnluwv-data:66208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "hoofduitvoerder bouw (middelgrote projecten; hoger)" .
+  
+  cnluwv-data:66209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "bouwkundig projectleider (incl ontwerp; middelgrote projecten; hoger)" .
+  
+  cnluwv-data:663 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere weg- en waterbouwkundigen" .
+  
+  cnluwv-data:66301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "beleidsmedewerker verkeers- en stedebouwkunde, beleidsambtenaar kadaster, infrastructuur (hoger)" .
+  
+  cnluwv-data:66302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "assistent projectleider weg- en waterbouw (incl ontwerp)" .
+  
+  cnluwv-data:66304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "verkeersonderzoeker; landmeetkundige (hoger)" .
+  
+  cnluwv-data:66305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "weg- en waterbouwkundig ontwerper-constructeur, verkeersplanoloog (hoger)" .
+  
+  cnluwv-data:66307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "weg- en waterbouwkundig tekenaar-constructeur (hoger)" .
+  
+  cnluwv-data:66310 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "hoofduitvoerder weg- en waterbouw (middelgrote projecten; hoger)" .
+  
+  cnluwv-data:66311 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "projectleider weg- en waterbouw (incl ontwerp; hoger)" .
+  
+  cnluwv-data:66313 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "bedrijfshoofd middelgroot landmeet-, sondeerbedrijf; leidinggevend landmeetkundige (hoger)" .
+  
+  cnluwv-data:66314 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "leidinggevend weg- en waterbouwkundig ontwerper-constructeur, verkeersplanoloog (hoger)" .
+  
+  cnluwv-data:66315 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:663;
+    skos:prefLabel "hoofd tekenkamer weg- en waterbouwkunde (hoger)" .
+  
+  cnluwv-data:664 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere metaalkundige beroepen" .
+  
+  cnluwv-data:66401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:664;
+    skos:prefLabel "metaalkundige, gieterijtechnicus, lastechnicus (hoger)" .
+  
+  cnluwv-data:66403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:664;
+    skos:prefLabel "lasinspecteur" .
+  
+  cnluwv-data:66406 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:664;
+    skos:prefLabel "bedrijfshoofd middelgroot metaalbewerkingsbedrijf" .
+  
+  cnluwv-data:665 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere werktuigbouwkundige beroepen ed" .
+  
+  cnluwv-data:66501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "ontwerper-constructeur werktuigbouw (excl liften; hoger)" .
+  
+  cnluwv-data:66504 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "inspecteur, controleur gas- en waterleidingbedrijf (hoger)" .
+  
+  cnluwv-data:66505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "werkmeester gas-, water-, elektriciteitsproduktie, afd offshore-industrie" .
+  
+  cnluwv-data:66506 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "leidinggevend ontwerper-constructeur werktuigbouw (excl liften; hoger)" .
+  
+  cnluwv-data:66507 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "hoofd tekenkamer werktuigbouwkunde (hoger)" .
+  
+  cnluwv-data:66508 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "bedrijfshoofd middelgrote machine-, voertuig-, vliegtuigfabriek, scheepswerf" .
+  
+  cnluwv-data:66509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "leidinggevend boormachinist, seismisch sondeerder" .
+  
+  cnluwv-data:666 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere elektrotechnische beroepen (automatisering ed)" .
+  
+  cnluwv-data:66601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:666;
+    skos:prefLabel "systeemanalist, systeemontwerper, probleemanalist, informatie-analist; programmeur (wetenschappelijke toepassingen; technisch; hoger)" .
+  
+  cnluwv-data:66603 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:666;
+    skos:prefLabel "ontwerper-constructeur informatie-, meet- en regeltechniek (hoger)" .
+  
+  cnluwv-data:66608 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:666;
+    skos:prefLabel "werkmeester afd meet- en regeltechnische apparatuur (bouw, installatie, kwaliteitscontroledienst; hoger)" .
+  
+  cnluwv-data:66611 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:666;
+    skos:prefLabel "leidinggevend ontwerper-constructeur informatie-, meet- en regeltechniek (hoger)" .
+  
+  cnluwv-data:667 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere elektrotechnische beroepen (excl automatisering ed)" .
+  
+  cnluwv-data:66702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:667;
+    skos:prefLabel "ontwerper-constructeur energie-, telecommunicatietechniek, elektromotoren, elektronica (hoger)" .
+  
+  cnluwv-data:66705 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:667;
+    skos:prefLabel "werkmeester produktie elektrotechnische apparaten, elektrotechnische dienst (hoger)" .
+  
+  cnluwv-data:66707 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:667;
+    skos:prefLabel "leidinggevend ontwerper-constructeur energie-, telecommunicatietechniek, elektromotoren, elektronica (hoger)" .
+  
+  cnluwv-data:66708 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:667;
+    skos:prefLabel "hoofd tekenkamer elektrotechniek (hoger)" .
+  
+  cnluwv-data:66709 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:667;
+    skos:prefLabel "bedrijfshoofd middelgroot elektrotechnisch installatiebedrijf, bouw en reparatie elektrische apparatuur en elektronica (excl computers)" .
+  
+  cnluwv-data:66801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:468;
+    skos:prefLabel "bedrijfshoofd middelgrote drukkerij, binderij" .
+  
+  cnluwv-data:671 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:66;
+    skos:prefLabel "hogere procestechnische beroepen ed" .
+  
+  cnluwv-data:67101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:671;
+    skos:prefLabel "chemisch, hout-, keramisch, papier-, textiel-, voedingsmiddelentechnoloog (hoger)" .
+  
+  cnluwv-data:67103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:671;
+    skos:prefLabel "bedrijfshoofd klein bedrijf voedingsmiddelen-, (petro-)chemische, procesindustrie" .
+  
+  cnluwv-data:67105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:671;
+    skos:prefLabel "vertegenwoordiger chemische produkten (procesindustrie; excl farmacie)" .
+  
+  cnluwv-data:67106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:671;
+    skos:prefLabel "keurmeester voedingsmiddelen (excl vee en vlees; hoger)" .
+  
+  cnluwv-data:67203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:671;
+    skos:prefLabel "bedrijfshoofd middelgroot bedrijf leer-, schoeisel-, textielindustrie" .
+  
+  cnluwv-data:67301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "brandveiligheidsdeskundige (hoger)" .
+  
+  cnluwv-data:67303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "bedrijfshoofd middelgrote bewakingsdienst" .
+  
+  cnluwv-data:67304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:662;
+    skos:prefLabel "brandweercommandant middelgrote brandweer" .
+  
+  cnluwv-data:68 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere transportberoepen" .
+  
+  cnluwv-data:682 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:68;
+    skos:prefLabel "hogere transportberoepen (excl technisch)" .
+  
+  cnluwv-data:68202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "luchtverkeersleider; dienstleider, opzichter vervoersdiensten (hoger)" .
+  
+  cnluwv-data:68203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "treindienstleider" .
+  
+  cnluwv-data:68204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "vlieger, vlieger-navigator" .
+  
+  cnluwv-data:68205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "kapitein kustvaart, 2e en lagere stuurlieden ghv, loods zeescheepvaart" .
+  
+  cnluwv-data:68207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "scheepskapitein ghv" .
+  
+  cnluwv-data:68303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "marconist, radiotelegrafist" .
+  
+  cnluwv-data:68305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "boordwerktuigkundige" .
+  
+  cnluwv-data:68306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:665;
+    skos:prefLabel "leidinggevend hoofdwerktuigkundige ghv" .
+  
+  cnluwv-data:68403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "leidinggevende transport, expeditie en opslag" .
+  
+  cnluwv-data:68404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:682;
+    skos:prefLabel "bedrijfshoofd middelgroot openbaar vervoers-, vlieg-, binnenvaart-, zeevaartbedrijf" .
+  
+  cnluwv-data:69 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere (para)medische beroepen" .
+  
+  cnluwv-data:692 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:69;
+    skos:prefLabel "hogere algemene, verzorgende (para)medische beroepen" .
+  
+  cnluwv-data:69201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "districtsverpleegkundige; beleidsmedewerker, beleidsambtenaar gezondheidszorg (hoger)" .
+  
+  cnluwv-data:69202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "bedrijfsverpleegkundige" .
+  
+  cnluwv-data:69203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "mondhygiënist, verloskundige, homeopaat (excl arts)" .
+  
+  cnluwv-data:69204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "anesthesie-assistent" .
+  
+  cnluwv-data:69205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "fysio-, bewegingstherapeut, akoepedist, logopedist, orthoptist" .
+  
+  cnluwv-data:69206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "wijk-, school-, particulier verpleegkundige; verpleegkundige ziekenhuis (hoger)" .
+  
+  cnluwv-data:69207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "arbeids-, bezigheids-, creatief, muziek-, speltherapeut (hoger)" .
+  
+  cnluwv-data:69209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "hoofdverpleegkundige ambulancedienst" .
+  
+  cnluwv-data:69210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "hoofdverpleegkundige ziekenhuis" .
+  
+  cnluwv-data:693 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:69;
+    skos:prefLabel "hogere technisch-(para)medische beroepen" .
+  
+  cnluwv-data:69301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:693;
+    skos:prefLabel "arbeidshygiënist, ergonoom" .
+  
+  cnluwv-data:69302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:693;
+    skos:prefLabel "ziekenhuishygiënist" .
+  
+  cnluwv-data:69303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:693;
+    skos:prefLabel "medisch, bacteriologisch-medisch, zoölogisch-medisch analist" .
+  
+  cnluwv-data:69304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:693;
+    skos:prefLabel "orthopedisch maatnemer en modelmaker" .
+  
+  cnluwv-data:69305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:693;
+    skos:prefLabel "radiologisch laborant; eeg-, ecg-, hartfunctie-, dialyse-, beademingsassistent (hoger)" .
+  
+  cnluwv-data:69402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "artsen-, dierenartsenbezoeker; vertegenwoordiger farmaceutische prod" .
+  
+  cnluwv-data:69501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:692;
+    skos:prefLabel "dietist" .
+  
+  cnluwv-data:71 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere administratieve, commerciële, economische beroepen ed" .
+  
+  cnluwv-data:712 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere algemeen economische beroepen" .
+  
+  cnluwv-data:71201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:712;
+    skos:prefLabel "beleidsambtenaar financiële, economische zaken (excl fiscale zaken; hoger)" .
+  
+  cnluwv-data:71204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:712;
+    skos:prefLabel "bedrijfshoofd algemene leiding klein bedrijf (excl handel, horeca, landbouw)" .
+  
+  cnluwv-data:71205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:712;
+    skos:prefLabel "assistent bedrijfsleider" .
+  
+  cnluwv-data:71206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:712;
+    skos:prefLabel "bedrijfshoofd middelgroot uitzendbureau" .
+  
+  cnluwv-data:713 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere bedrijfskundige beroepen ed" .
+  
+  cnluwv-data:71301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:713;
+    skos:prefLabel "bedrijfsorganisatiedeskundige (excl technisch), personeelsorganisatie-adviseur (hoger)" .
+  
+  cnluwv-data:71303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:713;
+    skos:prefLabel "produktieplanner, werkvoorbereider (administratief, excl bijdrage begroting; hoger)" .
+  
+  cnluwv-data:71304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:713;
+    skos:prefLabel "produktieplanner, werkvoorbereider (administratief, incl bijdrage begroting; hoger)" .
+  
+  cnluwv-data:714 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere administratieve beroepen (automatisering ed)" .
+  
+  cnluwv-data:71401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:714;
+    skos:prefLabel "informatie-, systeemanalist, systeemontwerper, -programmeur; programmeur (wetenschappelijke toepassingen; administratief; hoger)" .
+  
+  cnluwv-data:71402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:714;
+    skos:prefLabel "programmeur (administratieve toepassingen; hoger; excl systeemprogrammeur, excl wetenschappelijke toepassingen)" .
+  
+  cnluwv-data:71403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:714;
+    skos:prefLabel "produktiebegeleider automatisering (administratieve toepassingen; hoger)" .
+  
+  cnluwv-data:71404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:714;
+    skos:prefLabel "systeem-, netwerkbeheerder (hoger)" .
+  
+  cnluwv-data:71407 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:714;
+    skos:prefLabel "leidinggevende automatisering (administratieve toepassingen; hoger)" .
+  
+  cnluwv-data:715 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere administratieve beroepen (excl automatisering ed)" .
+  
+  cnluwv-data:71501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "beleidsambtenaar fiscale zaken (hoger)" .
+  
+  cnluwv-data:71504 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "boekhouder (hoger)" .
+  
+  cnluwv-data:71505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "administratief medewerker behandeling declaraties, pensioen-, subsidie-, studiefinancieringaanvragen (hoger); assistent accountant" .
+  
+  cnluwv-data:71507 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "accountant-administratieconsulent" .
+  
+  cnluwv-data:71509 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "hoofd afdeling administratie (leiding aan uitvoerenden; beleidsvoorbereiding; hoger)" .
+  
+  cnluwv-data:71511 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:715;
+    skos:prefLabel "leidinggevend boekhouder (hoger); leidinggevende financieel-economische zaken" .
+  
+  cnluwv-data:716 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere commerciële beroepen ed" .
+  
+  cnluwv-data:71601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "beleggings-, krediet-, financieel adviseur; kredietanalist, kredietbeoordelaar" .
+  
+  cnluwv-data:71602 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "marketing-onderzoeker (hoger)" .
+  
+  cnluwv-data:71604 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "marketingadviseur, -specialist (geen onderzoek)" .
+  
+  cnluwv-data:71605 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "commissionair in effecten" .
+  
+  cnluwv-data:71606 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "reclamedeskundige, reclamecampagne-adviseur" .
+  
+  cnluwv-data:71607 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "makelaar onroerend goed, onroerend goed deskundige (hoger)" .
+  
+  cnluwv-data:71608 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "public relations adviseur, voorlichtingsfunctionaris (hoger)" .
+  
+  cnluwv-data:71610 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "verzekeringsinspecteur" .
+  
+  cnluwv-data:71611 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "groothandelaar, makelaar in roerende goederen, effectenarbitrageant, hoofd kleine afd verkoop, export, inkoop" .
+  
+  cnluwv-data:71612 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "inkoper znd (hoger)" .
+  
+  cnluwv-data:71614 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "tekstschrijver reclame (hoger)" .
+  
+  cnluwv-data:71615 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "bedrijfshoofd middelgroot assurantiekantoor, makelaardij, vvv; algemene leiding middelgroot bedrijf (excl landbouw, handel, horeca)" .
+  
+  cnluwv-data:71616 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "bedrijfshoofd middelgrote bank-, verzekeringsmaatschappij, bijkantoor bank, postkantoor" .
+  
+  cnluwv-data:71617 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "leidinggevende marketingadviseur, -specialist, reclamedeskundige, -adviseur" .
+  
+  cnluwv-data:71618 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "leidinggevend groothandelaar, hoofd middelgrote afdeling verkoop, export, inkoop" .
+  
+  cnluwv-data:71620 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "bedrijfshoofd middelgroot reisbureau, -organisatie" .
+  
+  cnluwv-data:71801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "uitgever (hoger)" .
+  
+  cnluwv-data:71802 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:716;
+    skos:prefLabel "bedrijfshoofd middelgrote uitgeverij (huis- aan huisbladen, boeken)" .
+  
+  cnluwv-data:721 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:71;
+    skos:prefLabel "hogere technisch-, wiskundig- commerciële, administratieve beroepen" .
+  
+  cnluwv-data:72101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:721;
+    skos:prefLabel "arbeidsanalist, arbeidskundige" .
+  
+  cnluwv-data:72102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:721;
+    skos:prefLabel "bedrijfsorganisatiedeskundige (technisch; hoger)" .
+  
+  cnluwv-data:72103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:721;
+    skos:prefLabel "technisch werkvoorbereider, planner (excl bouwnijverheid; hoger)" .
+  
+  cnluwv-data:72104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:721;
+    skos:prefLabel "actuarieel rekenaar, actuarieel assistent (hoger)" .
+  
+  cnluwv-data:72108 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:721;
+    skos:prefLabel "leidinggevend bedrijfsorganisatiedeskundige (technisch; hoger)" .
+  
+  cnluwv-data:73 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere juridische, bestuurlijke, beveiligingsberoepen" .
+  
+  cnluwv-data:732 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:73;
+    skos:prefLabel "hogere juridische, bestuurlijke beroepen" .
+  
+  cnluwv-data:73201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "beleidsambtenaar juridische zaken, sociale zekerheid, openbare orde en veiligheid (hoger)" .
+  
+  cnluwv-data:73202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "secretaris overheidsdiensten, organisaties (juridisch; hoger)" .
+  
+  cnluwv-data:73203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "beleidsmedewerker juridische zaken (excl rijk, provincie, gemeente; hoger)" .
+  
+  cnluwv-data:73205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "belastingconsulent (hoger)" .
+  
+  cnluwv-data:73206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "gerechtsdeurwaarder" .
+  
+  cnluwv-data:73207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "opsporingsambtenaar sociale voorzieningen ed (excl buitendienst)" .
+  
+  cnluwv-data:73209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "hoofdcontroleur, -verificateur belastingen; gemeentesecretaris kleine gemeente" .
+  
+  cnluwv-data:73210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "verkeersinspecteur, vervoersinspecteur" .
+  
+  cnluwv-data:73211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "leidinggevend opsporingsambtenaar sociale voorzieningen ed (excl buitendienst)" .
+  
+  cnluwv-data:73402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "leidinggevende afd landbouw, visserij, milieuhygiene" .
+  
+  cnluwv-data:73601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "leidinggevende afd volksgezondheid overheid" .
+  
+  cnluwv-data:73702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "leidinggevende afd algemene zaken, bevolkingsadministratie overheid" .
+  
+  cnluwv-data:73803 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:732;
+    skos:prefLabel "leidinggevende afd arbeidsaangelegenheden, sociaal-culturele zaken, volkshuisvesting, ruimtelijke ordening (overheid)" .
+  
+  cnluwv-data:742 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:73;
+    skos:prefLabel "hogere algemene beveiligingsberoepen" .
+  
+  cnluwv-data:74201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:742;
+    skos:prefLabel "militair officier (kapitein of lager)" .
+  
+  cnluwv-data:74203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:742;
+    skos:prefLabel "politie-inspecteur" .
+  
+  cnluwv-data:74204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:742;
+    skos:prefLabel "leidinggevend militair officier (kapitein of lager)" .
+  
+  cnluwv-data:74205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:742;
+    skos:prefLabel "adjunct-directeur gevangenis, hoofd veiligheidsdienst overheid" .
+  
+  cnluwv-data:75 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere taalkundige, culturele beroepen" .
+  
+  cnluwv-data:752 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:75;
+    skos:prefLabel "hogere taalkundige beroepen" .
+  
+  cnluwv-data:75201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:752;
+    skos:prefLabel "gidsenschrijver" .
+  
+  cnluwv-data:75202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:752;
+    skos:prefLabel "bouwhistoricus (geïllustreerde beschrijving)" .
+  
+  cnluwv-data:75204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:752;
+    skos:prefLabel "auteur, scenarioschrijver, tolk, vertaler" .
+  
+  cnluwv-data:753 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:75;
+    skos:prefLabel "hogere bibliotheek-, documentatieberoepen" .
+  
+  cnluwv-data:75301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:753;
+    skos:prefLabel "beleidsambtenaar documentatie, bibliotheek, informatievoorziening (hoger)" .
+  
+  cnluwv-data:75302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:753;
+    skos:prefLabel "bibliothecaris jeugd-, muziekbibliotheek" .
+  
+  cnluwv-data:75303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:753;
+    skos:prefLabel "archivaris, literatuuronderzoeker, bibliothecaris (excl jeugd-, muziekbibliotheek; hoger)" .
+  
+  cnluwv-data:75304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:753;
+    skos:prefLabel "leidinggevend archivaris, bibliothecaris (hoger)" .
+  
+  cnluwv-data:754 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:75;
+    skos:prefLabel "hogere kunstzinnige beroepen" .
+  
+  cnluwv-data:75401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "beleidsambtenaar culturele zaken, kunsten (hoger)" .
+  
+  cnluwv-data:75402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "educatief medewerker museum (hoger)" .
+  
+  cnluwv-data:75404 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "impresario, theateragent" .
+  
+  cnluwv-data:75405 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "filmer, cineast" .
+  
+  cnluwv-data:75406 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "choreograaf" .
+  
+  cnluwv-data:75407 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "archiefemployé museumarchief" .
+  
+  cnluwv-data:75408 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "kunstgalerij-, museumconservator (hoger)" .
+  
+  cnluwv-data:75411 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "acteur, cabaretier, variété-artiest, zanger opera, operette, revue, musical" .
+  
+  cnluwv-data:75412 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "balletdanser, ballroomdanser" .
+  
+  cnluwv-data:75413 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "zanger (excl opera, operette, revue, musical), koordirigent" .
+  
+  cnluwv-data:75414 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "instrumentalist, componist, dirigent (excl koor), songwriter" .
+  
+  cnluwv-data:75415 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "beeldend kunstenaar; museummedewerker presentaties; mode-ontwerper; decor-, reclame-, grafisch ontwerper (hoger)" .
+  
+  cnluwv-data:75416 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "bedrijfshoofd middelgrote kunstgalerij, museum, instelling voor kunstbeoefening; produktieleider uitvoerende kunst" .
+  
+  cnluwv-data:75417 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "bedrijfshoofd middelgroot grafisch ontwerpbureau" .
+  
+  cnluwv-data:75418 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:754;
+    skos:prefLabel "regisseur toneel, film" .
+  
+  cnluwv-data:76 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere beroepen op het terrein van gedrag en maatschappij ed" .
+  
+  cnluwv-data:763 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:76;
+    skos:prefLabel "hogere sociaal-maatschappelijke beroepen" .
+  
+  cnluwv-data:76301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "beleidsmedewerker maatschappelijk werk (excl rijk, provincie, gemeente)" .
+  
+  cnluwv-data:76303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "functie-analist" .
+  
+  cnluwv-data:76304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "adviseur, consulent sociaal-cultureel werk (hoger)" .
+  
+  cnluwv-data:76305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "sociaal raadsman (hoger)" .
+  
+  cnluwv-data:76306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "maatschappelijk werker reclassering; kinderbescherming, voogdij (hoger)" .
+  
+  cnluwv-data:76307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "consulent opbouwwerk (hoger)" .
+  
+  cnluwv-data:76308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "studie- en beroepskeuzeadviseur; school-, studentendecaan (hoger)" .
+  
+  cnluwv-data:76309 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "opvoedingsvoorlichter" .
+  
+  cnluwv-data:76310 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "arbeidsbemiddelaar; personeelsfunctionaris werving, selectie, studievoorlichting (hoger)" .
+  
+  cnluwv-data:76311 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "coördinator maatschappelijk, sociaal-cultureel werk (hoger)" .
+  
+  cnluwv-data:76313 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "sociaal-cultureel werker, maatschappelijk werker (excl kinderbescherming, voogdij, reclassering; hoger)" .
+  
+  cnluwv-data:76315 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "leidinggevende afd personeels-, sociale zaken" .
+  
+  cnluwv-data:76316 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "bedrijfshoofd middelgroot school- en beroepskeuzebureau (excl arbeidsbureau)" .
+  
+  cnluwv-data:76317 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "leidinggevend personeelsfunctionaris werving, selectie, studievoorlichting" .
+  
+  cnluwv-data:76318 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "bedrijfshoofd middelgroot vormingsinstituut, volksuniversiteit" .
+  
+  cnluwv-data:76319 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:763;
+    skos:prefLabel "leidinggevend maatschappelijk werker (hoger)" .
+  
+  cnluwv-data:764 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:76;
+    skos:prefLabel "hogere beroepen in de journalistiek" .
+  
+  cnluwv-data:76401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:764;
+    skos:prefLabel "journalist, recensent, criticus; redacteur (uitgeverij bladen; hoger)" .
+  
+  cnluwv-data:76402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:764;
+    skos:prefLabel "commentator tv" .
+  
+  cnluwv-data:76403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:764;
+    skos:prefLabel "hoofdredacteur, algemeen redactiechef (uitgeverij bladen; hoger)" .
+  
+  cnluwv-data:765 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:76;
+    skos:prefLabel "hogere sociaal-wetenschappelijke beroepen ed" .
+  
+  cnluwv-data:76501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:765;
+    skos:prefLabel "beleidsambtenaar ruimtelijke ordening, welzijnsbeleid (hoger)" .
+  
+  cnluwv-data:76502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:765;
+    skos:prefLabel "assistent-onderzoeker planologisch, psychologisch onderzoek (hoger)" .
+  
+  cnluwv-data:77 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "hogere verzorgende beroepen" .
+  
+  cnluwv-data:772 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:77;
+    skos:prefLabel "hogere verzorgende beroepen" .
+  
+  cnluwv-data:77201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:772;
+    skos:prefLabel "voorlichter huishoudkunde" .
+  
+  cnluwv-data:77202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:772;
+    skos:prefLabel "hoofd middelgrote afd huishouding, verzorging inrichting (hoger)" .
+  
+  cnluwv-data:77203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:772;
+    skos:prefLabel "bedrijfshoofd middelgroot bejaardentehuis, gezinsverzorgingsinstelling; leidinggevende gezinszorg; hoofdverpleegkundige zwakzinnigenzorg" .
+  
+  cnluwv-data:77301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:573;
+    skos:prefLabel "hofmeester passagiersschip, scheepspurser koopvaardij" .
+  
+  cnluwv-data:78 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:6;
+    skos:prefLabel "managers (hbo werk- en denkniveau) ed" .
+  
+  cnluwv-data:78202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "directeur basis-, speciaal onderwijs (niet lesgevend)" .
+  
+  cnluwv-data:78302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager natuurmonumenten-, bos-, milieu-, landschapsbeheer" .
+  
+  cnluwv-data:78501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager bouw, bouwinstallatiebedrijven, bewakingsdienst; manager industriële produktie, weg- en waterbouw (hoger)" .
+  
+  cnluwv-data:78502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "brandweercommandant grote brandweer" .
+  
+  cnluwv-data:78601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager transport- (geen taxibedrijf), expeditie-, cargadoors-, stuwadoors-, vliegbedrijf, binnen-, pleziervaartbedrijf" .
+  
+  cnluwv-data:788 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:78;
+    skos:prefLabel "managers (hbo werk- en denkniveau) ed" .
+  
+  cnluwv-data:78801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager groot-, detailhandel, bankbijkantoren, bioscoop, afd verkoop, afd inkoop" .
+  
+  cnluwv-data:78802 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "secretaris vereniging, stichting" .
+  
+  cnluwv-data:79101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager politie, sport-, vakbond, deurwaarderskantoor" .
+  
+  cnluwv-data:79401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:788;
+    skos:prefLabel "manager hotel, restaurant, congres-, vakantiecentrum, schoonmaakbedrijf, wasserij, kapperszaak" .
+  
+  cnluwv-data:8 a cnluwv:SBC_Beroepsniveau;
+    skos:prefLabel "wetenschappelijke beroepen" .
+  
+  cnluwv-data:82 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke pedagogische beroepen" .
+  
+  cnluwv-data:822 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "wetenschappelijke onderwijskundige, pedagogische beroepen" .
+  
+  cnluwv-data:82202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "wetens onderzoeker (ortho-)pedagogiek" .
+  
+  cnluwv-data:82203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "wetens onderzoeker onderwijskunde" .
+  
+  cnluwv-data:82204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "coördinator, consulent onderwijs (wetens)" .
+  
+  cnluwv-data:82205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "pedagogisch adviseur; schoolbegeleider (wetens)" .
+  
+  cnluwv-data:82207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "onderwijskundig medewerker (ontwikkelen les-, cursusmateriaal; wetens)" .
+  
+  cnluwv-data:82208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "orthopedagoog (excl wetens onderzoek)" .
+  
+  cnluwv-data:82209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "leidinggevend coördinator, consulent onderwijs" .
+  
+  cnluwv-data:82210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:822;
+    skos:prefLabel "leidinggevende onderwijskundig onderzoek" .
+  
+  cnluwv-data:82401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent wetens onderwijs agrarische economie, agrarische wetenschappen" .
+  
+  cnluwv-data:82402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent agrarische economie, agrarische wetenschappen en praktijkvakken (1e graads)" .
+  
+  cnluwv-data:825 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "docenten exacte, (para)medische, verzorgende vakken (1e gr en wo)" .
+  
+  cnluwv-data:82501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent wetens onderwijs wiskunde, natuurwetenschappen, statistiek" .
+  
+  cnluwv-data:82502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent wiskunde, natuurwetenschappen, statistiek, laboratoriumtechniek (1e graads)" .
+  
+  cnluwv-data:826 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "docenten agrarische, technische, transportvakken (1e gr en wo)" .
+  
+  cnluwv-data:82601 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent wetens onderwijs technische wetenschappen" .
+  
+  cnluwv-data:82602 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent technische wetenschappen en praktijkvakken (1e graads)" .
+  
+  cnluwv-data:82701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent wetens onderwijs transportvakken" .
+  
+  cnluwv-data:82702 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:826;
+    skos:prefLabel "docent transportvakken (1e graads)" .
+  
+  cnluwv-data:82801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent wetens onderwijs (dier)geneeskunde, farmacie" .
+  
+  cnluwv-data:82802 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent (dier)geneeskunde, farmacie (1e graads)" .
+  
+  cnluwv-data:831 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "docenten economische, administratieve, juridische vakken (1e gr en wo)" .
+  
+  cnluwv-data:83101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:831;
+    skos:prefLabel "docent wetens onderwijs economie, administratieve en commerciële vakken, actuariële wetenschappen" .
+  
+  cnluwv-data:83102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:831;
+    skos:prefLabel "docent actuariële wetenschappen; docent economie, commerciële en administratieve vakken, handelswetenschappen (1e graads)" .
+  
+  cnluwv-data:83201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:831;
+    skos:prefLabel "docent wetens onderwijs recht, bestuurskunde" .
+  
+  cnluwv-data:83202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:831;
+    skos:prefLabel "docent recht, bestuurskunde (1e graads)" .
+  
+  cnluwv-data:833 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "docenten taalkundige, culturele vakken (1e gr en wo)" .
+  
+  cnluwv-data:83301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:833;
+    skos:prefLabel "docent wetens onderwijs humaniora, (kunst)geschiedenis, theologie" .
+  
+  cnluwv-data:83302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:833;
+    skos:prefLabel "docent humaniora, muziek, toneel, handwerken, godsdienst, bibliotheek en archief (1e graads)" .
+  
+  cnluwv-data:834 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:82;
+    skos:prefLabel "docenten sociale, psychologische vakken (1e gr en wo)" .
+  
+  cnluwv-data:83401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:834;
+    skos:prefLabel "docent wetens onderwijs aardrijkskunde, opvoedkunde, didaktiek, sociale wetenschappen" .
+  
+  cnluwv-data:83402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:834;
+    skos:prefLabel "docent aardrijkskunde, opvoedkunde, lichamelijke opvoeding, sociale wetenschappen (1e graads)" .
+  
+  cnluwv-data:83501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent wetens onderwijs (landbouw)huishoudkunde" .
+  
+  cnluwv-data:83502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:825;
+    skos:prefLabel "docent huishoudkunde, koksvak (1e graads)" .
+  
+  cnluwv-data:84 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke landbouwkundige beroepen" .
+  
+  cnluwv-data:842 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:84;
+    skos:prefLabel "wetenschappelijke landbouwkundige beroepen" .
+  
+  cnluwv-data:84202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:842;
+    skos:prefLabel "landbouwkundige tropische planten-, veeteelt (wetens)" .
+  
+  cnluwv-data:84203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:842;
+    skos:prefLabel "land-, tuin-, bosbouwkundige, plantenteeltdeskundige, milieu-onderzoeker landbouw (wetens)" .
+  
+  cnluwv-data:84204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:842;
+    skos:prefLabel "wetens onderzoeker land-, tuin-, bosbouw; milieu-onderzoeker bodemgebruik landbouw" .
+  
+  cnluwv-data:84304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:842;
+    skos:prefLabel "staladviseur" .
+  
+  cnluwv-data:85 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:851 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:85;
+    skos:prefLabel "wetenschappelijke wiskundige, natuurwetenschappelijke beroepen" .
+  
+  cnluwv-data:85102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:851;
+    skos:prefLabel "wiskundige, natuurwetenschapper; milieu-onderzoeker afvalstoffen, luchtkwaliteit, bodemgebruik industrie, bouw (wetens)" .
+  
+  cnluwv-data:85103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:851;
+    skos:prefLabel "wetens onderzoeker schei-, natuurkunde, biochemie, biologie, geologie, geografie, wiskunde, statistiek" .
+  
+  cnluwv-data:85105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:851;
+    skos:prefLabel "leidinggevende wiskundig en natuurwetenschappelijk onderzoek" .
+  
+  cnluwv-data:86 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke technische beroepen" .
+  
+  cnluwv-data:861 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:86;
+    skos:prefLabel "wetenschappelijke technische (ongeacht specialisatie), werktuigbouwkundige beroepen" .
+  
+  cnluwv-data:86104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:861;
+    skos:prefLabel "leidinggevende afd research, produktontwikkeling" .
+  
+  cnluwv-data:862 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:86;
+    skos:prefLabel "wetenschappelijke (weg- en water-)bouwkundige beroepen ed" .
+  
+  cnluwv-data:86201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "beleidsambtenaar bouw, stadsvernieuwing (wetens)" .
+  
+  cnluwv-data:86202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "bouwkundig adviseur (wetens)" .
+  
+  cnluwv-data:86203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "wetens onderzoeker architectuur, (stede)bouwkunde" .
+  
+  cnluwv-data:86204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "stedebouwkundige; architect, bouwkundig ontwerper-constructeur (wetens)" .
+  
+  cnluwv-data:86205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "bouwkundig inspecteur" .
+  
+  cnluwv-data:86208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "leidinggevend bouwkundig ontwerper-constructeur (wetens)" .
+  
+  cnluwv-data:86302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "geodeet, cartograaf; landmeetkundige (wetens)" .
+  
+  cnluwv-data:86303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "wetens onderzoeker geodesie, cartografie, verkeerskunde, weg- en waterbouwkunde" .
+  
+  cnluwv-data:86308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:862;
+    skos:prefLabel "leidinggevend weg- en waterbouwkundig ontwerper-constructeur, verkeersplanoloog (wetens)" .
+  
+  cnluwv-data:86401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "wetens onderzoeker metaalkunde" .
+  
+  cnluwv-data:86501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:861;
+    skos:prefLabel "wetens onderzoeker scheeps-, vliegtuig-, werktuigbouwkunde" .
+  
+  cnluwv-data:867 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:86;
+    skos:prefLabel "wetenschappelijke elektrotechnische beroepen" .
+  
+  cnluwv-data:86701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:867;
+    skos:prefLabel "wetens onderzoeker elektrotechniek" .
+  
+  cnluwv-data:871 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:86;
+    skos:prefLabel "wetenschappelijke materiaalkundige, procestechnische beroepen ed" .
+  
+  cnluwv-data:87101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "wetens onderzoeker chemische technologie, voedingsmiddelentechnologie" .
+  
+  cnluwv-data:87102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "chemisch, textiel-, voedingsmiddelentechnoloog (wetens)" .
+  
+  cnluwv-data:87103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "leidinggevend chemisch-, textiel-, voedingsmiddelentechnoloog (wetens)" .
+  
+  cnluwv-data:87105 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "bedrijfshoofd middelgroot ingenieursbureau procestechnologie" .
+  
+  cnluwv-data:87203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "technisch natuurkundige, mijnbouwkundige (wetens)" .
+  
+  cnluwv-data:87206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "industrieel vormgever, industrieel ontwerper" .
+  
+  cnluwv-data:87208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:871;
+    skos:prefLabel "bedrijfshoofd middelgroot ingenieursbureau industriële vormgeving, gasopsporing" .
+  
+  cnluwv-data:89 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke (para)medische beroepen ed" .
+  
+  cnluwv-data:892 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:89;
+    skos:prefLabel "wetenschappelijke (para)medische beroepen (excl technisch) ed" .
+  
+  cnluwv-data:89201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "beleidsmedewerker, beleidsambtenaar gezondheidszorg (wetens)" .
+  
+  cnluwv-data:89202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "arbeidsfysioloog, bacterioloog, patholoog, seroloog, viroloog" .
+  
+  cnluwv-data:89203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "wetens onderzoeker (dier)geneeskunde, tandheelkunde" .
+  
+  cnluwv-data:89206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "huis-, bedrijfs-, consultatiebureau-, schoolarts; arts-specialist (excl psychiater, sexuoloog, anesthesist); tandarts, tandarts-specialist" .
+  
+  cnluwv-data:89207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "psychiater, sexuoloog" .
+  
+  cnluwv-data:89208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "anesthesist" .
+  
+  cnluwv-data:89209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "dierenarts (incl specialist); geneeskundige veterinaire gezondheidszorg" .
+  
+  cnluwv-data:89211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "bedrijfshoofd middelgrote medische kliniek, gezondheidscentrum, kruisvereniging" .
+  
+  cnluwv-data:893 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:89;
+    skos:prefLabel "wetenschappelijke technisch (para)medische beroepen" .
+  
+  cnluwv-data:89301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "gezondheidsfysicus, klinisch fysicus" .
+  
+  cnluwv-data:89302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "farmacoloog, klinisch chemicus" .
+  
+  cnluwv-data:89303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "wetens onderzoeker farmacie" .
+  
+  cnluwv-data:89304 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "bedrijfshoofd klein bedrijf farmaceutische industrie" .
+  
+  cnluwv-data:89305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "ziekenhuisapotheker" .
+  
+  cnluwv-data:89306 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "gezondheidstechnicus" .
+  
+  cnluwv-data:89308 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "fabrieksapotheker (leiding produktie-afdeling)" .
+  
+  cnluwv-data:89309 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "leidinggevende medisch laboratorium" .
+  
+  cnluwv-data:89311 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:893;
+    skos:prefLabel "leidinggevend apotheker" .
+  
+  cnluwv-data:89501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "gezondheidsvoorlichting- en opvoedingsconsulent" .
+  
+  cnluwv-data:91 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke economische, administratieve beroepen ed" .
+  
+  cnluwv-data:912 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:91;
+    skos:prefLabel "wetenschappelijke algemeen-economische, commerciële beroepen ed" .
+  
+  cnluwv-data:91203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:912;
+    skos:prefLabel "wetens onderzoeker (bedrijfs)economie" .
+  
+  cnluwv-data:91204 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:912;
+    skos:prefLabel "commissaris nv, bv" .
+  
+  cnluwv-data:91205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:912;
+    skos:prefLabel "economisch adviseur, nijverheidsconsulent" .
+  
+  cnluwv-data:913 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:91;
+    skos:prefLabel "wetenschappelijke (technisch-) bedrijfskundige, wiskundig-economische beroepen" .
+  
+  cnluwv-data:91301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:913;
+    skos:prefLabel "wetens onderzoeker bedrijfskunde" .
+  
+  cnluwv-data:91303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:913;
+    skos:prefLabel "bedrijfshoofd middelgroot organisatie-adviesbureau (niet technisch)" .
+  
+  cnluwv-data:914 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:91;
+    skos:prefLabel "wetenschappelijke administratieve beroepen (automatisering ed)" .
+  
+  cnluwv-data:91401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:914;
+    skos:prefLabel "projectadviseur automatisering en informatievoorziening; programmeur (wetenschappelijke toepassingen; administratief; wetens)" .
+  
+  cnluwv-data:91402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:914;
+    skos:prefLabel "leidinggevende automatisering (administratieve toepassingen; wetens)" .
+  
+  cnluwv-data:915 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:91;
+    skos:prefLabel "wetenschappelijke administratieve beroepen (excl automatisering ed)" .
+  
+  cnluwv-data:91503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:915;
+    skos:prefLabel "accountant" .
+  
+  cnluwv-data:91505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:915;
+    skos:prefLabel "bedrijfshoofd middelgroot accountantsbureau" .
+  
+  cnluwv-data:91506 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:915;
+    skos:prefLabel "leidinggevend boekhouder (wetens)" .
+  
+  cnluwv-data:91603 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:912;
+    skos:prefLabel "leidinggevend public relations adviseur, voorlichtingsfunctionaris" .
+  
+  cnluwv-data:92102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:913;
+    skos:prefLabel "bedrijfshoofd klein actuarieel adviesbureau" .
+  
+  cnluwv-data:92104 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:913;
+    skos:prefLabel "actuaris" .
+  
+  cnluwv-data:92106 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:913;
+    skos:prefLabel "bedrijfshoofd middelgroot organisatie-adviesbureau (technisch); leidinggevend bedrijfsorganisatiedeskundige (technisch; wetens)" .
+  
+  cnluwv-data:93 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke juridische, bestuurlijke beroepen" .
+  
+  cnluwv-data:93101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "lid eerste en tweede kamer, provinciale, gedeputeerde staten, gemeenteraad, heemraad" .
+  
+  cnluwv-data:932 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:93;
+    skos:prefLabel "wetenschappelijke juridische, bestuurlijke beroepen" .
+  
+  cnluwv-data:93201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "beleidsambtenaar juridische zaken, sociale zekerheid, openbare orde en veiligheid (wetens); raadsadviseur overheidsdienst" .
+  
+  cnluwv-data:93203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "diplomatiek vertegenwoordiger" .
+  
+  cnluwv-data:93205 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "wetens onderzoeker juridisch, veiligheidsonderzoek" .
+  
+  cnluwv-data:93206 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "wetens onderzoeker bestuurskunde, criminologie" .
+  
+  cnluwv-data:93207 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "octrooigemachtigde" .
+  
+  cnluwv-data:93208 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "advocaat, notaris, rechter, officier van justitie, juridisch adviseur" .
+  
+  cnluwv-data:93209 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "belastingconsulent (wetens)" .
+  
+  cnluwv-data:93210 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "secretaris, griffier rechtbank" .
+  
+  cnluwv-data:93211 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "inspecteur belastingen, bewaarder hypotheken, kadaster" .
+  
+  cnluwv-data:93212 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "leidinggevend advocaat, notaris, fiscaal-, juridisch adviseur" .
+  
+  cnluwv-data:93302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "medewerker onderwijsinspectie (inspecteert scholen)" .
+  
+  cnluwv-data:93402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "inspecteur algemene inspectie landbouw en visserij, milieuhygiëne" .
+  
+  cnluwv-data:93602 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "inspecteur arbeid, geneeskunde, vee-artsenij, volksgezondheid" .
+  
+  cnluwv-data:93703 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "secretaris overheidsdiensten, organisaties (economisch, administratief; wetens)" .
+  
+  cnluwv-data:93704 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:932;
+    skos:prefLabel "inspecteur financiën, algemene rekenkamer" .
+  
+  cnluwv-data:95201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "wetens onderzoeker humaniora" .
+  
+  cnluwv-data:95202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "bedrijfshoofd middelgroot vertaalbureau" .
+  
+  cnluwv-data:95301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "beleidsambtenaar documentatie, bibliotheek, informatievoorziening (wetens)" .
+  
+  cnluwv-data:95303 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "leidinggevend archivaris, bibliothecaris (wetens)" .
+  
+  cnluwv-data:95402 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "wetens onderzoeker kunstgeschiedenis" .
+  
+  cnluwv-data:96 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "wetenschappelijke beroepen op het terrein van gedrag en maatschappij ed" .
+  
+  cnluwv-data:962 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:96;
+    skos:prefLabel "wetenschappelijke theologische beroepen" .
+  
+  cnluwv-data:96201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:962;
+    skos:prefLabel "wetens onderzoeker theologie" .
+  
+  cnluwv-data:96202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:962;
+    skos:prefLabel "bedienaar eredienst (wetens)" .
+  
+  cnluwv-data:963 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:96;
+    skos:prefLabel "wetenschappelijke sociaal-maatschappelijke beroepen" .
+  
+  cnluwv-data:96302 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:963;
+    skos:prefLabel "adviseur, consulent sociaal-cultureel werk (wetens)" .
+  
+  cnluwv-data:96305 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:963;
+    skos:prefLabel "schooldecaan, studentendecaan (wetens)" .
+  
+  cnluwv-data:96307 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:963;
+    skos:prefLabel "maatschappelijk werker (excl kinderbescherming, voogdij, reclassering; wetens)" .
+  
+  cnluwv-data:964 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:96;
+    skos:prefLabel "wetenschappelijke journalistieke, taalkundige, culturele beroepen" .
+  
+  cnluwv-data:96403 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:964;
+    skos:prefLabel "bedrijfshoofd middelgrote uitgeverij bladen; hoofdredacteur, algemeen redactiechef (uitgeverij bladen; wetens)" .
+  
+  cnluwv-data:965 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:96;
+    skos:prefLabel "wetenschappelijke sociaal-wetenschappelijke beroepen" .
+  
+  cnluwv-data:96502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:965;
+    skos:prefLabel "wetens onderzoeker andragogiek, volkenkunde" .
+  
+  cnluwv-data:96503 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:965;
+    skos:prefLabel "sociaal-wetenschappelijk onderzoeker (excl andragogiek, volkenkunde)" .
+  
+  cnluwv-data:96504 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:965;
+    skos:prefLabel "psychologisch adviseur" .
+  
+  cnluwv-data:96505 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:965;
+    skos:prefLabel "klinisch psycholoog; psychotherapeut (wetens)" .
+  
+  cnluwv-data:97201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "wetens onderzoeker huishoudwetenschappen" .
+  
+  cnluwv-data:97202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "wetens onderzoeker voeding van de mens" .
+  
+  cnluwv-data:97203 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:892;
+    skos:prefLabel "voedingsvoorlichter" .
+  
+  cnluwv-data:98 a cnluwv:SBC_Beroepsklasse;
+    skos:broader cnluwv-data:8;
+    skos:prefLabel "managers (wetenschappelijk werk- en denkniveau)" .
+  
+  cnluwv-data:98201 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager onderwijskundig onderzoek" .
+  
+  cnluwv-data:98202 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager school voor voortgezet of hoger onderwijs" .
+  
+  cnluwv-data:98301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager landbouwproefstation, veredelingsbedrijf, landbouwkundig, milieukundig onderzoek landbouw, landbouweconomisch onderzoek" .
+  
+  cnluwv-data:98501 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager industriële produktie (excl farmaceutische industrie), weg- en waterbouw (wetens)" .
+  
+  cnluwv-data:98502 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager woningcorporaties" .
+  
+  cnluwv-data:98602 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "havenmeester luchtvaart" .
+  
+  cnluwv-data:98701 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager farmaceutische industrie, ziekenhuis, kruisvereniging, medisch laboratorium, instelling gezondheids- en (op)voedingsvoorlichting" .
+  
+  cnluwv-data:988 a cnluwv:SBC_Beroepsgroep;
+    skos:broader cnluwv-data:98;
+    skos:prefLabel "managers (wetenschappelijk werk- en denkniveau)" .
+  
+  cnluwv-data:98801 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager economische, administratieve, commerciële zaken, algemene leiding industrieel bedrijf" .
+  
+  cnluwv-data:99101 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager fiscale, juridische, beveiligingszaken; beroepsmilitair (majoor en hoger)" .
+  
+  cnluwv-data:99102 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "bestuurder overheid, manager overheidsinstellingen, openbaar bestuur" .
+  
+  cnluwv-data:99103 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "voorzitter bedrijfschap, ser, raad van arbeid" .
+  
+  cnluwv-data:99301 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager school- en beroepskeuzeadvies, maatschappelijk-, personeelswerk, sociaal wetens onderzoek, volksuniversiteit" .
+  
+  cnluwv-data:99401 a cnluwv:SBC_Beroep;
+    skos:broader cnluwv-data:988;
+    skos:prefLabel "manager thuiszorginstelling, bejaardentehuis, kinderopvang" .
+}

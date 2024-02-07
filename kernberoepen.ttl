@@ -1,0 +1,2337 @@
+@prefix : <http://mapping.example.com/> .
+@prefix cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#> .
+@prefix cnluwv-data: <https://linkeddata.competentnl.nl/id/beroep/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+cnluwv-data:01101 a cnluwv:Kernberoep;
+  skos:prefLabel "Officieren landmacht" .
+
+cnluwv-data:01102 a cnluwv:Kernberoep;
+  skos:prefLabel "Officieren luchtmacht" .
+
+cnluwv-data:01103 a cnluwv:Kernberoep;
+  skos:prefLabel "Officieren marechaussee" .
+
+cnluwv-data:01104 a cnluwv:Kernberoep;
+  skos:prefLabel "Officieren marine" .
+
+cnluwv-data:02101 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderofficieren landmacht" .
+
+cnluwv-data:02102 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderofficieren luchtmacht" .
+
+cnluwv-data:02103 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderofficieren marechaussee" .
+
+cnluwv-data:02104 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderofficieren marine" .
+
+cnluwv-data:03101 a cnluwv:Kernberoep;
+  skos:prefLabel "Korporaals luchtmacht" .
+
+cnluwv-data:03102 a cnluwv:Kernberoep;
+  skos:prefLabel "Marechaussees" .
+
+cnluwv-data:03103 a cnluwv:Kernberoep;
+  skos:prefLabel "Mariniers" .
+
+cnluwv-data:03104 a cnluwv:Kernberoep;
+  skos:prefLabel "Matrozen marine" .
+
+cnluwv-data:03105 a cnluwv:Kernberoep;
+  skos:prefLabel "Soldaten / korporaals landmacht" .
+
+cnluwv-data:11110 a cnluwv:Kernberoep;
+  skos:prefLabel "Politieke bestuurders" .
+
+cnluwv-data:11121 a cnluwv:Kernberoep;
+  skos:prefLabel "Topambtenaren gemeentelijke en regionale overheid" .
+
+cnluwv-data:11122 a cnluwv:Kernberoep;
+  skos:prefLabel "Topambtenaren landelijke overheid" .
+
+cnluwv-data:11140 a cnluwv:Kernberoep;
+  skos:prefLabel "Bestuurders van belangenorganisaties" .
+
+cnluwv-data:11200 a cnluwv:Kernberoep;
+  skos:prefLabel "Algemeen directeuren en commissarissen" .
+
+cnluwv-data:12110 a cnluwv:Kernberoep;
+  skos:prefLabel "Financieel managers" .
+
+cnluwv-data:12121 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers personeel en organisatie" .
+
+cnluwv-data:12122 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers werving & selectie en arbeidsbemiddeling" .
+
+cnluwv-data:12131 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers organisatieadviesbureau en programmamanagers" .
+
+cnluwv-data:12132 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers beleidsafdelingen overheid" .
+
+cnluwv-data:12191 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers financiën en administratie" .
+
+cnluwv-data:12192 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers makelaardij en woondiensten" .
+
+cnluwv-data:12193 a cnluwv:Kernberoep;
+  skos:prefLabel "Hoofden algemene zaken overheidsdiensten" .
+
+cnluwv-data:12194 a cnluwv:Kernberoep;
+  skos:prefLabel "Facilitair managers" .
+
+cnluwv-data:12195 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondernemers en bedrijfsleiders reiniging" .
+
+cnluwv-data:12196 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers projectmatige dienstverlening" .
+
+cnluwv-data:12210 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers sales en marketing" .
+
+cnluwv-data:12220 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers communicatie, PR en reclame" .
+
+cnluwv-data:12231 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers onderzoek en ontwikkeling (R&D) technologie" .
+
+cnluwv-data:12232 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers onderzoek en ontwikkeling (R&D) laboratorium" .
+
+cnluwv-data:13111 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers tuin- en akkerbouw" .
+
+cnluwv-data:13112 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers veehouderij" .
+
+cnluwv-data:13211 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers energie- en waterleidingbedrijf" .
+
+cnluwv-data:13212 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers maakindustrie-metaal en kunststof" .
+
+cnluwv-data:13213 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers maakindustrie-hout, meubel, textiel en leder" .
+
+cnluwv-data:13214 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers maakindustrie - bouwmaterialen" .
+
+cnluwv-data:13215 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers maakindustrie-elektro" .
+
+cnluwv-data:13216 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers maakindustrie-fijnmetaal" .
+
+cnluwv-data:13217 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers proces- en voedingsmiddelen industrie" .
+
+cnluwv-data:13218 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers (foto)grafische industrie" .
+
+cnluwv-data:13220 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers delfstoffenwinning" .
+
+cnluwv-data:13231 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers en hoofduitvoerders bouw en installatie" .
+
+cnluwv-data:13232 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers en hoofduitvoerders grond-, weg- en waterbouw" .
+
+cnluwv-data:13241 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers en hoofden inkoop" .
+
+cnluwv-data:13242 a cnluwv:Kernberoep;
+  skos:prefLabel "Logistiek managers" .
+
+cnluwv-data:13243 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers expeditie en distributie" .
+
+cnluwv-data:13244 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers scheepvaart (rederij, cargadoor, stuwadoor)" .
+
+cnluwv-data:13245 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers luchtvaart" .
+
+cnluwv-data:13246 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers personenvervoer" .
+
+cnluwv-data:13301 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers telecom" .
+
+cnluwv-data:13302 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers ict (algemeen)" .
+
+cnluwv-data:13303 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers ict (beheer)" .
+
+cnluwv-data:13304 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers ict (ontwikkeling)" .
+
+cnluwv-data:13305 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders ICT" .
+
+cnluwv-data:13410 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers kinderopvang" .
+
+cnluwv-data:13420 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers gezondheidszorg" .
+
+cnluwv-data:13430 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers ouderenzorg" .
+
+cnluwv-data:13440 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers welzijnszorg" .
+
+cnluwv-data:13451 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers wetenschappelijk onderzoek en educatie" .
+
+cnluwv-data:13452 a cnluwv:Kernberoep;
+  skos:prefLabel "Directeuren en managers voortgezet, beroepsonderwijs" .
+
+cnluwv-data:13453 a cnluwv:Kernberoep;
+  skos:prefLabel "Directeuren en schoolleiders basis-, speciaal onderwijs" .
+
+cnluwv-data:13454 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers volksuniversiteit" .
+
+cnluwv-data:13460 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers bank en verzekeringen" .
+
+cnluwv-data:13491 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers media en communicatie" .
+
+cnluwv-data:13492 a cnluwv:Kernberoep;
+  skos:prefLabel "Technisch managers en hoofden technische dienst" .
+
+cnluwv-data:13493 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers grafisch en industrieel ontwerpbureau" .
+
+cnluwv-data:13494 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers brandweer en rampenbestrijding" .
+
+cnluwv-data:13495 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers bewaking en beveiliging" .
+
+cnluwv-data:13496 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers agrarische dienstverlening" .
+
+cnluwv-data:14110 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers hotel en congrescentrum" .
+
+cnluwv-data:14121 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers restaurant" .
+
+cnluwv-data:14122 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers café, fastfoodrestaurant en snackbar" .
+
+cnluwv-data:14201 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers agrarische handel" .
+
+cnluwv-data:14202 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers detail- en groothandel" .
+
+cnluwv-data:14311 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers sport en recreatie" .
+
+cnluwv-data:14312 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers cultuur" .
+
+cnluwv-data:14391 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers reisbureau en toerisme" .
+
+cnluwv-data:14392 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers verhuur transportmiddelen en parkeerruimten" .
+
+cnluwv-data:14393 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers autodealers, -schadeherstel en -onderhoud" .
+
+cnluwv-data:14394 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers commerciële dienstverlening n.e.g." .
+
+cnluwv-data:21110 a cnluwv:Kernberoep;
+  skos:prefLabel "Natuurkundigen en sterrenkundigen" .
+
+cnluwv-data:21120 a cnluwv:Kernberoep;
+  skos:prefLabel "Meteorologen" .
+
+cnluwv-data:21131 a cnluwv:Kernberoep;
+  skos:prefLabel "Wetenschappelijk onderzoekers chemie" .
+
+cnluwv-data:21132 a cnluwv:Kernberoep;
+  skos:prefLabel "Klinisch-chemisch onderzoekers" .
+
+cnluwv-data:21140 a cnluwv:Kernberoep;
+  skos:prefLabel "Aardwetenschappers (geologen, hydrologen)" .
+
+cnluwv-data:21200 a cnluwv:Kernberoep;
+  skos:prefLabel "Wiskundigen, actuarissen en statistici" .
+
+cnluwv-data:21311 a cnluwv:Kernberoep;
+  skos:prefLabel "Biologen en botanici" .
+
+cnluwv-data:21312 a cnluwv:Kernberoep;
+  skos:prefLabel "Medisch en pathologisch onderzoekers" .
+
+cnluwv-data:21321 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs en voorlichters agrarische sector" .
+
+cnluwv-data:21322 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers en adviseurs irrigatie en cultuurtechniek" .
+
+cnluwv-data:21323 a cnluwv:Kernberoep;
+  skos:prefLabel "Wetenschappelijk onderzoekers land- en tuinbouw" .
+
+cnluwv-data:21331 a cnluwv:Kernberoep;
+  skos:prefLabel "Bodemkundig onderzoekers en -saneerders" .
+
+cnluwv-data:21332 a cnluwv:Kernberoep;
+  skos:prefLabel "Milieukundig onderzoekers en adviseurs" .
+
+cnluwv-data:21410 a cnluwv:Kernberoep;
+  skos:prefLabel "Industrieel ingenieurs en productie-ingenieurs" .
+
+cnluwv-data:21421 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs civiele techniek" .
+
+cnluwv-data:21422 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers, ontwerpers en constructeurs civiele techniek" .
+
+cnluwv-data:21423 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders civiele techniek" .
+
+cnluwv-data:21424 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs, ontwerper-constructeurs en onderzoekers bouwkunde" .
+
+cnluwv-data:21430 a cnluwv:Kernberoep;
+  skos:prefLabel "Milieutechnologen" .
+
+cnluwv-data:21441 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers, ontwerpers en constructeurs werktuigbouw" .
+
+cnluwv-data:21442 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders werktuigbouw" .
+
+cnluwv-data:21443 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers, ontwerpers en constructeurs installatietechniek" .
+
+cnluwv-data:21444 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders installatietechniek" .
+
+cnluwv-data:21450 a cnluwv:Kernberoep;
+  skos:prefLabel "Proces- en levensmiddelentechnologen, productontwikkelaars" .
+
+cnluwv-data:21461 a cnluwv:Kernberoep;
+  skos:prefLabel "Ontwerpers en constructeurs boorplatform" .
+
+cnluwv-data:21462 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden delfstoffenwinning" .
+
+cnluwv-data:21463 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers en engineers delfstoffenwinning" .
+
+cnluwv-data:21464 a cnluwv:Kernberoep;
+  skos:prefLabel "Metaalkundigen" .
+
+cnluwv-data:21491 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers materialen" .
+
+cnluwv-data:21492 a cnluwv:Kernberoep;
+  skos:prefLabel "(Bio)medisch technologen" .
+
+cnluwv-data:21511 a cnluwv:Kernberoep;
+  skos:prefLabel "Engineers, constructeurs en onderzoekers elektrotechnische installaties" .
+
+cnluwv-data:21512 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders elektrotechniek" .
+
+cnluwv-data:21521 a cnluwv:Kernberoep;
+  skos:prefLabel "Engineers elektronica en meet- en regeltechniek" .
+
+cnluwv-data:21522 a cnluwv:Kernberoep;
+  skos:prefLabel "Engineers hardware en industriële automatisering" .
+
+cnluwv-data:21523 a cnluwv:Kernberoep;
+  skos:prefLabel "Projectleiders elektronica en industriële automatisering" .
+
+cnluwv-data:21530 a cnluwv:Kernberoep;
+  skos:prefLabel "Telecom engineers" .
+
+cnluwv-data:21611 a cnluwv:Kernberoep;
+  skos:prefLabel "Interieurarchitecten" .
+
+cnluwv-data:21612 a cnluwv:Kernberoep;
+  skos:prefLabel "Bouwkundig architecten" .
+
+cnluwv-data:21613 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers bouwkundig architecten" .
+
+cnluwv-data:21620 a cnluwv:Kernberoep;
+  skos:prefLabel "Landschaps- en tuinarchitecten" .
+
+cnluwv-data:21631 a cnluwv:Kernberoep;
+  skos:prefLabel "Industrieel ontwerpers" .
+
+cnluwv-data:21632 a cnluwv:Kernberoep;
+  skos:prefLabel "Ontwerpers mode en textiel" .
+
+cnluwv-data:21633 a cnluwv:Kernberoep;
+  skos:prefLabel "Meubelontwerpers" .
+
+cnluwv-data:21641 a cnluwv:Kernberoep;
+  skos:prefLabel "Planologen en stedenbouwkundigen" .
+
+cnluwv-data:21642 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkeersplanologen, verkeers- en vervoerskundigen" .
+
+cnluwv-data:21651 a cnluwv:Kernberoep;
+  skos:prefLabel "Cartografen en landmeetkundigen" .
+
+cnluwv-data:21652 a cnluwv:Kernberoep;
+  skos:prefLabel "GEO/GIS specialisten (geografisch informatiesysteem)" .
+
+cnluwv-data:21661 a cnluwv:Kernberoep;
+  skos:prefLabel "Grafisch vormgevers" .
+
+cnluwv-data:21662 a cnluwv:Kernberoep;
+  skos:prefLabel "Multimedia en webdesigners (creatief)" .
+
+cnluwv-data:22111 a cnluwv:Kernberoep;
+  skos:prefLabel "Basisartsen" .
+
+cnluwv-data:22112 a cnluwv:Kernberoep;
+  skos:prefLabel "Huisartsen en artsen (generalistisch)" .
+
+cnluwv-data:22113 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociaal geneeskundigen (arbeid en gezondheid)" .
+
+cnluwv-data:22114 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociaal geneeskundigen (maatschappij en gezondheid)" .
+
+cnluwv-data:22121 a cnluwv:Kernberoep;
+  skos:prefLabel "Medisch specialisten (behandelend)" .
+
+cnluwv-data:22122 a cnluwv:Kernberoep;
+  skos:prefLabel "Medisch specialisten (onderzoeker)" .
+
+cnluwv-data:22123 a cnluwv:Kernberoep;
+  skos:prefLabel "Psychiaters" .
+
+cnluwv-data:22124 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers geneeskunde (algemeen)" .
+
+cnluwv-data:22211 a cnluwv:Kernberoep;
+  skos:prefLabel "Gespecialiseerd verpleegkundigen (overige instellingen)" .
+
+cnluwv-data:22212 a cnluwv:Kernberoep;
+  skos:prefLabel "Gespecialiseerd verpleegkundigen (ziekenhuis)" .
+
+cnluwv-data:22213 a cnluwv:Kernberoep;
+  skos:prefLabel "Praktijkondersteuners huisarts" .
+
+cnluwv-data:22214 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociaal verpleegkundigen" .
+
+cnluwv-data:22215 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders zorg en hoofdverpleegkundigen" .
+
+cnluwv-data:22216 a cnluwv:Kernberoep;
+  skos:prefLabel "Verpleegkundig specialisten" .
+
+cnluwv-data:22217 a cnluwv:Kernberoep;
+  skos:prefLabel "Verpleegkundigen gehandicaptenzorg" .
+
+cnluwv-data:22218 a cnluwv:Kernberoep;
+  skos:prefLabel "Verpleegkundigen psychiatrie, GGZ" .
+
+cnluwv-data:22219 a cnluwv:Kernberoep;
+  skos:prefLabel "Wijkverpleegkundigen" .
+
+cnluwv-data:22220 a cnluwv:Kernberoep;
+  skos:prefLabel "Verloskundigen" .
+
+cnluwv-data:22300 a cnluwv:Kernberoep;
+  skos:prefLabel "Alternatief genezers" .
+
+cnluwv-data:22400 a cnluwv:Kernberoep;
+  skos:prefLabel "Physician assistents" .
+
+cnluwv-data:22501 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers diergeneeskunde" .
+
+cnluwv-data:22502 a cnluwv:Kernberoep;
+  skos:prefLabel "Dierenartsen" .
+
+cnluwv-data:22611 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers tandheelkunde" .
+
+cnluwv-data:22612 a cnluwv:Kernberoep;
+  skos:prefLabel "Tandartsen en kaakchirurgen" .
+
+cnluwv-data:22621 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers farmacie" .
+
+cnluwv-data:22622 a cnluwv:Kernberoep;
+  skos:prefLabel "Apothekers" .
+
+cnluwv-data:22630 a cnluwv:Kernberoep;
+  skos:prefLabel "Hygiënisten, onderzoekers en adviseurs arbeidsomstandigheden" .
+
+cnluwv-data:22640 a cnluwv:Kernberoep;
+  skos:prefLabel "Fysio- en oefentherapeuten" .
+
+cnluwv-data:22650 a cnluwv:Kernberoep;
+  skos:prefLabel "Diëtisten en voedingsdeskundigen" .
+
+cnluwv-data:22661 a cnluwv:Kernberoep;
+  skos:prefLabel "Logopedisten" .
+
+cnluwv-data:22662 a cnluwv:Kernberoep;
+  skos:prefLabel "Audiciens en audiologen" .
+
+cnluwv-data:22670 a cnluwv:Kernberoep;
+  skos:prefLabel "Optometristen en orthoptisten" .
+
+cnluwv-data:22691 a cnluwv:Kernberoep;
+  skos:prefLabel "Hapto-, chiropractie en creatief therapeuten" .
+
+cnluwv-data:22692 a cnluwv:Kernberoep;
+  skos:prefLabel "Arbeids- en ergotherapeuten" .
+
+cnluwv-data:22693 a cnluwv:Kernberoep;
+  skos:prefLabel "Podologen en podotherapeuten" .
+
+cnluwv-data:22694 a cnluwv:Kernberoep;
+  skos:prefLabel "Huidtherapeuten" .
+
+cnluwv-data:23101 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo agrarisch, natuur en milieu" .
+
+cnluwv-data:23102 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo onderzoekstechnieken en projectmanagement" .
+
+cnluwv-data:23103 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo economie en recht" .
+
+cnluwv-data:23104 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo gedrag en maatschappij" .
+
+cnluwv-data:23105 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo gezondheidszorg en farmacie" .
+
+cnluwv-data:23106 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo taal en cultuur" .
+
+cnluwv-data:23107 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten hbo/wo wis- en natuurkunde, techniek en ICT" .
+
+cnluwv-data:23201 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten voeding, groen- en agrarische techniek" .
+
+cnluwv-data:23202 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten metaal, elektro en overige materiaaltechniek" .
+
+cnluwv-data:23203 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten bouw-, hout- en civiele techniek" .
+
+cnluwv-data:23204 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten chemie, proces- en grafische techniek" .
+
+cnluwv-data:23205 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten handel en administratie" .
+
+cnluwv-data:23206 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten verpleegkunde, (uiterlijke) verzorging en welzijn" .
+
+cnluwv-data:23207 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten politie, brandweer en beveiliging" .
+
+cnluwv-data:23208 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakdocenten scheepvaart en instructeurs werk- en voertuigen" .
+
+cnluwv-data:23209 a cnluwv:Kernberoep;
+  skos:prefLabel "Praktijkopleiders in het (v)mbo" .
+
+cnluwv-data:23301 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten vo/mbo taalkundige vakken" .
+
+cnluwv-data:23302 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten vo/mbo exacte vakken" .
+
+cnluwv-data:23303 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten vo/mbo economische vakken" .
+
+cnluwv-data:23304 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten vo/mbo maatschappelijke vakken" .
+
+cnluwv-data:23305 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten vo/mbo cultuur en kunstvakken" .
+
+cnluwv-data:23306 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten lichamelijke opvoeding" .
+
+cnluwv-data:23410 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten basisonderwijs" .
+
+cnluwv-data:23420 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten voorschools onderwijs" .
+
+cnluwv-data:23511 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderwijskundigen en specialisten onderwijsmethoden" .
+
+cnluwv-data:23512 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en controleurs onderwijs" .
+
+cnluwv-data:23520 a cnluwv:Kernberoep;
+  skos:prefLabel "Leerkrachten speciaal onderwijs en RT" .
+
+cnluwv-data:23530 a cnluwv:Kernberoep;
+  skos:prefLabel "Docenten inburgering en NT2" .
+
+cnluwv-data:23540 a cnluwv:Kernberoep;
+  skos:prefLabel "Muziekleraren (particulier)" .
+
+cnluwv-data:23550 a cnluwv:Kernberoep;
+  skos:prefLabel "Kunstleraren (particulier)" .
+
+cnluwv-data:23560 a cnluwv:Kernberoep;
+  skos:prefLabel "Trainers software" .
+
+cnluwv-data:23591 a cnluwv:Kernberoep;
+  skos:prefLabel "Coördinatoren onderwijsinstelling en -cursussen" .
+
+cnluwv-data:23592 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderwijsbegeleiders en -adviseurs" .
+
+cnluwv-data:23593 a cnluwv:Kernberoep;
+  skos:prefLabel "Opleidingsadviseurs particulier onderwijs" .
+
+cnluwv-data:24111 a cnluwv:Kernberoep;
+  skos:prefLabel "Controllers, auditors en compliance officers" .
+
+cnluwv-data:24112 a cnluwv:Kernberoep;
+  skos:prefLabel "(Register)accountants" .
+
+cnluwv-data:24113 a cnluwv:Kernberoep;
+  skos:prefLabel "Belastingadviseurs" .
+
+cnluwv-data:24120 a cnluwv:Kernberoep;
+  skos:prefLabel "Financieel en beleggingsadviseurs" .
+
+cnluwv-data:24130 a cnluwv:Kernberoep;
+  skos:prefLabel "Financieel en beleggingsonderzoekers" .
+
+cnluwv-data:24211 a cnluwv:Kernberoep;
+  skos:prefLabel "Organisatieadviseurs, business consultants en kwaliteitsmanagers" .
+
+cnluwv-data:24212 a cnluwv:Kernberoep;
+  skos:prefLabel "BI (business intelligence) specialisten" .
+
+cnluwv-data:24213 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers bedrijfs- en consumentenwetenschappen" .
+
+cnluwv-data:24221 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs automatisering" .
+
+cnluwv-data:24222 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs economisch-fiscale zaken" .
+
+cnluwv-data:24223 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs jurisch-bestuurlijke zaken" .
+
+cnluwv-data:24224 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs agrarisch en milieu" .
+
+cnluwv-data:24225 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs onderwijs" .
+
+cnluwv-data:24226 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs personeelszaken" .
+
+cnluwv-data:24227 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs ruimtelijke ordening en planologie" .
+
+cnluwv-data:24228 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs sociaal, welzijn, gezondheid en cultuur" .
+
+cnluwv-data:24229 a cnluwv:Kernberoep;
+  skos:prefLabel "Beleidsadviseurs veiligheid" .
+
+cnluwv-data:24231 a cnluwv:Kernberoep;
+  skos:prefLabel "Recruiters en headhunters" .
+
+cnluwv-data:24232 a cnluwv:Kernberoep;
+  skos:prefLabel "HR-adviseurs, arbeids- en loopbaanspecialisten" .
+
+cnluwv-data:24240 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs en trainers bedrijfsopleidingen" .
+
+cnluwv-data:24311 a cnluwv:Kernberoep;
+  skos:prefLabel "Sales promotors en productmanagers" .
+
+cnluwv-data:24312 a cnluwv:Kernberoep;
+  skos:prefLabel "Marktonderzoekers en marketeers" .
+
+cnluwv-data:24313 a cnluwv:Kernberoep;
+  skos:prefLabel "Reclame- en marketingspecialisten" .
+
+cnluwv-data:24314 a cnluwv:Kernberoep;
+  skos:prefLabel "Managers sales, marketing en reclame" .
+
+cnluwv-data:24315 a cnluwv:Kernberoep;
+  skos:prefLabel "Assistenten reclame en marketing" .
+
+cnluwv-data:24316 a cnluwv:Kernberoep;
+  skos:prefLabel "Netwerkmarketeers" .
+
+cnluwv-data:24321 a cnluwv:Kernberoep;
+  skos:prefLabel "Communicatie- en public relations adviseurs" .
+
+cnluwv-data:24322 a cnluwv:Kernberoep;
+  skos:prefLabel "Public relations- en communicatiemedewerkers" .
+
+cnluwv-data:24331 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers technische producten" .
+
+cnluwv-data:24332 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers medische en chemische producten" .
+
+cnluwv-data:24333 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers agrarische producten" .
+
+cnluwv-data:24340 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers ICT" .
+
+cnluwv-data:25111 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs, consultants en informatiemanagers ICT" .
+
+cnluwv-data:25112 a cnluwv:Kernberoep;
+  skos:prefLabel "Ontwerpers, architecten en analisten ICT-systemen" .
+
+cnluwv-data:25113 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers informatica" .
+
+cnluwv-data:25120 a cnluwv:Kernberoep;
+  skos:prefLabel "Softwareontwikkelaars" .
+
+cnluwv-data:25131 a cnluwv:Kernberoep;
+  skos:prefLabel "Web- en multimediadevelopers (technisch)" .
+
+cnluwv-data:25132 a cnluwv:Kernberoep;
+  skos:prefLabel "Programmeurs internet" .
+
+cnluwv-data:25140 a cnluwv:Kernberoep;
+  skos:prefLabel "Applicatieprogrammeurs" .
+
+cnluwv-data:25190 a cnluwv:Kernberoep;
+  skos:prefLabel "Software testers en testmanagers ICT" .
+
+cnluwv-data:25211 a cnluwv:Kernberoep;
+  skos:prefLabel "Database- en datawarehouse ontwikkelaars" .
+
+cnluwv-data:25212 a cnluwv:Kernberoep;
+  skos:prefLabel "Databasebeheerders" .
+
+cnluwv-data:25221 a cnluwv:Kernberoep;
+  skos:prefLabel "Systeembeheerders" .
+
+cnluwv-data:25222 a cnluwv:Kernberoep;
+  skos:prefLabel "Applicatie- en functioneel beheerders" .
+
+cnluwv-data:25230 a cnluwv:Kernberoep;
+  skos:prefLabel "Netwerkspecialisten" .
+
+cnluwv-data:25290 a cnluwv:Kernberoep;
+  skos:prefLabel "Securityspecialisten ICT" .
+
+cnluwv-data:26111 a cnluwv:Kernberoep;
+  skos:prefLabel "Advocaten" .
+
+cnluwv-data:26112 a cnluwv:Kernberoep;
+  skos:prefLabel "Officieren van justitie en procureurs-generaal" .
+
+cnluwv-data:26120 a cnluwv:Kernberoep;
+  skos:prefLabel "Rechters" .
+
+cnluwv-data:26190 a cnluwv:Kernberoep;
+  skos:prefLabel "Juristen en juridisch specialisten" .
+
+cnluwv-data:26211 a cnluwv:Kernberoep;
+  skos:prefLabel "Archivarissen" .
+
+cnluwv-data:26212 a cnluwv:Kernberoep;
+  skos:prefLabel "Specialisten museum en galeriehouders" .
+
+cnluwv-data:26221 a cnluwv:Kernberoep;
+  skos:prefLabel "Literatuuronderzoekers en documentalisten" .
+
+cnluwv-data:26222 a cnluwv:Kernberoep;
+  skos:prefLabel "Bibliothecarissen" .
+
+cnluwv-data:26310 a cnluwv:Kernberoep;
+  skos:prefLabel "Economisch adviseurs" .
+
+cnluwv-data:26321 a cnluwv:Kernberoep;
+  skos:prefLabel "Wetenschappelijk onderzoekers sociale wetenschappen" .
+
+cnluwv-data:26322 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderzoekers kunst en cultuur" .
+
+cnluwv-data:26323 a cnluwv:Kernberoep;
+  skos:prefLabel "Wetenschappelijk onderzoekers communicatie" .
+
+cnluwv-data:26330 a cnluwv:Kernberoep;
+  skos:prefLabel "Filosofen, historici en politicologen" .
+
+cnluwv-data:26341 a cnluwv:Kernberoep;
+  skos:prefLabel "Psychologen en psychotherapeuten" .
+
+cnluwv-data:26342 a cnluwv:Kernberoep;
+  skos:prefLabel "Pedagogen" .
+
+cnluwv-data:26343 a cnluwv:Kernberoep;
+  skos:prefLabel "Psychologisch medewerkers" .
+
+cnluwv-data:26351 a cnluwv:Kernberoep;
+  skos:prefLabel "Maatschappelijk werkers" .
+
+cnluwv-data:26352 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden sociaal cultureel werk" .
+
+cnluwv-data:26353 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociaal raadslieden en mediators" .
+
+cnluwv-data:26360 a cnluwv:Kernberoep;
+  skos:prefLabel "Theologen" .
+
+cnluwv-data:26411 a cnluwv:Kernberoep;
+  skos:prefLabel "Auteurs en (technisch) schrijvers" .
+
+cnluwv-data:26412 a cnluwv:Kernberoep;
+  skos:prefLabel "Uitgevers" .
+
+cnluwv-data:26420 a cnluwv:Kernberoep;
+  skos:prefLabel "Journalisten en redacteurs" .
+
+cnluwv-data:26431 a cnluwv:Kernberoep;
+  skos:prefLabel "Tolken" .
+
+cnluwv-data:26432 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertalers" .
+
+cnluwv-data:26433 a cnluwv:Kernberoep;
+  skos:prefLabel "Linguïsten, taal- en letterkundigen" .
+
+cnluwv-data:26511 a cnluwv:Kernberoep;
+  skos:prefLabel "Kunstschilders en -tekenaars" .
+
+cnluwv-data:26512 a cnluwv:Kernberoep;
+  skos:prefLabel "Beeldhouwers, glas- en keramisch vormgevers" .
+
+cnluwv-data:26513 a cnluwv:Kernberoep;
+  skos:prefLabel "Multimediavormgevers" .
+
+cnluwv-data:26521 a cnluwv:Kernberoep;
+  skos:prefLabel "Musici" .
+
+cnluwv-data:26522 a cnluwv:Kernberoep;
+  skos:prefLabel "Artistiek leiders muziek" .
+
+cnluwv-data:26523 a cnluwv:Kernberoep;
+  skos:prefLabel "Componisten en arrangeurs" .
+
+cnluwv-data:26531 a cnluwv:Kernberoep;
+  skos:prefLabel "Dansers" .
+
+cnluwv-data:26532 a cnluwv:Kernberoep;
+  skos:prefLabel "Artistiek leiders dans" .
+
+cnluwv-data:26541 a cnluwv:Kernberoep;
+  skos:prefLabel "Productieleiders en producenten televisie, film en theater" .
+
+cnluwv-data:26542 a cnluwv:Kernberoep;
+  skos:prefLabel "Regisseurs televisie, film en theater" .
+
+cnluwv-data:26543 a cnluwv:Kernberoep;
+  skos:prefLabel "Vormgevers televisie, film en theater" .
+
+cnluwv-data:26544 a cnluwv:Kernberoep;
+  skos:prefLabel "Productieassistenten televisie, film en theater" .
+
+cnluwv-data:26550 a cnluwv:Kernberoep;
+  skos:prefLabel "Acteurs" .
+
+cnluwv-data:26560 a cnluwv:Kernberoep;
+  skos:prefLabel "Mediapresentatoren en omroepers" .
+
+cnluwv-data:26590 a cnluwv:Kernberoep;
+  skos:prefLabel "Entertainment artiesten" .
+
+cnluwv-data:31110 a cnluwv:Kernberoep;
+  skos:prefLabel "Chemisch en fysisch analisten" .
+
+cnluwv-data:31121 a cnluwv:Kernberoep;
+  skos:prefLabel "Bouwkundig inspecteurs, opzichters en adviseurs" .
+
+cnluwv-data:31122 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en adviseurs brandveiligheid" .
+
+cnluwv-data:31123 a cnluwv:Kernberoep;
+  skos:prefLabel "Technoloog bouwmaterialen" .
+
+cnluwv-data:31124 a cnluwv:Kernberoep;
+  skos:prefLabel "Bodemonderzoekers en analisten wegenbouwmateriaal" .
+
+cnluwv-data:31125 a cnluwv:Kernberoep;
+  skos:prefLabel "Opzichters en beheerders grond-, weg- en waterbouw" .
+
+cnluwv-data:31126 a cnluwv:Kernberoep;
+  skos:prefLabel "Landmeters" .
+
+cnluwv-data:31130 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs elektrische installaties" .
+
+cnluwv-data:31141 a cnluwv:Kernberoep;
+  skos:prefLabel "Constructeurs elektronica" .
+
+cnluwv-data:31142 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs meet- en regeltechniek en medische elektronica" .
+
+cnluwv-data:31150 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en toezichthouders gas en water" .
+
+cnluwv-data:31171 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en toezichthouders delfstoffenwinning" .
+
+cnluwv-data:31172 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en toezichthouders metallurgie" .
+
+cnluwv-data:31181 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars installatietechniek" .
+
+cnluwv-data:31182 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars werktuigbouw" .
+
+cnluwv-data:31183 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars bouwkunde" .
+
+cnluwv-data:31184 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars interieurs en meubels" .
+
+cnluwv-data:31185 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars elektrotechniek" .
+
+cnluwv-data:31186 a cnluwv:Kernberoep;
+  skos:prefLabel "Landmeetkundig en cartografisch tekenaars" .
+
+cnluwv-data:31187 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekenaars civiele techniek" .
+
+cnluwv-data:31190 a cnluwv:Kernberoep;
+  skos:prefLabel "Arbeids- en bewegingsanalisten" .
+
+cnluwv-data:31210 a cnluwv:Kernberoep;
+  skos:prefLabel "(Hoofd)boormeesters" .
+
+cnluwv-data:31221 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden energie- en waterleidingbedrijf" .
+
+cnluwv-data:31222 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden metaal- en overige industrie" .
+
+cnluwv-data:31223 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden proces- en levensmiddelenindustrie" .
+
+cnluwv-data:31224 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden transportmiddelenonderhoud" .
+
+cnluwv-data:31231 a cnluwv:Kernberoep;
+  skos:prefLabel "Uitvoerders bouw en installatietechniek" .
+
+cnluwv-data:31232 a cnluwv:Kernberoep;
+  skos:prefLabel "Uitvoerders grond-, weg- en waterbouw" .
+
+cnluwv-data:31310 a cnluwv:Kernberoep;
+  skos:prefLabel "Procesoperators elektriciteitscentrales" .
+
+cnluwv-data:31320 a cnluwv:Kernberoep;
+  skos:prefLabel "Operators en controleurs waterzuivering" .
+
+cnluwv-data:31330 a cnluwv:Kernberoep;
+  skos:prefLabel "(Hoofd)operators procesindustrie" .
+
+cnluwv-data:31350 a cnluwv:Kernberoep;
+  skos:prefLabel "Procesoperators hoogovens" .
+
+cnluwv-data:31390 a cnluwv:Kernberoep;
+  skos:prefLabel "Procesoperators n.e.g." .
+
+cnluwv-data:31410 a cnluwv:Kernberoep;
+  skos:prefLabel "Biochemisch, microbiologisch en botanisch analisten" .
+
+cnluwv-data:31420 a cnluwv:Kernberoep;
+  skos:prefLabel "Keurmeesters en selecteurs agrarische producten" .
+
+cnluwv-data:31430 a cnluwv:Kernberoep;
+  skos:prefLabel "Boswachters, bos- en natuurbeheerders" .
+
+cnluwv-data:31510 a cnluwv:Kernberoep;
+  skos:prefLabel "Scheepswerktuigkundigen" .
+
+cnluwv-data:31521 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden baggerwerk" .
+
+cnluwv-data:31522 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden binnenvaart" .
+
+cnluwv-data:31523 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden zeevaart" .
+
+cnluwv-data:31524 a cnluwv:Kernberoep;
+  skos:prefLabel "Loodsen" .
+
+cnluwv-data:31531 a cnluwv:Kernberoep;
+  skos:prefLabel "Piloten, vlieginstructeurs" .
+
+cnluwv-data:31532 a cnluwv:Kernberoep;
+  skos:prefLabel "Boordwerktuigkundigen" .
+
+cnluwv-data:31540 a cnluwv:Kernberoep;
+  skos:prefLabel "Luchtverkeersleiders" .
+
+cnluwv-data:32111 a cnluwv:Kernberoep;
+  skos:prefLabel "Laboranten medische diagnostiek en therapie" .
+
+cnluwv-data:32112 a cnluwv:Kernberoep;
+  skos:prefLabel "Hersen-, hart- en longfunctie laboranten en technici" .
+
+cnluwv-data:32120 a cnluwv:Kernberoep;
+  skos:prefLabel "Medisch en pathologisch analisten" .
+
+cnluwv-data:32130 a cnluwv:Kernberoep;
+  skos:prefLabel "Apothekersassistenten" .
+
+cnluwv-data:32141 a cnluwv:Kernberoep;
+  skos:prefLabel "Tand(prothese) technici" .
+
+cnluwv-data:32142 a cnluwv:Kernberoep;
+  skos:prefLabel "Orthopedisch (prothese) technici" .
+
+cnluwv-data:32143 a cnluwv:Kernberoep;
+  skos:prefLabel "Gipsverbandmeesters" .
+
+cnluwv-data:32210 a cnluwv:Kernberoep;
+  skos:prefLabel "Algemeen verpleegkundigen" .
+
+cnluwv-data:32220 a cnluwv:Kernberoep;
+  skos:prefLabel "Kraamverpleegkundigen" .
+
+cnluwv-data:32401 a cnluwv:Kernberoep;
+  skos:prefLabel "Dierenartsassistenten" .
+
+cnluwv-data:32402 a cnluwv:Kernberoep;
+  skos:prefLabel "Vee-inseminatoren en -verloskundigen" .
+
+cnluwv-data:32511 a cnluwv:Kernberoep;
+  skos:prefLabel "Mondhygiënisten" .
+
+cnluwv-data:32512 a cnluwv:Kernberoep;
+  skos:prefLabel "Tandartsassistenten" .
+
+cnluwv-data:32530 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers gezondheidsvoorlichting en -opvoeding" .
+
+cnluwv-data:32540 a cnluwv:Kernberoep;
+  skos:prefLabel "Opticiens" .
+
+cnluwv-data:32550 a cnluwv:Kernberoep;
+  skos:prefLabel "Masseurs en assistenten fysiotherapie" .
+
+cnluwv-data:32561 a cnluwv:Kernberoep;
+  skos:prefLabel "Doktersassistenten" .
+
+cnluwv-data:32562 a cnluwv:Kernberoep;
+  skos:prefLabel "Anesthesiemedewerkers en operatieassistenten" .
+
+cnluwv-data:32563 a cnluwv:Kernberoep;
+  skos:prefLabel "Oogheelkundig assistenten" .
+
+cnluwv-data:32571 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs arbeid en gezondheid, veiligheidskundigen" .
+
+cnluwv-data:32572 a cnluwv:Kernberoep;
+  skos:prefLabel "Keurmeesters en controleurs voeding" .
+
+cnluwv-data:32573 a cnluwv:Kernberoep;
+  skos:prefLabel "Milieu-inspecteurs" .
+
+cnluwv-data:32580 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambulancechauffeurs en -verpleegkundigen" .
+
+cnluwv-data:33110 a cnluwv:Kernberoep;
+  skos:prefLabel "Effecten- en valutahandelaren en -makelaars" .
+
+cnluwv-data:33120 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs hypotheken, kredieten en subsidies" .
+
+cnluwv-data:33131 a cnluwv:Kernberoep;
+  skos:prefLabel "AA- en assistent accountants" .
+
+cnluwv-data:33132 a cnluwv:Kernberoep;
+  skos:prefLabel "Assistent controllers" .
+
+cnluwv-data:33133 a cnluwv:Kernberoep;
+  skos:prefLabel "Boekhouders en financieel administrateurs" .
+
+cnluwv-data:33140 a cnluwv:Kernberoep;
+  skos:prefLabel "Data analisten en actuarieel rekenaars" .
+
+cnluwv-data:33151 a cnluwv:Kernberoep;
+  skos:prefLabel "Schadebehandelaars en -experts" .
+
+cnluwv-data:33152 a cnluwv:Kernberoep;
+  skos:prefLabel "Taxateurs" .
+
+cnluwv-data:33210 a cnluwv:Kernberoep;
+  skos:prefLabel "Assurantieadviseurs en acceptanten verzekeringsmaatschappij" .
+
+cnluwv-data:33221 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden export" .
+
+cnluwv-data:33222 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers consumptiegoederen" .
+
+cnluwv-data:33223 a cnluwv:Kernberoep;
+  skos:prefLabel "Vertegenwoordigers en accountmanagers zakelijke diensten" .
+
+cnluwv-data:33231 a cnluwv:Kernberoep;
+  skos:prefLabel "Inkopers" .
+
+cnluwv-data:33232 a cnluwv:Kernberoep;
+  skos:prefLabel "Assistent inkopers" .
+
+cnluwv-data:33241 a cnluwv:Kernberoep;
+  skos:prefLabel "Importeurs en handelsagenten" .
+
+cnluwv-data:33242 a cnluwv:Kernberoep;
+  skos:prefLabel "Makelaars roerende goederen" .
+
+cnluwv-data:33310 a cnluwv:Kernberoep;
+  skos:prefLabel "Declaranten, expediteurs en exportmedewerkers" .
+
+cnluwv-data:33321 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden banqueting" .
+
+cnluwv-data:33322 a cnluwv:Kernberoep;
+  skos:prefLabel "Organisatoren van conferenties en evenementen" .
+
+cnluwv-data:33331 a cnluwv:Kernberoep;
+  skos:prefLabel "Reïntegratie- en outplacementdeskundigen" .
+
+cnluwv-data:33332 a cnluwv:Kernberoep;
+  skos:prefLabel "Arbeidsbemiddelaars overheid" .
+
+cnluwv-data:33333 a cnluwv:Kernberoep;
+  skos:prefLabel "Intercedenten en intermediairs" .
+
+cnluwv-data:33334 a cnluwv:Kernberoep;
+  skos:prefLabel "Bemiddelingsmedewerkers gastouderopvang" .
+
+cnluwv-data:33341 a cnluwv:Kernberoep;
+  skos:prefLabel "Makelaars onroerend goed" .
+
+cnluwv-data:33342 a cnluwv:Kernberoep;
+  skos:prefLabel "Vastgoedmanagers en -beheerders" .
+
+cnluwv-data:33343 a cnluwv:Kernberoep;
+  skos:prefLabel "Kopersbegeleiders bouw" .
+
+cnluwv-data:33391 a cnluwv:Kernberoep;
+  skos:prefLabel "Veilinghouders en -meesters" .
+
+cnluwv-data:33392 a cnluwv:Kernberoep;
+  skos:prefLabel "Theater- en muziekprogrammeurs, artiestenmakelaars" .
+
+cnluwv-data:33393 a cnluwv:Kernberoep;
+  skos:prefLabel "Acquisiteurs zakelijke diensten" .
+
+cnluwv-data:33411 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders/supervisors contactcenter" .
+
+cnluwv-data:33412 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders klantenservice en alarmcentrale" .
+
+cnluwv-data:33413 a cnluwv:Kernberoep;
+  skos:prefLabel "Office managers" .
+
+cnluwv-data:33420 a cnluwv:Kernberoep;
+  skos:prefLabel "Juridisch secretaressen" .
+
+cnluwv-data:33431 a cnluwv:Kernberoep;
+  skos:prefLabel "Directie- en internationaal secretaressen, projectassistenten" .
+
+cnluwv-data:33432 a cnluwv:Kernberoep;
+  skos:prefLabel "Secretarissen vereniging, medezeggenschap" .
+
+cnluwv-data:33440 a cnluwv:Kernberoep;
+  skos:prefLabel "Medisch secretaressen" .
+
+cnluwv-data:33510 a cnluwv:Kernberoep;
+  skos:prefLabel "Douane-inspecteurs en grensbewakers" .
+
+cnluwv-data:33521 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en leidinggevenden belastingen" .
+
+cnluwv-data:33522 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers belastingen en accijnzen" .
+
+cnluwv-data:33531 a cnluwv:Kernberoep;
+  skos:prefLabel "Adviseurs en consulenten werk en inkomen (overheid)" .
+
+cnluwv-data:33532 a cnluwv:Kernberoep;
+  skos:prefLabel "Budgetconsulenten" .
+
+cnluwv-data:33533 a cnluwv:Kernberoep;
+  skos:prefLabel "Bewindvoerders" .
+
+cnluwv-data:33534 a cnluwv:Kernberoep;
+  skos:prefLabel "Consulenten WMO en aanvullende sociale voorzieningen" .
+
+cnluwv-data:33535 a cnluwv:Kernberoep;
+  skos:prefLabel "Controleurs en opsporingsambtenaren sociale verzekeringen" .
+
+cnluwv-data:33536 a cnluwv:Kernberoep;
+  skos:prefLabel "Claimbeoordelaars sociale verzekeringen" .
+
+cnluwv-data:33540 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambtenaren burgerzaken en vergunningen" .
+
+cnluwv-data:33550 a cnluwv:Kernberoep;
+  skos:prefLabel "Politie-inspecteurs en rechercheurs" .
+
+cnluwv-data:33591 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en controleurs landbouw en visserij" .
+
+cnluwv-data:33592 a cnluwv:Kernberoep;
+  skos:prefLabel "Beheerders groen-, sport- en recreatievoorzieningen" .
+
+cnluwv-data:33593 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs en controleurs vervoer" .
+
+cnluwv-data:33594 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspecteurs van overheidsinstellingen/ijkwezen" .
+
+cnluwv-data:34111 a cnluwv:Kernberoep;
+  skos:prefLabel "Administratief-juridisch medewerkers" .
+
+cnluwv-data:34112 a cnluwv:Kernberoep;
+  skos:prefLabel "Notarieel en juridisch assistenten" .
+
+cnluwv-data:34113 a cnluwv:Kernberoep;
+  skos:prefLabel "Deurwaarders" .
+
+cnluwv-data:34121 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociaal-cultureel werkers" .
+
+cnluwv-data:34122 a cnluwv:Kernberoep;
+  skos:prefLabel "Groeps- en woonbegeleiders" .
+
+cnluwv-data:34123 a cnluwv:Kernberoep;
+  skos:prefLabel "Sociotherapeuten" .
+
+cnluwv-data:34124 a cnluwv:Kernberoep;
+  skos:prefLabel "Coördinatoren groeps- en woonbegeleiders" .
+
+cnluwv-data:34125 a cnluwv:Kernberoep;
+  skos:prefLabel "Activiteitenbegeleiders" .
+
+cnluwv-data:34127 a cnluwv:Kernberoep;
+  skos:prefLabel "Wijkmanagers en adviseurs woondiensten" .
+
+cnluwv-data:34128 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkleiders sociale werkvoorziening" .
+
+cnluwv-data:34130 a cnluwv:Kernberoep;
+  skos:prefLabel "Pastoraal werkers" .
+
+cnluwv-data:34210 a cnluwv:Kernberoep;
+  skos:prefLabel "Beroepssporters" .
+
+cnluwv-data:34220 a cnluwv:Kernberoep;
+  skos:prefLabel "Sporttrainers en zweminstructeurs" .
+
+cnluwv-data:34230 a cnluwv:Kernberoep;
+  skos:prefLabel "Fitnessinstructeurs en recreatiebegeleiders" .
+
+cnluwv-data:34310 a cnluwv:Kernberoep;
+  skos:prefLabel "Fotografen" .
+
+cnluwv-data:34321 a cnluwv:Kernberoep;
+  skos:prefLabel "Interieur- en decorontwerpers" .
+
+cnluwv-data:34322 a cnluwv:Kernberoep;
+  skos:prefLabel "Etaleurs en decorateurs" .
+
+cnluwv-data:34330 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers museumbeheer" .
+
+cnluwv-data:34341 a cnluwv:Kernberoep;
+  skos:prefLabel "Chef-koks restaurant" .
+
+cnluwv-data:34342 a cnluwv:Kernberoep;
+  skos:prefLabel "Chef-koks instelling" .
+
+cnluwv-data:34351 a cnluwv:Kernberoep;
+  skos:prefLabel "Regieassistenten" .
+
+cnluwv-data:34352 a cnluwv:Kernberoep;
+  skos:prefLabel "Inspiciënten en belichtingstechnici" .
+
+cnluwv-data:34353 a cnluwv:Kernberoep;
+  skos:prefLabel "Rekwisiteurs en setdressers" .
+
+cnluwv-data:34354 a cnluwv:Kernberoep;
+  skos:prefLabel "Acteursondersteuners" .
+
+cnluwv-data:35110 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakspecialisten ICT (hardware)" .
+
+cnluwv-data:35121 a cnluwv:Kernberoep;
+  skos:prefLabel "ICT-werkplekbeheerders" .
+
+cnluwv-data:35122 a cnluwv:Kernberoep;
+  skos:prefLabel "ICT-servicedeskmedewerkers" .
+
+cnluwv-data:35130 a cnluwv:Kernberoep;
+  skos:prefLabel "Netwerkbeheerders" .
+
+cnluwv-data:35140 a cnluwv:Kernberoep;
+  skos:prefLabel "Webmasters" .
+
+cnluwv-data:35211 a cnluwv:Kernberoep;
+  skos:prefLabel "Beeld-, geluid en uitzendtechnici" .
+
+cnluwv-data:35212 a cnluwv:Kernberoep;
+  skos:prefLabel "Audiovisueel technici" .
+
+cnluwv-data:41100 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondersteunende secretariële medewerkers" .
+
+cnluwv-data:41200 a cnluwv:Kernberoep;
+  skos:prefLabel "Secretaresses algemeen" .
+
+cnluwv-data:41310 a cnluwv:Kernberoep;
+  skos:prefLabel "Typisten en notulisten" .
+
+cnluwv-data:41320 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers data-invoer" .
+
+cnluwv-data:42111 a cnluwv:Kernberoep;
+  skos:prefLabel "Baliemedewerkers bank en postagentschappen" .
+
+cnluwv-data:42112 a cnluwv:Kernberoep;
+  skos:prefLabel "Kassiers" .
+
+cnluwv-data:42120 a cnluwv:Kernberoep;
+  skos:prefLabel "Croupiers en bookmakers" .
+
+cnluwv-data:42140 a cnluwv:Kernberoep;
+  skos:prefLabel "Incassomedewerkers" .
+
+cnluwv-data:42210 a cnluwv:Kernberoep;
+  skos:prefLabel "Reisadviseurs en reisbureaumedewerkers" .
+
+cnluwv-data:42221 a cnluwv:Kernberoep;
+  skos:prefLabel "Klantcontactmedewerkers-inbound" .
+
+cnluwv-data:42222 a cnluwv:Kernberoep;
+  skos:prefLabel "Meldkamermedewerkers" .
+
+cnluwv-data:42230 a cnluwv:Kernberoep;
+  skos:prefLabel "Telefonisten en telegrafisten" .
+
+cnluwv-data:42240 a cnluwv:Kernberoep;
+  skos:prefLabel "Hotelreceptionisten" .
+
+cnluwv-data:42250 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers klantenservice" .
+
+cnluwv-data:42260 a cnluwv:Kernberoep;
+  skos:prefLabel "Receptionisten (excl. hotel)" .
+
+cnluwv-data:42270 a cnluwv:Kernberoep;
+  skos:prefLabel "Enquêteurs en interviewers" .
+
+cnluwv-data:43110 a cnluwv:Kernberoep;
+  skos:prefLabel "Financieel-administratief medewerkers" .
+
+cnluwv-data:43121 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers verzekeringsadministratie en documentcontrole" .
+
+cnluwv-data:43122 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers uitkeringen (sociale verzekeringen)" .
+
+cnluwv-data:43130 a cnluwv:Kernberoep;
+  skos:prefLabel "Salarisadministrateurs" .
+
+cnluwv-data:43211 a cnluwv:Kernberoep;
+  skos:prefLabel "Logistiek medewerkers en voorraadbeheerders" .
+
+cnluwv-data:43212 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden magazijn" .
+
+cnluwv-data:43221 a cnluwv:Kernberoep;
+  skos:prefLabel "Productieplanners" .
+
+cnluwv-data:43222 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders en calculatoren bouw en installatietechniek" .
+
+cnluwv-data:43223 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders en calculatoren cultuurtechniek" .
+
+cnluwv-data:43224 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders en calculatoren elektrotechniek" .
+
+cnluwv-data:43225 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders en calculatoren grond-, weg- en waterbouw" .
+
+cnluwv-data:43226 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders en calculatoren werktuigbouw" .
+
+cnluwv-data:43227 a cnluwv:Kernberoep;
+  skos:prefLabel "Werkvoorbereiders interieur- en meubelbouw" .
+
+cnluwv-data:43228 a cnluwv:Kernberoep;
+  skos:prefLabel "Order- en productiebegeleiders" .
+
+cnluwv-data:43229 a cnluwv:Kernberoep;
+  skos:prefLabel "Calculatoren procestechniek" .
+
+cnluwv-data:43231 a cnluwv:Kernberoep;
+  skos:prefLabel "Transportplanners" .
+
+cnluwv-data:43232 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden opslag en transport" .
+
+cnluwv-data:43233 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkeersleiders" .
+
+cnluwv-data:44110 a cnluwv:Kernberoep;
+  skos:prefLabel "Bibliotheekmedewerkers" .
+
+cnluwv-data:44120 a cnluwv:Kernberoep;
+  skos:prefLabel "Postbezorgers en -sorteerders, medewerkers postkamer" .
+
+cnluwv-data:44130 a cnluwv:Kernberoep;
+  skos:prefLabel "Tekstcorrectors" .
+
+cnluwv-data:44150 a cnluwv:Kernberoep;
+  skos:prefLabel "Archiefmedewerkers" .
+
+cnluwv-data:44161 a cnluwv:Kernberoep;
+  skos:prefLabel "Roostermakers en personeelsplanners" .
+
+cnluwv-data:44162 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers personeelsadministratie" .
+
+cnluwv-data:44190 a cnluwv:Kernberoep;
+  skos:prefLabel "Correspondenten" .
+
+cnluwv-data:51111 a cnluwv:Kernberoep;
+  skos:prefLabel "Stewards luchtvaart (grond, cabine)" .
+
+cnluwv-data:51112 a cnluwv:Kernberoep;
+  skos:prefLabel "Stewards bus, trein, schip" .
+
+cnluwv-data:51120 a cnluwv:Kernberoep;
+  skos:prefLabel "Conducteurs en stationchefs" .
+
+cnluwv-data:51130 a cnluwv:Kernberoep;
+  skos:prefLabel "Reisleiders en gidsen" .
+
+cnluwv-data:51201 a cnluwv:Kernberoep;
+  skos:prefLabel "Zelfstandig werkende restaurantkoks" .
+
+cnluwv-data:51202 a cnluwv:Kernberoep;
+  skos:prefLabel "Basiskoks restaurant" .
+
+cnluwv-data:51203 a cnluwv:Kernberoep;
+  skos:prefLabel "Koks speciaalkeukens restaurant" .
+
+cnluwv-data:51204 a cnluwv:Kernberoep;
+  skos:prefLabel "Instellingskoks" .
+
+cnluwv-data:51311 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers bediening horeca" .
+
+cnluwv-data:51312 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden bediening horeca" .
+
+cnluwv-data:51313 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers banqueting" .
+
+cnluwv-data:51320 a cnluwv:Kernberoep;
+  skos:prefLabel "Barpersoneel" .
+
+cnluwv-data:51411 a cnluwv:Kernberoep;
+  skos:prefLabel "Leerling kappers" .
+
+cnluwv-data:51412 a cnluwv:Kernberoep;
+  skos:prefLabel "Kappers" .
+
+cnluwv-data:51413 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondernemers en bedrijfsleiders kapperszaak" .
+
+cnluwv-data:51421 a cnluwv:Kernberoep;
+  skos:prefLabel "(Medisch) pedicures" .
+
+cnluwv-data:51422 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoonheidsspecialisten" .
+
+cnluwv-data:51423 a cnluwv:Kernberoep;
+  skos:prefLabel "Manicures" .
+
+cnluwv-data:51424 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondernemers en bedrijfsleiders schoonheidssalons" .
+
+cnluwv-data:51425 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers sauna en zonnebank" .
+
+cnluwv-data:51426 a cnluwv:Kernberoep;
+  skos:prefLabel "Afslankconsulenten en adviseurs lifestyle" .
+
+cnluwv-data:51510 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders en voormannen schoonmaak" .
+
+cnluwv-data:51520 a cnluwv:Kernberoep;
+  skos:prefLabel "Butlers en pensionhouders" .
+
+cnluwv-data:51530 a cnluwv:Kernberoep;
+  skos:prefLabel "Conciërges" .
+
+cnluwv-data:51610 a cnluwv:Kernberoep;
+  skos:prefLabel "Astrologen, waarzeggers" .
+
+cnluwv-data:51631 a cnluwv:Kernberoep;
+  skos:prefLabel "Uitvaart- en mortuariummedewerkers" .
+
+cnluwv-data:51632 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondernemers en bedrijfsleiders uitvaartcentrum" .
+
+cnluwv-data:51633 a cnluwv:Kernberoep;
+  skos:prefLabel "Dieren-begraafplaatsmedewerkers en -preparateurs" .
+
+cnluwv-data:51641 a cnluwv:Kernberoep;
+  skos:prefLabel "Dierenverzorgers" .
+
+cnluwv-data:51642 a cnluwv:Kernberoep;
+  skos:prefLabel "Dierentrainers en -gedragstherapeuten" .
+
+cnluwv-data:51643 a cnluwv:Kernberoep;
+  skos:prefLabel "Ondernemers en bedrijfsleiders dierenverzorging" .
+
+cnluwv-data:51650 a cnluwv:Kernberoep;
+  skos:prefLabel "Rij-instructeurs" .
+
+cnluwv-data:51690 a cnluwv:Kernberoep;
+  skos:prefLabel "Verleners van persoonlijke diensten n.e.g." .
+
+cnluwv-data:52110 a cnluwv:Kernberoep;
+  skos:prefLabel "Markt- en kioskverkopers" .
+
+cnluwv-data:52211 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders supermarkten, voedingsspeciaalzaken" .
+
+cnluwv-data:52212 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders mode" .
+
+cnluwv-data:52213 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders doe-het-zelf" .
+
+cnluwv-data:52214 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders elektronica" .
+
+cnluwv-data:52215 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders huishoudelijke artikelen, speelgoed" .
+
+cnluwv-data:52216 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders woninginrichting" .
+
+cnluwv-data:52217 a cnluwv:Kernberoep;
+  skos:prefLabel "Winkeliers en bedrijfsleiders nonfood (overig)" .
+
+cnluwv-data:52221 a cnluwv:Kernberoep;
+  skos:prefLabel "(Afdelings)managers en bedrijfsleiders supermarkt" .
+
+cnluwv-data:52222 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel mode" .
+
+cnluwv-data:52223 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel doe-het-zelf" .
+
+cnluwv-data:52224 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel elektronica" .
+
+cnluwv-data:52225 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel huishoudelijke artikelen, speelgoed" .
+
+cnluwv-data:52226 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel woninginrichting" .
+
+cnluwv-data:52227 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders detailhandel nonfood (overig)" .
+
+cnluwv-data:52231 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers food" .
+
+cnluwv-data:52232 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers mode" .
+
+cnluwv-data:52233 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers doe-het-zelf" .
+
+cnluwv-data:52234 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers elektronica" .
+
+cnluwv-data:52235 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers huishoudelijke artikelen, speelgoed" .
+
+cnluwv-data:52236 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers woninginrichting" .
+
+cnluwv-data:52237 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers nonfood (overig)" .
+
+cnluwv-data:52300 a cnluwv:Kernberoep;
+  skos:prefLabel "Kassamedewerkers en kaartverkopers" .
+
+cnluwv-data:52410 a cnluwv:Kernberoep;
+  skos:prefLabel "Mannequins en modellen" .
+
+cnluwv-data:52420 a cnluwv:Kernberoep;
+  skos:prefLabel "Demonstrateurs" .
+
+cnluwv-data:52430 a cnluwv:Kernberoep;
+  skos:prefLabel "Huis-aan-huis verkopers" .
+
+cnluwv-data:52441 a cnluwv:Kernberoep;
+  skos:prefLabel "Klantcontactmedewerkers-outbound" .
+
+cnluwv-data:52442 a cnluwv:Kernberoep;
+  skos:prefLabel "Commercieel medewerkers binnendienst" .
+
+cnluwv-data:52450 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkoopmedewerkers tankstation" .
+
+cnluwv-data:52461 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers bedrijfsrestaurant en horecabuffetten" .
+
+cnluwv-data:52462 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers fastfoodrestaurants en snackbars" .
+
+cnluwv-data:52490 a cnluwv:Kernberoep;
+  skos:prefLabel "Verhuurmedewerkers" .
+
+cnluwv-data:53110 a cnluwv:Kernberoep;
+  skos:prefLabel "(Pedagogisch) medewerkers kinderopvang" .
+
+cnluwv-data:53121 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderwijsassistenten basisonderwijs" .
+
+cnluwv-data:53122 a cnluwv:Kernberoep;
+  skos:prefLabel "(Technisch) onderwijsassistenten vo/mbo" .
+
+cnluwv-data:53123 a cnluwv:Kernberoep;
+  skos:prefLabel "Huiswerkbegeleiders" .
+
+cnluwv-data:53211 a cnluwv:Kernberoep;
+  skos:prefLabel "Verzorgenden (instelling)" .
+
+cnluwv-data:53212 a cnluwv:Kernberoep;
+  skos:prefLabel "Verzorgenden IG" .
+
+cnluwv-data:53213 a cnluwv:Kernberoep;
+  skos:prefLabel "Helpenden (instelling)" .
+
+cnluwv-data:53214 a cnluwv:Kernberoep;
+  skos:prefLabel "Zorghulpen en -assistenten (instelling)" .
+
+cnluwv-data:53215 a cnluwv:Kernberoep;
+  skos:prefLabel "Assistenten groeps- en woonbegeleiders" .
+
+cnluwv-data:53221 a cnluwv:Kernberoep;
+  skos:prefLabel "Verzorgenden (thuiszorg)" .
+
+cnluwv-data:53222 a cnluwv:Kernberoep;
+  skos:prefLabel "Helpenden (thuiszorg)" .
+
+cnluwv-data:53223 a cnluwv:Kernberoep;
+  skos:prefLabel "Zorghulpen en -assistenten (thuiszorg)" .
+
+cnluwv-data:53224 a cnluwv:Kernberoep;
+  skos:prefLabel "Teamleiders thuis- en kraamzorg" .
+
+cnluwv-data:53290 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers sterilisatie gezondheidszorg" .
+
+cnluwv-data:54111 a cnluwv:Kernberoep;
+  skos:prefLabel "Brandweerlieden en (bedrijfs)brandwachten" .
+
+cnluwv-data:54112 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden brandweer en (bedrijfs)brandwachten" .
+
+cnluwv-data:54120 a cnluwv:Kernberoep;
+  skos:prefLabel "Politieagenten" .
+
+cnluwv-data:54131 a cnluwv:Kernberoep;
+  skos:prefLabel "Penitentiaire inrichtingswerkers" .
+
+cnluwv-data:54132 a cnluwv:Kernberoep;
+  skos:prefLabel "(Complex)beveiligers penitentiaire inrichting" .
+
+cnluwv-data:54141 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambulante beveiligers en handhavers openbare ruimte (BOA's)" .
+
+cnluwv-data:54142 a cnluwv:Kernberoep;
+  skos:prefLabel "Horecaportiers en suppoosten" .
+
+cnluwv-data:54143 a cnluwv:Kernberoep;
+  skos:prefLabel "Objectbeveiligers" .
+
+cnluwv-data:54191 a cnluwv:Kernberoep;
+  skos:prefLabel "Parkeercontroleurs, toezichthouders zwembad/strand, beveiligingsmedewerkers n.e.g." .
+
+cnluwv-data:54192 a cnluwv:Kernberoep;
+  skos:prefLabel "Verkeersregelaars" .
+
+cnluwv-data:61111 a cnluwv:Kernberoep;
+  skos:prefLabel "Groentekwekers" .
+
+cnluwv-data:61112 a cnluwv:Kernberoep;
+  skos:prefLabel "Akkerbouwers" .
+
+cnluwv-data:61121 a cnluwv:Kernberoep;
+  skos:prefLabel "Fruitkwekers" .
+
+cnluwv-data:61122 a cnluwv:Kernberoep;
+  skos:prefLabel "Boomkwekers" .
+
+cnluwv-data:61131 a cnluwv:Kernberoep;
+  skos:prefLabel "Bloemen- en plantentelers" .
+
+cnluwv-data:61132 a cnluwv:Kernberoep;
+  skos:prefLabel "Paddenstoelenkwekers" .
+
+cnluwv-data:61133 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers zaadteelt en plantenveredeling" .
+
+cnluwv-data:61134 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers hoveniersbedrijf en groenonderhoud" .
+
+cnluwv-data:61135 a cnluwv:Kernberoep;
+  skos:prefLabel "Hoveniers en hoofden groenonderhoud" .
+
+cnluwv-data:61211 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers dier- en veehouderij" .
+
+cnluwv-data:61212 a cnluwv:Kernberoep;
+  skos:prefLabel "Dier- en veehouders" .
+
+cnluwv-data:61220 a cnluwv:Kernberoep;
+  skos:prefLabel "Pluimveehouders" .
+
+cnluwv-data:61230 a cnluwv:Kernberoep;
+  skos:prefLabel "Imkers, insecten- en wormentelers" .
+
+cnluwv-data:61290 a cnluwv:Kernberoep;
+  skos:prefLabel "Vogel- en pelsdierenhouders" .
+
+cnluwv-data:61300 a cnluwv:Kernberoep;
+  skos:prefLabel "Agrariërs gemengd bedrijf" .
+
+cnluwv-data:62100 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers bos- en natuurbeheer" .
+
+cnluwv-data:62210 a cnluwv:Kernberoep;
+  skos:prefLabel "Kwekers vis en schaaldieren" .
+
+cnluwv-data:62220 a cnluwv:Kernberoep;
+  skos:prefLabel "Vissers (binnen- en kustwateren)" .
+
+cnluwv-data:62230 a cnluwv:Kernberoep;
+  skos:prefLabel "Vissers (volle zee)" .
+
+cnluwv-data:71110 a cnluwv:Kernberoep;
+  skos:prefLabel "Kleine bouwaannemers" .
+
+cnluwv-data:71121 a cnluwv:Kernberoep;
+  skos:prefLabel "Metselaars" .
+
+cnluwv-data:71122 a cnluwv:Kernberoep;
+  skos:prefLabel "Stratenmakers" .
+
+cnluwv-data:71130 a cnluwv:Kernberoep;
+  skos:prefLabel "Steenhouwers en -bewerkers" .
+
+cnluwv-data:71140 a cnluwv:Kernberoep;
+  skos:prefLabel "Betonwerkers" .
+
+cnluwv-data:71151 a cnluwv:Kernberoep;
+  skos:prefLabel "Timmerlieden bouw en beton" .
+
+cnluwv-data:71152 a cnluwv:Kernberoep;
+  skos:prefLabel "Timmerlieden werkplaats en interieur" .
+
+cnluwv-data:71153 a cnluwv:Kernberoep;
+  skos:prefLabel "Scheeps- en jachtbouwers hout, kunststof" .
+
+cnluwv-data:71191 a cnluwv:Kernberoep;
+  skos:prefLabel "Steigerbouwers" .
+
+cnluwv-data:71192 a cnluwv:Kernberoep;
+  skos:prefLabel "Slopers bouw en asbestverwijderaars" .
+
+cnluwv-data:71193 a cnluwv:Kernberoep;
+  skos:prefLabel "Onderhoudsmedewerkers gebouwen" .
+
+cnluwv-data:71210 a cnluwv:Kernberoep;
+  skos:prefLabel "Dakdekkers" .
+
+cnluwv-data:71221 a cnluwv:Kernberoep;
+  skos:prefLabel "Woninginrichters en vloerenleggers" .
+
+cnluwv-data:71222 a cnluwv:Kernberoep;
+  skos:prefLabel "Tegelzetters en kitters" .
+
+cnluwv-data:71230 a cnluwv:Kernberoep;
+  skos:prefLabel "Stukadoors" .
+
+cnluwv-data:71240 a cnluwv:Kernberoep;
+  skos:prefLabel "Isoleerders" .
+
+cnluwv-data:71250 a cnluwv:Kernberoep;
+  skos:prefLabel "Glaszetters" .
+
+cnluwv-data:71261 a cnluwv:Kernberoep;
+  skos:prefLabel "Loodgieters, installateurs gawalo" .
+
+cnluwv-data:71262 a cnluwv:Kernberoep;
+  skos:prefLabel "Pijpfitters" .
+
+cnluwv-data:71263 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs en installateurs centrale verwarming" .
+
+cnluwv-data:71264 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs en leidingleggers gas, water" .
+
+cnluwv-data:71265 a cnluwv:Kernberoep;
+  skos:prefLabel "Rioleringsmedewerkers" .
+
+cnluwv-data:71270 a cnluwv:Kernberoep;
+  skos:prefLabel "Installateurs en monteurs luchtbehandeling, koeltechniek" .
+
+cnluwv-data:71310 a cnluwv:Kernberoep;
+  skos:prefLabel "Schilders en behangers" .
+
+cnluwv-data:71321 a cnluwv:Kernberoep;
+  skos:prefLabel "Autospuiters" .
+
+cnluwv-data:71322 a cnluwv:Kernberoep;
+  skos:prefLabel "Verf- en lakspuiters" .
+
+cnluwv-data:71330 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoorsteenvegers en gevelreinigers" .
+
+cnluwv-data:72110 a cnluwv:Kernberoep;
+  skos:prefLabel "Gietmodel- en kernmakers" .
+
+cnluwv-data:72121 a cnluwv:Kernberoep;
+  skos:prefLabel "Lassers" .
+
+cnluwv-data:72122 a cnluwv:Kernberoep;
+  skos:prefLabel "Gespecialiseerd lassers, operators lasrobot" .
+
+cnluwv-data:72131 a cnluwv:Kernberoep;
+  skos:prefLabel "Plaatwerkers (generiek)" .
+
+cnluwv-data:72132 a cnluwv:Kernberoep;
+  skos:prefLabel "Autoschadeherstellers" .
+
+cnluwv-data:72133 a cnluwv:Kernberoep;
+  skos:prefLabel "Plaatwerkers (deelbewerking)" .
+
+cnluwv-data:72141 a cnluwv:Kernberoep;
+  skos:prefLabel "Constructiebankwerkers" .
+
+cnluwv-data:72142 a cnluwv:Kernberoep;
+  skos:prefLabel "Constructiemedewerkers en carrosseriebouwers" .
+
+cnluwv-data:72143 a cnluwv:Kernberoep;
+  skos:prefLabel "Scheeps- en jachtbouwers metaal" .
+
+cnluwv-data:72150 a cnluwv:Kernberoep;
+  skos:prefLabel "Riggers, takelaars en kabelsplitsers" .
+
+cnluwv-data:72210 a cnluwv:Kernberoep;
+  skos:prefLabel "Smeden" .
+
+cnluwv-data:72220 a cnluwv:Kernberoep;
+  skos:prefLabel "Gereedschapsmakers" .
+
+cnluwv-data:72231 a cnluwv:Kernberoep;
+  skos:prefLabel "Conventioneel verspaners en machinebankwerkers" .
+
+cnluwv-data:72232 a cnluwv:Kernberoep;
+  skos:prefLabel "CNC-verspaners (inclusief programmeren)" .
+
+cnluwv-data:72233 a cnluwv:Kernberoep;
+  skos:prefLabel "CNC-machinebedieners" .
+
+cnluwv-data:72240 a cnluwv:Kernberoep;
+  skos:prefLabel "Metaalslijpers en -polijsters" .
+
+cnluwv-data:72311 a cnluwv:Kernberoep;
+  skos:prefLabel "Automonteurs (personen- en bedrijfswagens)" .
+
+cnluwv-data:72312 a cnluwv:Kernberoep;
+  skos:prefLabel "Revisiemotortechnici auto's" .
+
+cnluwv-data:72320 a cnluwv:Kernberoep;
+  skos:prefLabel "Vliegtuigmonteurs (mechanisch)" .
+
+cnluwv-data:72331 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs industriële machines en installaties" .
+
+cnluwv-data:72332 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs mobiele werktuigen (incl. landbouwmachines)" .
+
+cnluwv-data:72333 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs treinmaterieel (elektro-mechanisch)" .
+
+cnluwv-data:72340 a cnluwv:Kernberoep;
+  skos:prefLabel "Rijwielmonteurs" .
+
+cnluwv-data:73110 a cnluwv:Kernberoep;
+  skos:prefLabel "Fijninstrumentmakers en fijnmechanici" .
+
+cnluwv-data:73120 a cnluwv:Kernberoep;
+  skos:prefLabel "Muziekinstrumentenmakers en -reparateurs" .
+
+cnluwv-data:73131 a cnluwv:Kernberoep;
+  skos:prefLabel "Edelsmeden" .
+
+cnluwv-data:73132 a cnluwv:Kernberoep;
+  skos:prefLabel "Diamant-, edelsteen- en edelmetaalbewerkers" .
+
+cnluwv-data:73140 a cnluwv:Kernberoep;
+  skos:prefLabel "Pottenbakkers en keramisch modelleurs" .
+
+cnluwv-data:73150 a cnluwv:Kernberoep;
+  skos:prefLabel "Glasblazers, -slijpers, -etsers" .
+
+cnluwv-data:73161 a cnluwv:Kernberoep;
+  skos:prefLabel "Graveurs" .
+
+cnluwv-data:73162 a cnluwv:Kernberoep;
+  skos:prefLabel "Letter- en decoratieschilders" .
+
+cnluwv-data:73170 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambachtelijk hout- en vlechtwerkbewerkers" .
+
+cnluwv-data:73180 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambachtelijk textielbewerkers" .
+
+cnluwv-data:73210 a cnluwv:Kernberoep;
+  skos:prefLabel "Drukwerkvoorbereiders" .
+
+cnluwv-data:73221 a cnluwv:Kernberoep;
+  skos:prefLabel "Drukkers" .
+
+cnluwv-data:73222 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers kopieer- en printbedrijf" .
+
+cnluwv-data:73231 a cnluwv:Kernberoep;
+  skos:prefLabel "Grafisch assistenten, nabewerkers en binderijmedewerkers" .
+
+cnluwv-data:73232 a cnluwv:Kernberoep;
+  skos:prefLabel "Boekbinders en -restaurateurs" .
+
+cnluwv-data:74111 a cnluwv:Kernberoep;
+  skos:prefLabel "Elektriciens, installateurs en monteurs elektrische installaties" .
+
+cnluwv-data:74112 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs beveiligingsinstallaties" .
+
+cnluwv-data:74113 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers technische dienst (elektrotechnisch)" .
+
+cnluwv-data:74121 a cnluwv:Kernberoep;
+  skos:prefLabel "Elektromonteurs schepen, treinen en infrastructuur" .
+
+cnluwv-data:74122 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs witgoed" .
+
+cnluwv-data:74123 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs lifttechniek en elektromotoren" .
+
+cnluwv-data:74130 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs laag-, midden- en hoogspanning" .
+
+cnluwv-data:74211 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs consumentenelektronica en kantoormachines" .
+
+cnluwv-data:74212 a cnluwv:Kernberoep;
+  skos:prefLabel "Vliegtuigmonteurs (elektrotechnisch)" .
+
+cnluwv-data:74221 a cnluwv:Kernberoep;
+  skos:prefLabel "Kabelwerkers en monteurs datacommunicatie" .
+
+cnluwv-data:74222 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs glasvezel en telecommunicatiesystemen" .
+
+cnluwv-data:75111 a cnluwv:Kernberoep;
+  skos:prefLabel "Slagers, poeliers en vishandelaars" .
+
+cnluwv-data:75112 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers slachterij/vleeswarenindustrie en visbewerkers" .
+
+cnluwv-data:75121 a cnluwv:Kernberoep;
+  skos:prefLabel "Brood- en banketbakkers" .
+
+cnluwv-data:75122 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers brood- en banketbakkerij" .
+
+cnluwv-data:75150 a cnluwv:Kernberoep;
+  skos:prefLabel "Kwaliteitscontroleurs levensmiddelenindustrie" .
+
+cnluwv-data:75160 a cnluwv:Kernberoep;
+  skos:prefLabel "Tabaksbereiders en vervaardigers van tabaksproducten" .
+
+cnluwv-data:75210 a cnluwv:Kernberoep;
+  skos:prefLabel "Houtbehandelaars" .
+
+cnluwv-data:75220 a cnluwv:Kernberoep;
+  skos:prefLabel "Ambachtelijk meubelmakers en houtbewerkers" .
+
+cnluwv-data:75230 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinaal meubelmakers en houtbewerkers" .
+
+cnluwv-data:75310 a cnluwv:Kernberoep;
+  skos:prefLabel "Kleermakers, costumières en hoedenmakers" .
+
+cnluwv-data:75320 a cnluwv:Kernberoep;
+  skos:prefLabel "Patroontekenaars en productievoorbereiders confectie" .
+
+cnluwv-data:75330 a cnluwv:Kernberoep;
+  skos:prefLabel "Gordijn-, zeil- en zonweringmakers" .
+
+cnluwv-data:75340 a cnluwv:Kernberoep;
+  skos:prefLabel "Meubel- en voertuigstoffeerders" .
+
+cnluwv-data:75350 a cnluwv:Kernberoep;
+  skos:prefLabel "Pelsbereiders en leerlooiers" .
+
+cnluwv-data:75360 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoenmakers en lederwarenmakers" .
+
+cnluwv-data:75410 a cnluwv:Kernberoep;
+  skos:prefLabel "(Bergings)duikers" .
+
+cnluwv-data:75420 a cnluwv:Kernberoep;
+  skos:prefLabel "Springmeesters en explosievendeskundigen" .
+
+cnluwv-data:75431 a cnluwv:Kernberoep;
+  skos:prefLabel "Kwaliteitsmedewerkers" .
+
+cnluwv-data:75432 a cnluwv:Kernberoep;
+  skos:prefLabel "Kwaliteitscontroleurs industrie nonfood" .
+
+cnluwv-data:75440 a cnluwv:Kernberoep;
+  skos:prefLabel "Ongediertebestrijders" .
+
+cnluwv-data:75490 a cnluwv:Kernberoep;
+  skos:prefLabel "Lenzen- en brillenslijpers" .
+
+cnluwv-data:81110 a cnluwv:Kernberoep;
+  skos:prefLabel "Delfstoffenwinnaars" .
+
+cnluwv-data:81120 a cnluwv:Kernberoep;
+  skos:prefLabel "Bedieners installaties verwerking mineralen en gesteente" .
+
+cnluwv-data:81131 a cnluwv:Kernberoep;
+  skos:prefLabel "On- en offshore uitvoerend personeel" .
+
+cnluwv-data:81132 a cnluwv:Kernberoep;
+  skos:prefLabel "Sondeerders en boormeesters grondboring" .
+
+cnluwv-data:81133 a cnluwv:Kernberoep;
+  skos:prefLabel "Operationeel leidinggevenden delfstoffenwinning" .
+
+cnluwv-data:81140 a cnluwv:Kernberoep;
+  skos:prefLabel "Bereiders beton, cement en asfalt" .
+
+cnluwv-data:81210 a cnluwv:Kernberoep;
+  skos:prefLabel "Bedieners installaties metaalgieterij" .
+
+cnluwv-data:81220 a cnluwv:Kernberoep;
+  skos:prefLabel "Afwerkers metaalgieterij en galvaniseurs" .
+
+cnluwv-data:81310 a cnluwv:Kernberoep;
+  skos:prefLabel "Mechanisch operators procesindustrie" .
+
+cnluwv-data:81320 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners fotolaboratorium" .
+
+cnluwv-data:81410 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners vervaardiging rubberprodukten" .
+
+cnluwv-data:81430 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners vervaardiging papier- en kartonprodukten" .
+
+cnluwv-data:81510 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners vervaardiging textiele garens" .
+
+cnluwv-data:81520 a cnluwv:Kernberoep;
+  skos:prefLabel "Weefgetouw- en breimachinebedieners" .
+
+cnluwv-data:81530 a cnluwv:Kernberoep;
+  skos:prefLabel "Naaimachinebedieners" .
+
+cnluwv-data:81540 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners textielveredeling" .
+
+cnluwv-data:81560 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners schoenindustrie" .
+
+cnluwv-data:81571 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers wasserij en stomerij" .
+
+cnluwv-data:81572 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden wasserij en stomerij" .
+
+cnluwv-data:81601 a cnluwv:Kernberoep;
+  skos:prefLabel "(Hoofd)operators levensmiddelenindustrie" .
+
+cnluwv-data:81602 a cnluwv:Kernberoep;
+  skos:prefLabel "Mechanisch operators levensmiddelenindustrie" .
+
+cnluwv-data:81710 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners vervaardiging papier en karton" .
+
+cnluwv-data:81720 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers houtzagerij en -verwerking" .
+
+cnluwv-data:81810 a cnluwv:Kernberoep;
+  skos:prefLabel "Machinebedieners vervaardiging glas- en aardewerk" .
+
+cnluwv-data:81830 a cnluwv:Kernberoep;
+  skos:prefLabel "Verpakkingsmedewerkers" .
+
+cnluwv-data:81890 a cnluwv:Kernberoep;
+  skos:prefLabel "Bedieners stationaire machines en installaties n.e.g." .
+
+cnluwv-data:82110 a cnluwv:Kernberoep;
+  skos:prefLabel "Assemblagemonteurs werktuigbouw" .
+
+cnluwv-data:82120 a cnluwv:Kernberoep;
+  skos:prefLabel "Assemblagemonteurs elektrische en elektronische apparatuur" .
+
+cnluwv-data:82191 a cnluwv:Kernberoep;
+  skos:prefLabel "Assemblagemedewerkers hout" .
+
+cnluwv-data:82192 a cnluwv:Kernberoep;
+  skos:prefLabel "Assemblagemedewerkers kunststof" .
+
+cnluwv-data:82193 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden assemblage en montage" .
+
+cnluwv-data:83110 a cnluwv:Kernberoep;
+  skos:prefLabel "Treinmachinisten en metrobestuurders" .
+
+cnluwv-data:83120 a cnluwv:Kernberoep;
+  skos:prefLabel "Rangeerders" .
+
+cnluwv-data:83210 a cnluwv:Kernberoep;
+  skos:prefLabel "Koeriers motor" .
+
+cnluwv-data:83221 a cnluwv:Kernberoep;
+  skos:prefLabel "Taxi- en particulier chauffeurs" .
+
+cnluwv-data:83222 a cnluwv:Kernberoep;
+  skos:prefLabel "Bestelwagenchauffeurs, autokoeriers" .
+
+cnluwv-data:83311 a cnluwv:Kernberoep;
+  skos:prefLabel "Buschauffeurs lijndienst en trambestuurders" .
+
+cnluwv-data:83312 a cnluwv:Kernberoep;
+  skos:prefLabel "Buschauffeurs touringcar" .
+
+cnluwv-data:83321 a cnluwv:Kernberoep;
+  skos:prefLabel "Vrachtwagenchauffeurs binnenland" .
+
+cnluwv-data:83322 a cnluwv:Kernberoep;
+  skos:prefLabel "Vrachtwagenchauffeurs buitenland" .
+
+cnluwv-data:83323 a cnluwv:Kernberoep;
+  skos:prefLabel "Vrachtwagenchauffeurs speciaal vervoer" .
+
+cnluwv-data:83410 a cnluwv:Kernberoep;
+  skos:prefLabel "Loonwerkers, landbouwmachinisten en tractorchauffeurs" .
+
+cnluwv-data:83421 a cnluwv:Kernberoep;
+  skos:prefLabel "Grondverzetmachinisten" .
+
+cnluwv-data:83422 a cnluwv:Kernberoep;
+  skos:prefLabel "Baggermachinisten" .
+
+cnluwv-data:83423 a cnluwv:Kernberoep;
+  skos:prefLabel "Wegenbouwmachinisten" .
+
+cnluwv-data:83424 a cnluwv:Kernberoep;
+  skos:prefLabel "Heimachinisten" .
+
+cnluwv-data:83431 a cnluwv:Kernberoep;
+  skos:prefLabel "Kraanmachinisten" .
+
+cnluwv-data:83432 a cnluwv:Kernberoep;
+  skos:prefLabel "Brug- en sluiswachters" .
+
+cnluwv-data:83440 a cnluwv:Kernberoep;
+  skos:prefLabel "Heftruckchauffeurs" .
+
+cnluwv-data:83501 a cnluwv:Kernberoep;
+  skos:prefLabel "Matrozen binnenvaart" .
+
+cnluwv-data:83502 a cnluwv:Kernberoep;
+  skos:prefLabel "Matrozen zeevaart" .
+
+cnluwv-data:91110 a cnluwv:Kernberoep;
+  skos:prefLabel "Huishoudelijk medewerkers (particulieren en thuiszorg)" .
+
+cnluwv-data:91121 a cnluwv:Kernberoep;
+  skos:prefLabel "Huishoudelijk medewerkers (hotel, instelling)" .
+
+cnluwv-data:91122 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoonmakers (kantoren, bedrijven)" .
+
+cnluwv-data:91210 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers linnenkamer" .
+
+cnluwv-data:91221 a cnluwv:Kernberoep;
+  skos:prefLabel "Medewerkers autowasserij" .
+
+cnluwv-data:91222 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoonmakers bus, trein, vliegtuig" .
+
+cnluwv-data:91230 a cnluwv:Kernberoep;
+  skos:prefLabel "Glazenwassers" .
+
+cnluwv-data:91291 a cnluwv:Kernberoep;
+  skos:prefLabel "Industrieel schoonmakers en -stralers" .
+
+cnluwv-data:91292 a cnluwv:Kernberoep;
+  skos:prefLabel "Schoonmakers cleanrooms en laboratoria" .
+
+cnluwv-data:91293 a cnluwv:Kernberoep;
+  skos:prefLabel "Rioolreinigers" .
+
+cnluwv-data:91294 a cnluwv:Kernberoep;
+  skos:prefLabel "Leidinggevenden gespecialiseerde reiniging en afvalinzameling" .
+
+cnluwv-data:92110 a cnluwv:Kernberoep;
+  skos:prefLabel "Hulparbeiders akkerbouw" .
+
+cnluwv-data:92120 a cnluwv:Kernberoep;
+  skos:prefLabel "Hulparbeiders veeteelt" .
+
+cnluwv-data:92130 a cnluwv:Kernberoep;
+  skos:prefLabel "Hulparbeiders op gemengde bedrijven" .
+
+cnluwv-data:92140 a cnluwv:Kernberoep;
+  skos:prefLabel "Agrarisch seizoenskrachten tuinbouw" .
+
+cnluwv-data:92160 a cnluwv:Kernberoep;
+  skos:prefLabel "Hulparbeiders visserij en visteelt" .
+
+cnluwv-data:93121 a cnluwv:Kernberoep;
+  skos:prefLabel "Vaklieden grond-, weg- en waterbouw" .
+
+cnluwv-data:93122 a cnluwv:Kernberoep;
+  skos:prefLabel "Oppermannen en hulparbeiders grond-, weg- en waterbouw" .
+
+cnluwv-data:93123 a cnluwv:Kernberoep;
+  skos:prefLabel "Monteurs spoorbaan" .
+
+cnluwv-data:93124 a cnluwv:Kernberoep;
+  skos:prefLabel "Hulparbeiders wegenonderhoud" .
+
+cnluwv-data:93130 a cnluwv:Kernberoep;
+  skos:prefLabel "Oppermannen en hulparbeiders bouw" .
+
+cnluwv-data:93210 a cnluwv:Kernberoep;
+  skos:prefLabel "Inpakkers" .
+
+cnluwv-data:93290 a cnluwv:Kernberoep;
+  skos:prefLabel "Productiemedewerkers" .
+
+cnluwv-data:93310 a cnluwv:Kernberoep;
+  skos:prefLabel "Fiets- en brommerkoeriers" .
+
+cnluwv-data:93331 a cnluwv:Kernberoep;
+  skos:prefLabel "Magazijn,- expeditiemedewerkers en orderpickers" .
+
+cnluwv-data:93332 a cnluwv:Kernberoep;
+  skos:prefLabel "Laders, lossers en sjouwers" .
+
+cnluwv-data:93333 a cnluwv:Kernberoep;
+  skos:prefLabel "Verhuizers" .
+
+cnluwv-data:93340 a cnluwv:Kernberoep;
+  skos:prefLabel "Vakkenvullers en winkelassistenten" .
+
+cnluwv-data:94110 a cnluwv:Kernberoep;
+  skos:prefLabel "Fastfoodbereiders" .
+
+cnluwv-data:94121 a cnluwv:Kernberoep;
+  skos:prefLabel "Keukenassistenten" .
+
+cnluwv-data:94122 a cnluwv:Kernberoep;
+  skos:prefLabel "Afwassers" .
+
+cnluwv-data:95100 a cnluwv:Kernberoep;
+  skos:prefLabel "Standwerkers, kranten- en flyeruitdelers" .
+
+cnluwv-data:96110 a cnluwv:Kernberoep;
+  skos:prefLabel "Beladers vuilniswagen, vuilnisophalers" .
+
+cnluwv-data:96120 a cnluwv:Kernberoep;
+  skos:prefLabel "Vuilnissorteerders" .
+
+cnluwv-data:96211 a cnluwv:Kernberoep;
+  skos:prefLabel "Bezorgers (reclame)kranten" .
+
+cnluwv-data:96212 a cnluwv:Kernberoep;
+  skos:prefLabel "Bodes en bagagisten" .
+
+cnluwv-data:96231 a cnluwv:Kernberoep;
+  skos:prefLabel "Operators cateringautomaten" .
+
+cnluwv-data:96232 a cnluwv:Kernberoep;
+  skos:prefLabel "Meteropnemers en verkeerstellers" .
+
+cnluwv-data:96290 a cnluwv:Kernberoep;
+  skos:prefLabel "Servicemedewerkers bioscoop, theater en amusementcentrum" .

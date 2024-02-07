@@ -1,0 +1,2348 @@
+@prefix : <http://mapping.example.com/> .
+@prefix cnluwv: <https://linkeddata.competentnl.nl/def/cnluwv#> .
+@prefix cnluwv-data: <https://linkeddata.competentnl.nl/id/> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://linkeddata.competentnl.nl/id/namedgraph/isco> {
+  <https://linkeddata.competentnl.nl/id/isco/0> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Armed forces occupations"@en, "Militaire beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/01> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/0>;
+    skos:prefLabel "Commissioned armed forces officers"@en, "Officieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/011> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/01>;
+    skos:prefLabel "Commissioned armed forces officers"@en, "Officieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/0110> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/011>;
+    skos:prefLabel "Commissioned armed forces officers"@en, "Officieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/02> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/0>;
+    skos:prefLabel "Non-commissioned armed forces officers"@en, "Onderofficieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/021> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/02>;
+    skos:prefLabel "Non-commissioned armed forces officers"@en, "Onderofficieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/0210> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/021>;
+    skos:prefLabel "Non-commissioned armed forces officers"@en, "Onderofficieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/03> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/0>;
+    skos:prefLabel "Armed forces occupations, other ranks"@en, "Andere militaire rangen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/031> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/03>;
+    skos:prefLabel "Armed forces occupations, other ranks"@en, "Andere militaire rangen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/0310> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/031>;
+    skos:prefLabel "Armed forces occupations, other ranks"@en, "Andere militaire rangen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Managers"@en, "Managers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/11> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/1>;
+    skos:prefLabel "Chief executives, senior officials and legislators"@en, "Topbestuurders, leden wetgevende instanties, beleidvoerende functies"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/111> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/11>;
+    skos:prefLabel "Legislators and senior officials"@en, "Leden wetgevende instanties, beleidvoerende functies"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/111>;
+    skos:prefLabel "Legislators"@en, "Leden wetgevende instanties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/111>;
+    skos:prefLabel "Senior government officials"@en, "Ambtenaren in beleidvoerende functies"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1114> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/111>;
+    skos:prefLabel "Senior officials of special-interest organisations"@en, "Bestuurders van belangenorganisaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/112> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/11>;
+    skos:prefLabel "Managing directors and chief executives"@en, "Topbestuurders en algemeen directeuren van grote ondernemingen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1120> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/112>;
+    skos:prefLabel "Managing directors and chief executives"@en, "Topbestuurders en algemeen directeuren van grote ondernemingen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/12> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/1>;
+    skos:prefLabel "Administrative and commercial managers"@en, "Managers op administratief en commercieel gebied"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/121> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/12>;
+    skos:prefLabel "Business services and administration managers"@en, "Managers zakelijke en administratieve dienstverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/121>;
+    skos:prefLabel "Finance managers"@en, "Financieel managers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/121>;
+    skos:prefLabel "Human resource managers"@en, "Managers personeel en organisatie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1213> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/121>;
+    skos:prefLabel "Policy and planning managers"@en, "Managers beleid en planning"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1219> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/121>;
+    skos:prefLabel "Business services and administration managers not elsewhere classified"@en,
+      "Managers zakelijke en administratieve dienstverlening n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/122> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/12>;
+    skos:prefLabel "Sales, marketing and development managers"@en, "Managers verkoop, marketing en ontwikkeling"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/122>;
+    skos:prefLabel "Sales and marketing managers"@en, "Managers verkoop en marketing"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/122>;
+    skos:prefLabel "Advertising and public relations managers"@en, "Managers reclame en public relations"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1223> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/122>;
+    skos:prefLabel "Research and development managers"@en, "Managers onderzoek en ontwikkeling (R&D)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/13> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/1>;
+    skos:prefLabel "Production and specialised services managers"@en, "Managers productie en gespecialiseerde dienstverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/131> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/13>;
+    skos:prefLabel "Production managers in agriculture, forestry and fisheries"@en, "Managers landbouw, bosbouw en visserij"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/131>;
+    skos:prefLabel "Agricultural and forestry production managers"@en, "Managers landbouw en bosbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/132> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/13>;
+    skos:prefLabel "Manufacturing, mining, construction, and distribution managers"@en,
+      "Managers industrie, mijnbouw, bouwnijverheid en logistiek"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/132>;
+    skos:prefLabel "Manufacturing managers"@en, "Managers industrie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/132>;
+    skos:prefLabel "Mining managers"@en, "Managers mijnbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1323> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/132>;
+    skos:prefLabel "Construction managers"@en, "Managers bouwnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1324> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/132>;
+    skos:prefLabel "Supply, distribution and related managers"@en, "Managers logistiek, distributie en aanverwante gebieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/133> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/13>;
+    skos:prefLabel "Information and communications technology service managers"@en, "Managers informatie- en communicatietechnologie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1330> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/133>;
+    skos:prefLabel "Information and communications technology service managers"@en, "Managers informatie- en communicatietechnologie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/134> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/13>;
+    skos:prefLabel "Professional services managers"@en, "Managers gespecialiseerde dienstverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1341> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Child care services managers"@en, "Managers kinderopvang"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1342> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Health services managers"@en, "Managers gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1343> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Aged care services managers"@en, "Managers ouderenzorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1344> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Social welfare managers"@en, "Managers sociale dienstverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1345> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Education managers"@en, "Managers onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1346> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Financial and insurance services branch managers"@en, "Managers financiële dienstverlening en verzekeringen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1349> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/134>;
+    skos:prefLabel "Professional services managers not elsewhere classified"@en, "Managers gespecialiseerde dienstverlening n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/14> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/1>;
+    skos:prefLabel "Hospitality, retail and other services managers"@en, "Managers horeca, detailhandel en overige diensten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/141> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/14>;
+    skos:prefLabel "Hotel and restaurant managers"@en, "Managers horeca"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/141>;
+    skos:prefLabel "Hotel managers"@en, "Hotelmanagers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/141>;
+    skos:prefLabel "Restaurant managers"@en, "Restaurantmanagers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/142> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/14>;
+    skos:prefLabel "Retail and wholesale trade managers"@en, "Managers detail- en groothandel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1420> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/142>;
+    skos:prefLabel "Retail and wholesale trade managers"@en, "Managers detail- en groothandel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/143> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/14>;
+    skos:prefLabel "Other services managers"@en, "Managers overige diensten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1431> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/143>;
+    skos:prefLabel "Sports, recreation and cultural centre managers"@en, "Managers recreatie en amusement"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/1439> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/143>;
+    skos:prefLabel "Services managers not elsewhere classified"@en, "Managers commerciële en persoonlijke dienstverlening n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Professionals"@en, "Onderzoekers, ingenieurs, docenten en specialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/21> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Science and engineering professionals"@en, "Ingenieurs en onderzoekers wis-, natuur- en technische wetenschappen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/211> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Physical and earth science professionals"@en, "Natuur- en aardwetenschappers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/211>;
+    skos:prefLabel "Physicists and astronomers"@en, "Natuurkundigen en sterrenkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/211>;
+    skos:prefLabel "Meteorologists"@en, "Meteorologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/211>;
+    skos:prefLabel "Chemists"@en, "Chemici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2114> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/211>;
+    skos:prefLabel "Geologists and geophysicists"@en, "Geologen en geofysici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/212> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Mathematicians, actuaries and statisticians"@en, "Wiskundigen, actuarissen en statistici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2120> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/212>;
+    skos:prefLabel "Mathematicians, actuaries and statisticians"@en, "Wiskundigen, actuarissen en statistici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/213> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Life science professionals"@en, "Biologen, agrarisch en milieudeskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/213>;
+    skos:prefLabel "Biologists, botanists, zoologists and related professionals"@en, "Biologen, botanici, zoölogen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/213>;
+    skos:prefLabel "Farming, forestry and fisheries advisers"@en, "Adviseurs op het gebied van landbouw, bosbouw en visserij"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2133> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/213>;
+    skos:prefLabel "Environmental protection professionals"@en, "Milieudeskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/214> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Engineering professionals (excluding electrotechnology)"@en, "Ingenieurs (m.u.v. elektrotechnisch ingenieurs)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2141> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Industrial and production engineers"@en, "Industrieel ingenieurs en productie-ingenieurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2142> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Civil engineers"@en, "Weg- en waterbouwkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2143> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Environmental engineers"@en, "Milieutechnologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2144> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Mechanical engineers"@en, "Werktuigbouwkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2145> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Chemical engineers"@en, "Chemisch ingenieurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2146> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Mining engineers, metallurgists and related professionals"@en, "Mijnbouwkundigen en metaalkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2149> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/214>;
+    skos:prefLabel "Engineering professionals not elsewhere classified"@en, "Ingenieurs n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/215> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Electrotechnology engineers"@en, "Ingenieurs elektrotechniek, elektronica en telecommunicatie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2151> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/215>;
+    skos:prefLabel "Electrical engineers"@en, "Elektrotechnisch ingenieurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2152> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/215>;
+    skos:prefLabel "Electronics engineers"@en, "Elektronica- en hardware ingenieurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2153> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/215>;
+    skos:prefLabel "Telecommunications engineers"@en, "Telecommunicatie-ingenieurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/216> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/21>;
+    skos:prefLabel "Architects, planners, surveyors and designers"@en, "Architecten, planologen, landmeetkundigen en vormgevers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2161> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Building architects"@en, "Bouwkundig- en interieurarchitecten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2162> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Landscape architects"@en, "Landschapsarchitecten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2163> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Product and garment designers"@en, "Product- en kledingontwerpers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2164> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Town and traffic planners"@en, "Stedenbouwkundigen en verkeersplanologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2165> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Cartographers and surveyors"@en, "Cartografen en landmeetkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2166> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/216>;
+    skos:prefLabel "Graphic and multimedia designers"@en, "Grafisch vormgevers en multimedia vormgevers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/22> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Health professionals"@en, "Specialisten gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/221> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Medical doctors"@en, "Artsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/221>;
+    skos:prefLabel "Generalist medical practitioners"@en, "Huisartsen en basisartsen (niet in opleiding tot specialist)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/221>;
+    skos:prefLabel "Specialist medical practitioners"@en, "Medisch specialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/222> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Nursing and midwifery professionals"@en, "Gespecialiseerd verpleegkundigen en verloskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/222>;
+    skos:prefLabel "Nursing professionals"@en, "Gespecialiseerd verpleegkundigen en verpleegkundig coördinatoren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/222>;
+    skos:prefLabel "Midwifery professionals"@en, "Verloskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/223> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Traditional and complementary medicine professionals"@en, "Alternatief genezers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2230> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/223>;
+    skos:prefLabel "Traditional and complementary medicine professionals"@en, "Alternatief genezers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/224> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Paramedical practitioners"@en, "Physician assistents"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2240> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/224>;
+    skos:prefLabel "Paramedical practitioners"@en, "Physician assistents"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/225> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Veterinarians"@en, "Dierenartsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2250> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/225>;
+    skos:prefLabel "Veterinarians"@en, "Dierenartsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/226> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/22>;
+    skos:prefLabel "Other health professionals"@en, "Overige specialisten in de gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2261> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Dentists"@en, "Tandartsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2262> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Pharmacists"@en, "Apothekers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2263> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Environmental and occupational health and hygiene professionals"@en,
+      "Specialisten op het gebied van de milieu- en arbeidshygiëne"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2264> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Physiotherapists"@en, "Fysiotherapeuten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2265> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Dieticians and nutritionists"@en, "Diëtisten en voedingsdeskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2266> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Audiologists and speech therapists"@en, "Audiologen en logopedisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2267> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Optometrists and ophthalmic opticians"@en, "Optometristen en orthoptisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2269> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/226>;
+    skos:prefLabel "Health professionals not elsewhere classified"@en, "Specialisten op het gebied van de gezondheidszorg n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/23> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Teaching professionals"@en, "Docenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/231> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/23>;
+    skos:prefLabel "University and higher education teachers"@en, "Hoogleraren en andere docenten hoger onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2310> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/231>;
+    skos:prefLabel "University and higher education teachers"@en, "Hoogleraren en andere docenten hoger onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/232> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/23>;
+    skos:prefLabel "Vocational education teachers"@en, "Docenten beroepsgerichte vakken secundair onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2320> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/232>;
+    skos:prefLabel "Vocational education teachers"@en, "Docenten beroepsgerichte vakken secundair onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/233> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/23>;
+    skos:prefLabel "Secondary education teachers"@en, "Docenten algemene vakken secundair onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2330> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/233>;
+    skos:prefLabel "Secondary education teachers"@en, "Docenten algemene vakken secundair onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/234> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/23>;
+    skos:prefLabel "Primary school and early childhood teachers"@en, "Docenten basisonderwijs en voorschoolse onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2341> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/234>;
+    skos:prefLabel "Primary school teachers"@en, "Docenten basisonderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2342> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/234>;
+    skos:prefLabel "Early childhood educators"@en, "Docenten voorschools onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/235> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/23>;
+    skos:prefLabel "Other teaching professionals"@en, "Overige docenten en onderwijskundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2351> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Education methods specialists"@en, "Specialisten op het gebied van onderwijsmethoden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2352> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Special needs teachers"@en, "Docenten speciaal onderwijs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2353> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Other language teachers"@en, "Docenten inburgering en docenten Nederlands als tweede taal"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2354> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Other music teachers"@en, "Muziekleraren (particulier)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2355> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Other arts teachers"@en, "Kunstleraren (particulier)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2356> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Information technology trainers"@en, "Opleiders en trainers op het gebied van informatica"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2359> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/235>;
+    skos:prefLabel "Teaching professionals not elsewhere classified"@en, "Onderwijsbegeleiders en -adviseurs n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/24> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Business and administration professionals"@en, "Specialisten bedrijfsbeheer en administratie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/241> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/24>;
+    skos:prefLabel "Finance professionals"@en, "Financieel specialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/241>;
+    skos:prefLabel "Accountants"@en, "Accountants"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/241>;
+    skos:prefLabel "Financial and investment advisers"@en, "Financieel en beleggingsadviseurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2413> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/241>;
+    skos:prefLabel "Financial analysts"@en, "Financieel analisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/242> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/24>;
+    skos:prefLabel "Administration professionals"@en, "Specialisten personeel, organisatie en beleidsadvies"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2421> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/242>;
+    skos:prefLabel "Management and organisation analysts"@en, "Bedrijfskundigen en organisatieadviseurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2422> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/242>;
+    skos:prefLabel "Policy administration professionals"@en, "Beleidsadviseurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2423> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/242>;
+    skos:prefLabel "Personnel and careers professionals"@en, "Specialisten personeels- en loopbaanontwikkeling"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2424> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/242>;
+    skos:prefLabel "Training and staff development professionals"@en, "Specialisten bedrijfsopleidingen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/243> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/24>;
+    skos:prefLabel "Sales, marketing and public relations professionals"@en, "Specialisten marketing, sales en public relations"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2431> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/243>;
+    skos:prefLabel "Advertising and marketing professionals"@en, "Specialisten reclame en marketing"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2432> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/243>;
+    skos:prefLabel "Public relations professionals"@en, "Specialisten public relations"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2433> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/243>;
+    skos:prefLabel "Technical and medical sales professionals (excluding ICT)"@en, "Vertegenwoordigers en accountmanagers industrie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2434> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/243>;
+    skos:prefLabel "Information and communications technology sales professionals"@en,
+      "Vertegenwoordigers informatie- en communicatietechnologie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/25> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Information and communications technology professionals"@en, "Specialisten informatie- en communicatietechnologie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/251> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/25>;
+    skos:prefLabel "Software and applications developers and analysts"@en, "Software- en applicatieontwikkelaars en -analisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2511> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/251>;
+    skos:prefLabel "Systems analysts"@en, "Systeemanalisten en ICT-adviseurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2512> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/251>;
+    skos:prefLabel "Software developers"@en, "Softwareontwikkelaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2513> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/251>;
+    skos:prefLabel "Web and multimedia developers"@en, "Web- en multimediaontwikkelaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2514> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/251>;
+    skos:prefLabel "Applications programmers"@en, "Applicatieprogrammeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2519> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/251>;
+    skos:prefLabel "Software and applications developers and analysts not elsewhere classified"@en,
+      "Software- en applicatieontwikkelaars en -analisten n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/252> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/25>;
+    skos:prefLabel "Database and network professionals"@en, "Databank- en netwerkspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2521> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/252>;
+    skos:prefLabel "Database designers and administrators"@en, "Ontwerpers en beheerders van databases"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2522> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/252>;
+    skos:prefLabel "Systems administrators"@en, "Systeembeheerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2523> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/252>;
+    skos:prefLabel "Computer network professionals"@en, "Netwerkspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2529> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/252>;
+    skos:prefLabel "Database and network professionals not elsewhere classified"@en, "Databank- en netwerkspecialisten n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/26> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/2>;
+    skos:prefLabel "Legal, social and cultural professionals"@en, "Juristen, sociaal wetenschappers en kunstenaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/261> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/26>;
+    skos:prefLabel "Legal professionals"@en, "Juristen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2611> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/261>;
+    skos:prefLabel "Lawyers"@en, "Advocaten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2612> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/261>;
+    skos:prefLabel "Judges"@en, "Rechters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2619> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/261>;
+    skos:prefLabel "Legal professionals not elsewhere classified"@en, "Juristen n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/262> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/26>;
+    skos:prefLabel "Librarians, archivists and curators"@en, "Bibliothecarissen, archivarissen en conservators"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2621> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/262>;
+    skos:prefLabel "Archivists and curators"@en, "Archivarissen en conservators"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2622> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/262>;
+    skos:prefLabel "Librarians and related information professionals"@en, "Bibliothecarissen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/263> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/26>;
+    skos:prefLabel "Social and religious professionals"@en, "Sociaal wetenschappers, specialisten sociale hulpverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2631> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Economists"@en, "Economen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2632> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Sociologists, anthropologists and related professionals"@en, "Sociologen, antropologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2633> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Philosophers, historians and political scientists"@en, "Filosofen, historici en politicologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2634> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Psychologists"@en, "Psychologen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2635> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Social work and counselling professionals"@en, "Maatschappelijk werkers en specialistische sociale hulpverleners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2636> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/263>;
+    skos:prefLabel "Religious professionals"@en, "Theologen en voorgangers van de eredienst"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/264> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/26>;
+    skos:prefLabel "Authors, journalists and linguists"@en, "Auteurs, journalisten en taalkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2641> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/264>;
+    skos:prefLabel "Authors and related writers"@en, "Auteurs, technisch schrijvers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2642> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/264>;
+    skos:prefLabel "Journalists"@en, "Journalisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2643> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/264>;
+    skos:prefLabel "Translators, interpreters and other linguists"@en, "Vertalers, tolken en andere taalkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/265> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/26>;
+    skos:prefLabel "Creative and performing artists"@en, "Scheppende en uitvoerende kunstenaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2651> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Visual artists"@en, "Beeldend kunstenaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2652> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Musicians, singers and composers"@en, "Musici, zangers en componisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2653> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Dancers and choreographers"@en, "Dansers en choreografen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2654> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Film, stage and related directors and producers"@en, "Regisseurs en producenten televisie, film en theater"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2655> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Actors"@en, "Acteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2656> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Announcers on radio, television and other media"@en, "Omroepers voor radio, televisie en andere media"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/2659> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/265>;
+    skos:prefLabel "Creative and performing artists not elsewhere classified"@en, "Entertainment artiesten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Technicians and associate professionals"@en, "Vakspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/31> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/3>;
+    skos:prefLabel "Science and engineering associate professionals"@en, "Vakspecialisten natuur- en technische wetenschappen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/311> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/31>;
+    skos:prefLabel "Physical and engineering science technicians"@en, "Vakspecialisten natuur- en technische wetenschappen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Chemical and physical science technicians"@en, "Scheikundige en natuurkundige onderzoekstechnici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Civil engineering technicians"@en, "Technici weg- en waterbouw, bouwinspecteurs en landmeters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Electrical engineering technicians"@en, "Elektrotechnici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3114> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Electronics engineering technicians"@en, "Technici elektronica"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3115> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Mechanical engineering technicians"@en, "Technici werktuigbouwkunde"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3117> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Mining and metallurgical technicians"@en, "Technici delfstofwinning en metallurgie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3118> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Draughtspersons"@en, "Technisch tekenaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3119> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/311>;
+    skos:prefLabel "Physical and engineering science technicians not elsewhere classified"@en,
+      "Vakspecialisten op het gebied van natuur- en technische wetenschappen n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/312> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/31>;
+    skos:prefLabel "Mining, manufacturing and construction supervisors"@en, "Toezichthoudend personeel in de mijnbouw, de industrie en de bouwnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3121> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/312>;
+    skos:prefLabel "Mining supervisors"@en, "Toezichthoudend personeel in de mijnbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3122> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/312>;
+    skos:prefLabel "Manufacturing supervisors"@en, "Toezichthoudend personeel in de industrie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3123> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/312>;
+    skos:prefLabel "Construction supervisors"@en, "Toezichthoudend personeel in de bouwnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/313> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/31>;
+    skos:prefLabel "Process control technicians"@en, "Procesoperators"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/313>;
+    skos:prefLabel "Power production plant operators"@en, "Procesoperators elektriciteitscentrales"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/313>;
+    skos:prefLabel "Incinerator and water treatment plant operators"@en, "Procesoperators verbrandingsovens en waterzuiveringsinstallaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3133> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/313>;
+    skos:prefLabel "Chemical processing plant controllers"@en, "Procesoperators chemische installaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3135> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/313>;
+    skos:prefLabel "Metal production process controllers"@en, "Procesoperators hoogovens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3139> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/313>;
+    skos:prefLabel "Process control technicians not elsewhere classified"@en, "Procesoperators n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/314> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/31>;
+    skos:prefLabel "Life science technicians and related associate professionals"@en,
+      "Vakspecialisten levenswetenschappen, landbouw en natuurbeheer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3141> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/314>;
+    skos:prefLabel "Life science technicians (excluding medical)"@en, "Analisten en laboranten levenswetenschappen (m.u.v. medisch)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3142> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/314>;
+    skos:prefLabel "Agricultural technicians"@en, "Vakspecialisten landbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3143> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/314>;
+    skos:prefLabel "Forestry technicians"@en, "Boswachters, bos- en natuurbeheerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/315> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/31>;
+    skos:prefLabel "Ship and aircraft controllers and technicians"@en, "Bestuurders en vakspecialisten schepen en vliegtuigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3151> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/315>;
+    skos:prefLabel "Ships’ engineers"@en, "Scheepswerktuigkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3152> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/315>;
+    skos:prefLabel "Ships’ deck officers and pilots"@en, "Dekofficieren en loodsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3153> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/315>;
+    skos:prefLabel "Aircraft pilots and related associate professionals"@en, "Piloten, vlieginstructeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3154> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/315>;
+    skos:prefLabel "Air traffic controllers"@en, "Luchtverkeersleiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/32> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/3>;
+    skos:prefLabel "Health associate professionals"@en, "Vakspecialisten gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/321> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/32>;
+    skos:prefLabel "Medical and pharmaceutical technicians"@en, "Medisch en farmaceutisch vakspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/321>;
+    skos:prefLabel "Medical imaging and therapeutic equipment technicians"@en, "Laboranten medische diagnostiek en therapie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/321>;
+    skos:prefLabel "Medical and pathology laboratory technicians"@en, "Medisch en pathologisch laboranten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3213> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/321>;
+    skos:prefLabel "Pharmaceutical technicians and assistants"@en, "Farmaceutisch medewerkers en apothekersassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3214> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/321>;
+    skos:prefLabel "Medical and dental prosthetic technicians"@en, "Prothese- en tandtechnici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/322> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/32>;
+    skos:prefLabel "Nursing and midwifery associate professionals"@en, "Verpleegkundigen en kraamverpleegkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/322>;
+    skos:prefLabel "Nursing associate professionals"@en, "Verpleegkundigen (geen coördinerende of specialistische taken)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/322>;
+    skos:prefLabel "Midwifery associate professionals"@en, "Assistent-verloskundigen en kraamverpleegkundigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/324> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/32>;
+    skos:prefLabel "Veterinary technicians and assistants"@en, "Veterinaire assistenten en dierenartsassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3240> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/324>;
+    skos:prefLabel "Veterinary technicians and assistants"@en, "Veterinaire assistenten en dierenartsassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/325> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/32>;
+    skos:prefLabel "Other health associate professionals"@en, "Overige vakspecialisten in de gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3251> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Dental assistants and therapists"@en, "Tandartsassistenten en mondhygiënisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3253> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Community health workers"@en, "Medewerkers gezondheidsvoorlichting en -opvoeding"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3254> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Dispensing opticians"@en, "Opticiens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3255> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Physiotherapy technicians and assistants"@en, "Masseurs en assistenten fysio- en bewegingstherapie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3256> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Medical assistants"@en, "Medische praktijkassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3257> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Environmental and occupational health inspectors and associates"@en,
+      "Inspecteurs veiligheid, gezondheid en voeding"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3258> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/325>;
+    skos:prefLabel "Ambulance workers"@en, "Ambulancepersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/33> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/3>;
+    skos:prefLabel "Business and administration associate professionals"@en, "Vakspecialisten bedrijfsbeheer en administratie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/331> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/33>;
+    skos:prefLabel "Financial and mathematical associate professionals"@en, "Financieel en wiskundig vakspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/331>;
+    skos:prefLabel "Securities and finance dealers and brokers"@en, "Effecten- en valutahandelaren en -makelaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/331>;
+    skos:prefLabel "Credit and loans officers"@en, "Medewerkers kredieten en leningen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3313> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/331>;
+    skos:prefLabel "Accounting associate professionals"@en, "Boekhouders, financieel administrateurs en assistent accountants"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3314> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/331>;
+    skos:prefLabel "Statistical, mathematical and related associate professionals"@en,
+      "Actuarieel, wiskundig en statistisch analisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3315> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/331>;
+    skos:prefLabel "Valuers and loss assessors"@en, "Taxateurs en schadeëxperts"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/332> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/33>;
+    skos:prefLabel "Sales and purchasing agents and brokers"@en, "In- en verkopers en commissionairs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/332>;
+    skos:prefLabel "Insurance representatives"@en, "Verzekeringsagenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/332>;
+    skos:prefLabel "Commercial sales representatives"@en, "Vertegenwoordigers, accountmanagers retail en exportmanagers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3323> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/332>;
+    skos:prefLabel "Buyers"@en, "Inkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3324> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/332>;
+    skos:prefLabel "Trade brokers"@en, "Commissionairs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/333> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/33>;
+    skos:prefLabel "Business services agents"@en, "Zakelijke dienstverleners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3331> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/333>;
+    skos:prefLabel "Clearing and forwarding agents"@en, "Inklaringsagenten en expediteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3332> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/333>;
+    skos:prefLabel "Conference and event planners"@en, "Organisatoren van conferenties en evenementen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3333> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/333>;
+    skos:prefLabel "Employment agents and contractors"@en, "Arbeidsbemiddelaars en uitzendbureaumedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3334> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/333>;
+    skos:prefLabel "Real estate agents and property managers"@en, "Makelaars onroerend goed en vastgoedbeheerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3339> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/333>;
+    skos:prefLabel "Business services agents not elsewhere classified"@en, "Zakelijke dienstverleners n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/334> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/33>;
+    skos:prefLabel "Administrative and specialised secretaries"@en, "Office managers en gespecialiseerde secretaressen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3341> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/334>;
+    skos:prefLabel "Office supervisors"@en, "Office managers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3342> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/334>;
+    skos:prefLabel "Legal secretaries"@en, "Juridisch secretaressen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3343> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/334>;
+    skos:prefLabel "Administrative and executive secretaries"@en, "Directie-, project- en internationaal secretaressen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3344> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/334>;
+    skos:prefLabel "Medical secretaries"@en, "Medisch secretaressen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/335> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/33>;
+    skos:prefLabel "Regulatory government associate professionals"@en, "Vakspecialisten overheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3351> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Customs and border inspectors"@en, "Douane-inspecteurs en grensbewakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3352> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Government tax and excise officials"@en, "Ambtenaren belastingen en accijnzen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3353> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Government social benefits officials"@en, "Ambtenaren sociale verzekeringen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3354> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Government licensing officials"@en, "Ambtenaren vergunningen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3355> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Police inspectors and detectives"@en, "Politie-inspecteurs en rechercheurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3359> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/335>;
+    skos:prefLabel "Regulatory government associate professionals not elsewhere classified"@en,
+      "Overheidsambtenaren n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/34> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/3>;
+    skos:prefLabel "Legal, social, cultural and related associate professionals"@en, "Vakspecialisten op juridisch, maatschappelijk en cultureel gebied"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/341> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/34>;
+    skos:prefLabel "Legal, social and religious associate professionals"@en, "Juridisch medewerkers, sociaal en pastoraal werkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/341>;
+    skos:prefLabel "Legal and related associate professionals"@en, "Notarieel en juridisch assistenten en deurwaarders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/341>;
+    skos:prefLabel "Social work associate professionals"@en, "Sociaal werkers, groeps- en woonbegeleiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3413> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/341>;
+    skos:prefLabel "Religious associate professionals"@en, "Pastoraal werkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/342> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/34>;
+    skos:prefLabel "Sports and fitness workers"@en, "Sportbeoefenaren, -trainers en fitnessinstructeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3421> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/342>;
+    skos:prefLabel "Athletes and sports players"@en, "Atleten en andere sportbeoefenaren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3422> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/342>;
+    skos:prefLabel "Sports coaches, instructors and officials"@en, "Sporttrainers en zweminstructeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3423> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/342>;
+    skos:prefLabel "Fitness and recreation instructors and program leaders"@en, "Fitnessinstructeurs en leiders van recreatieprogramma's"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/343> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/34>;
+    skos:prefLabel "Artistic, cultural and culinary associate professionals"@en, "Vakspecialisten op artistiek, cultureel en culinair gebied"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3431> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/343>;
+    skos:prefLabel "Photographers"@en, "Fotografen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3432> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/343>;
+    skos:prefLabel "Interior designers and decorators"@en, "Interieurontwerpers en decorateurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3433> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/343>;
+    skos:prefLabel "Gallery, museum and library technicians"@en, "Vakspecialisten galerieën, musea en bibliotheken"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3434> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/343>;
+    skos:prefLabel "Chefs"@en, "Chef-koks"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3435> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/343>;
+    skos:prefLabel "Other artistic and cultural associate professionals"@en, "Vakspecialisten televisie- en theaterproductie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/35> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/3>;
+    skos:prefLabel "Information and communications technicians"@en, "Vakspecialisten informatie en communicatie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/351> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/35>;
+    skos:prefLabel "Information and communications technology operations and user support technicians"@en,
+      "Vakspecialisten informatie- en communicatietechnologie en gebruikersondersteuning"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3511> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/351>;
+    skos:prefLabel "Information and communications technology operations technicians"@en,
+      "Vakspecialisten informatie- en communicatietechnologie (hardware)"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3512> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/351>;
+    skos:prefLabel "Information and communications technology user support technicians"@en,
+      "Gebruikersondersteuners ICT en ICT-helpdeskmedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3513> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/351>;
+    skos:prefLabel "Computer network and systems technicians"@en, "Netwerk- en systeemtechnici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3514> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/351>;
+    skos:prefLabel "Web technicians"@en, "Vakspecialisten website-ontwikkeling en -beheer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/352> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/35>;
+    skos:prefLabel "Telecommunications and broadcasting technicians"@en, "Telecommunicatie-, radio- en televisietechnici"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/3521> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/352>;
+    skos:prefLabel "Broadcasting and audiovisual technicians"@en, "Beeld- en geluidstechnici radio en televisie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Clerical support workers"@en, "Administratief personeel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/41> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/4>;
+    skos:prefLabel "General and keyboard clerks"@en, "Administratief medewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/411> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/41>;
+    skos:prefLabel "General office clerks"@en, "Administratief medewerkers, algemeen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4110> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/411>;
+    skos:prefLabel "General office clerks"@en, "Administratief medewerkers, algemeen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/412> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/41>;
+    skos:prefLabel "Secretaries (general)"@en, "Secretarieel medewerkers, algemeen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4120> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/412>;
+    skos:prefLabel "Secretaries (general)"@en, "Secretarieel medewerkers, algemeen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/413> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/41>;
+    skos:prefLabel "Keyboard operators"@en, "Typisten en medewerkers data-invoer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/413>;
+    skos:prefLabel "Typists and word processing operators"@en, "Typisten en tekstverwerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/413>;
+    skos:prefLabel "Data entry clerks"@en, "Medewerkers data-invoer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/42> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/4>;
+    skos:prefLabel "Customer services clerks"@en, "Klantvoorlichters, kassiers, incassomedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/421> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/42>;
+    skos:prefLabel "Tellers, money collectors and related clerks"@en, "Kassiers, incassomedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/421>;
+    skos:prefLabel "Bank tellers and related clerks"@en, "Kassiers en baliemedewerkers bank"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/421>;
+    skos:prefLabel "Bookmakers, croupiers and related gaming workers"@en, "Bookmakers, croupiers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4214> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/421>;
+    skos:prefLabel "Debt-collectors and related workers"@en, "Incassomedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/422> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/42>;
+    skos:prefLabel "Client information workers"@en, "Klantvoorlichters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Travel consultants and clerks"@en, "Reisconsulenten en reisbureaumedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Contact centre information clerks"@en, "Callcentermedewerkers inbound"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4223> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Telephone switchboard operators"@en, "Telefonisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4224> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Hotel receptionists"@en, "Hotelreceptionisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4225> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Enquiry clerks"@en, "Informatieverstrekkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4226> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Receptionists (general)"@en, "Receptionisten, algemeen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4227> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/422>;
+    skos:prefLabel "Survey and market research interviewers"@en, "Interviewers voor enquêtes en marktonderzoek"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/43> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/4>;
+    skos:prefLabel "Numerical and material recording clerks"@en, "Boekhoudkundig medewerkers en voorraadbeheerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/431> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/43>;
+    skos:prefLabel "Numerical clerks"@en, "Boekhoudkundig medewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/431>;
+    skos:prefLabel "Accounting and bookkeeping clerks"@en, "Boekhoudkundig medewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/431>;
+    skos:prefLabel "Statistical, finance and insurance clerks"@en, "Administratief medewerkers statistiek, financiën en verzekeringen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4313> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/431>;
+    skos:prefLabel "Payroll clerks"@en, "Loonadministrateurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/432> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/43>;
+    skos:prefLabel "Material-recording and transport clerks"@en, "Magazijnbeheerders en administratief productie- en transportpersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/432>;
+    skos:prefLabel "Stock clerks"@en, "Logistiek medewerkers, medewerkers materiaal-, voorraadplanning en -beheer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/432>;
+    skos:prefLabel "Production clerks"@en, "Werkvoorbereiders, productieplanners en orderbegeleiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4323> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/432>;
+    skos:prefLabel "Transport clerks"@en, "Transportplanners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/44> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/4>;
+    skos:prefLabel "Other clerical support workers"@en, "Overig administratief personeel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/441> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/44>;
+    skos:prefLabel "Other clerical support workers"@en, "Overig administratief personeel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Library clerks"@en, "Bibliotheekmedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Mail carriers and sorting clerks"@en, "Postboden en postsorteerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4413> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Coding, proof-reading and related clerks"@en, "Codeurs, correctoren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4415> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Filing and copying clerks"@en, "Archiverings- en kopieermedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4416> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Personnel clerks"@en, "Medewerkers personeelsadministratie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/4419> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/441>;
+    skos:prefLabel "Clerical support workers not elsewhere classified"@en, "Administratief assistenten n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Service and sales workers"@en, "Dienstverlenend personeel en verkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/51> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/5>;
+    skos:prefLabel "Personal service workers"@en, "Medewerkers persoonlijke dienstverlening"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/511> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Travel attendants, conductors and guides"@en, "Reisbegeleiders, conducteurs, reisleiders en gidsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/511>;
+    skos:prefLabel "Travel attendants and travel stewards"@en, "Reisbegeleiders en stewards"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/511>;
+    skos:prefLabel "Transport conductors"@en, "Conducteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/511>;
+    skos:prefLabel "Travel guides"@en, "Reisleiders en gidsen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/512> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Cooks"@en, "Koks"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5120> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/512>;
+    skos:prefLabel "Cooks"@en, "Koks"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/513> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Waiters and bartenders"@en, "Kelners en barpersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/513>;
+    skos:prefLabel "Waiters"@en, "Medewerkers bediening horeca"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/513>;
+    skos:prefLabel "Bartenders"@en, "Barpersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/514> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Hairdressers, beauticians and related workers"@en, "Kappers, schoonheidsspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5141> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/514>;
+    skos:prefLabel "Hairdressers"@en, "Kappers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5142> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/514>;
+    skos:prefLabel "Beauticians and related workers"@en, "Schoonheidsspecialisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/515> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Building and housekeeping supervisors"@en, "Teamleiders huishoudelijke diensten, conciÙrges"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5151> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/515>;
+    skos:prefLabel "Cleaning and housekeeping supervisors in offices, hotels and other establishments"@en,
+      "Teamleiders huishoudelijke diensten en schoonmaak"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5152> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/515>;
+    skos:prefLabel "Domestic housekeepers"@en, "Butlers en pensionhouders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5153> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/515>;
+    skos:prefLabel "Building caretakers"@en, "Conciërges"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/516> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/51>;
+    skos:prefLabel "Other personal services workers"@en, "Overige verleners van persoonlijke diensten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5161> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/516>;
+    skos:prefLabel "Astrologers, fortune-tellers and related workers"@en, "Astrologen, waarzeggers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5163> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/516>;
+    skos:prefLabel "Undertakers and embalmers"@en, "Uitvaartmedewerkers en balsemers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5164> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/516>;
+    skos:prefLabel "Pet groomers and animal care workers"@en, "Dierverzorgers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5165> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/516>;
+    skos:prefLabel "Driving instructors"@en, "Rij-instructeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5169> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/516>;
+    skos:prefLabel "Personal services workers not elsewhere classified"@en, "Verleners van persoonlijke diensten n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/52> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/5>;
+    skos:prefLabel "Sales workers"@en, "Verkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/521> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/52>;
+    skos:prefLabel "Street and market salespersons"@en, "Straat- en marktverkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/521>;
+    skos:prefLabel "Stall and market salespersons"@en, "Markt- en kioskverkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/522> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/52>;
+    skos:prefLabel "Shop salespersons"@en, "Verkopers in winkels"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/522>;
+    skos:prefLabel "Shop keepers"@en, "Winkeliers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/522>;
+    skos:prefLabel "Shop supervisors"@en, "Teamleiders detailhandel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5223> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/522>;
+    skos:prefLabel "Shop sales assistants"@en, "Verkoopmedewerkers detailhandel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/523> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/52>;
+    skos:prefLabel "Cashiers and ticket clerks"@en, "Kassamedewerkers en kaartverkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5230> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/523>;
+    skos:prefLabel "Cashiers and ticket clerks"@en, "Kassamedewerkers en kaartverkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/524> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/52>;
+    skos:prefLabel "Other sales workers"@en, "Overige verkopers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5241> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Fashion and other models"@en, "Mannequins en modellen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5242> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Sales demonstrators"@en, "Demonstrateurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5243> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Door to door salespersons"@en, "Colporteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5244> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Contact centre salespersons"@en, "Callcentermedewerkers outbound"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5245> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Service station attendants"@en, "Pompbedienden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5246> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Food service counter attendants"@en, "Verkopers in fastfoodrestaurants en snackbars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5249> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/524>;
+    skos:prefLabel "Sales workers not elsewhere classified"@en, "Verhuurmedewerkers en verkopers n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/53> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/5>;
+    skos:prefLabel "Personal care workers"@en, "Verzorgend personeel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/531> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/53>;
+    skos:prefLabel "Child care workers and teachers' aides"@en, "Kinderverzorgers en onderwijsassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/531>;
+    skos:prefLabel "Child care workers"@en, "Kinderverzorgers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/531>;
+    skos:prefLabel "Teachers’ aides"@en, "Onderwijsassistenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/532> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/53>;
+    skos:prefLabel "Personal care workers in health services"@en, "Verzorgend personeel in de gezondheidszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/532>;
+    skos:prefLabel "Health care assistants"@en, "Verzorgenden intramuraal"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/532>;
+    skos:prefLabel "Home-based personal care workers"@en, "Verzorgenden thuiszorg"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5329> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/532>;
+    skos:prefLabel "Personal care workers in health services not elsewhere classified"@en,
+      "Assistenten gezondheidszorg n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/54> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/5>;
+    skos:prefLabel "Protective services workers"@en, "Beveiligingswerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/541> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/54>;
+    skos:prefLabel "Protective services workers"@en, "Beveiligingswerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/541>;
+    skos:prefLabel "Fire-fighters"@en, "Brandweerlieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/541>;
+    skos:prefLabel "Police officers"@en, "Politiepersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5413> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/541>;
+    skos:prefLabel "Prison guards"@en, "Gevangenbewaarders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5414> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/541>;
+    skos:prefLabel "Security guards"@en, "Beveiligingspersoneel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/5419> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/541>;
+    skos:prefLabel "Protective services workers not elsewhere classified"@en, "Parkeerwachters, strandwachten en beveiligingswerkers n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Skilled agricultural, forestry and fishery workers"@en, "Landbouwers, bosbouwers en vissers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/61> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/6>;
+    skos:prefLabel "Market-oriented skilled agricultural workers"@en, "Tuinders, akkerbouwers en veetelers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/611> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/61>;
+    skos:prefLabel "Market gardeners and crop growers"@en, "Tuinders en akkerbouwers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/611>;
+    skos:prefLabel "Field crop and vegetable growers"@en, "Akkerbouwers en groentetelers volle grond"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/611>;
+    skos:prefLabel "Tree and shrub crop growers"@en, "Telers van fruit en andere boom- en struikvruchten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/611>;
+    skos:prefLabel "Gardeners, horticultural and nursery growers"@en, "Hoveniers, tuinders en kwekers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/612> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/61>;
+    skos:prefLabel "Animal producers"@en, "Veetelers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6121> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/612>;
+    skos:prefLabel "Livestock and dairy producers"@en, "Veehouders m.u.v. pluimvee"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6122> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/612>;
+    skos:prefLabel "Poultry producers"@en, "Pluimveehouders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6123> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/612>;
+    skos:prefLabel "Apiarists and sericulturists"@en, "Bijenhouders en telers van andere insecten en wormen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6129> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/612>;
+    skos:prefLabel "Animal producers not elsewhere classified"@en, "Pelsdierenfokkers en veetelers n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/613> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/61>;
+    skos:prefLabel "Mixed crop and animal producers"@en, "Producenten met een gemengd bedrijf"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6130> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/613>;
+    skos:prefLabel "Mixed crop and animal producers"@en, "Agrariërs gemengd bedrijf"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/62> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/6>;
+    skos:prefLabel "Market-oriented skilled forestry, fishery and hunting workers"@en,
+      "Bosbouwers, vissers en jagers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/621> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/62>;
+    skos:prefLabel "Forestry and related workers"@en, "Bosbouwers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6210> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/621>;
+    skos:prefLabel "Forestry and related workers"@en, "Bosbouwers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/622> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/62>;
+    skos:prefLabel "Fishery workers, hunters and trappers"@en, "Vissers en jagers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/622>;
+    skos:prefLabel "Aquaculture workers"@en, "Viskwekers en kwekers van schaaldieren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/622>;
+    skos:prefLabel "Inland and coastal waters fishery workers"@en, "Vissers in binnen- en kustwateren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/6223> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/622>;
+    skos:prefLabel "Deep-sea fishery workers"@en, "Vissers, op volle zee"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Craft and related trades workers"@en, "Ambachtslieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/71> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/7>;
+    skos:prefLabel "Building and related trades workers, excluding electricians"@en, "Bouwarbeiders, m.u.v. elektriciens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/711> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/71>;
+    skos:prefLabel "Building frame and related trades workers"@en, "Bouwarbeiders ruwbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "House builders"@en, "Allround bouwvakkers, kleine bouwaannemers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "Bricklayers and related workers"@en, "Stratenmakers, metselaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "Stonemasons, stone cutters, splitters and carvers"@en, "Steenhouwers, -bewerkers en -snijders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7114> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "Concrete placers, concrete finishers and related workers"@en, "Betonwerkers, betonafwerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7115> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "Carpenters and joiners"@en, "Timmerlieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7119> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/711>;
+    skos:prefLabel "Building frame and related trades workers not elsewhere classified"@en,
+      "Steigerbouwers, bouwarbeiders ruwbouw n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/712> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/71>;
+    skos:prefLabel "Building finishers and related trades workers"@en, "Bouwarbeiders afbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7121> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Roofers"@en, "Dakdekkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7122> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Floor layers and tile setters"@en, "Vloerleggers en tegelzetters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7123> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Plasterers"@en, "Stukadoors"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7124> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Insulation workers"@en, "Isoleerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7125> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Glaziers"@en, "Glaszetters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7126> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Plumbers and pipe fitters"@en, "Loodgieters en pijpfitters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7127> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/712>;
+    skos:prefLabel "Air conditioning and refrigeration mechanics"@en, "Installateurs luchtbehandeling en koeltechniek"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/713> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/71>;
+    skos:prefLabel "Painters, building structure cleaners and related trades workers"@en,
+      "Schilders, schoonmakers bouwwerken"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/713>;
+    skos:prefLabel "Painters and related workers"@en, "Schilders en behangers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/713>;
+    skos:prefLabel "Spray painters and varnishers"@en, "Verf- en lakspuiters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7133> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/713>;
+    skos:prefLabel "Building structure cleaners"@en, "Schoorsteenvegers en gevelreinigers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/72> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/7>;
+    skos:prefLabel "Metal, machinery and related trades workers"@en, "Metaalarbeiders, machinemonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/721> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/72>;
+    skos:prefLabel "Sheet and structural metal workers, moulders and welders, and related workers"@en,
+      "Plaat- en constructiewerkers, metaalgieters en lassers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/721>;
+    skos:prefLabel "Metal moulders and coremakers"@en, "Metaalgieters en kernmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/721>;
+    skos:prefLabel "Welders and flamecutters"@en, "Lassers en snijders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7213> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/721>;
+    skos:prefLabel "Sheet-metal workers"@en, "Plaatwerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7214> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/721>;
+    skos:prefLabel "Structural-metal preparers and erectors"@en, "Constructiewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7215> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/721>;
+    skos:prefLabel "Riggers and cable splicers"@en, "Takelaars en kabelsplitsers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/722> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/72>;
+    skos:prefLabel "Blacksmiths, toolmakers and related trades workers"@en, "Metaalbewerkers, gereedschapsmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7221> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/722>;
+    skos:prefLabel "Blacksmiths, hammersmiths and forging press workers"@en, "Smeden, voorslagers en smeedperswerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7222> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/722>;
+    skos:prefLabel "Toolmakers and related workers"@en, "Gereedschapsmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7223> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/722>;
+    skos:prefLabel "Metal working machine tool setters and operators"@en, "Machinestellers en -bedieners metaalproduktvervaardiging"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7224> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/722>;
+    skos:prefLabel "Metal polishers, wheel grinders and tool sharpeners"@en, "Metaalpolijsters, -slijpers en gereedschapslijpers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/723> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/72>;
+    skos:prefLabel "Machinery mechanics and repairers"@en, "Machinemonteurs, montage en reparatie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7231> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/723>;
+    skos:prefLabel "Motor vehicle mechanics and repairers"@en, "Automonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7232> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/723>;
+    skos:prefLabel "Aircraft engine mechanics and repairers"@en, "Vliegtuigmonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7233> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/723>;
+    skos:prefLabel "Agricultural and industrial machinery mechanics and repairers"@en,
+      "Monteurs industriële en landbouwmachines"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7234> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/723>;
+    skos:prefLabel "Bicycle and related repairers"@en, "Rijwielmonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/73> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/7>;
+    skos:prefLabel "Handicraft and printing workers"@en, "Medewerkers drukkerij en kunstnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/731> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/73>;
+    skos:prefLabel "Handicraft workers"@en, "Medewerkers kunstnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Precision-instrument makers and repairers"@en, "Fijninstrumentmakers en -reparateurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Musical instrument makers and tuners"@en, "Vervaardigers en stemmers van muziekinstrumenten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7313> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Jewellery and precious-metal workers"@en, "Juweliers en bewerkers van edele metalen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7314> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Potters and related workers"@en, "Pottenbakkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7315> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Glass makers, cutters, grinders and finishers"@en, "Glasblazers, -snijders, -slijpers en -polijsters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7316> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Sign writers, decorative painters, engravers and etchers"@en, "Letterschilders, decoratieschilders, graveurs en etsers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7317> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Handicraft workers in wood, basketry and related materials"@en, "Ambachtslieden werkend met hout, vlechtwerk"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7318> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/731>;
+    skos:prefLabel "Handicraft workers in textile, leather and related materials"@en,
+      "Ambachtslieden werkend met textiel, leder"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/732> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/73>;
+    skos:prefLabel "Printing trades workers"@en, "Drukkerijmedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/732>;
+    skos:prefLabel "Pre-press technicians"@en, "Drukwerkvoorbereiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/732>;
+    skos:prefLabel "Printers"@en, "Drukkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7323> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/732>;
+    skos:prefLabel "Print finishing and binding workers"@en, "Grafisch nabewerkers en boekbinders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/74> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/7>;
+    skos:prefLabel "Electrical and electronic trades workers"@en, "Elektriciens en elektronicamonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/741> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/74>;
+    skos:prefLabel "Electrical equipment installers and repairers"@en, "Installateurs en reparateurs van elektrische apparatuur"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/741>;
+    skos:prefLabel "Building and related electricians"@en, "Elektriciens gebouwaansluitingen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/741>;
+    skos:prefLabel "Electrical mechanics and fitters"@en, "Elektromonteurs voertuigen, machines, motoren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7413> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/741>;
+    skos:prefLabel "Electrical line installers and repairers"@en, "Monteur elektriciteitsnetten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/742> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/74>;
+    skos:prefLabel "Electronics and telecommunications installers and repairers"@en, "Installateurs en reparateurs van elektronische en telecommunicatieapparatuur"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7421> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/742>;
+    skos:prefLabel "Electronics mechanics and servicers"@en, "Elektronicamonteurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7422> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/742>;
+    skos:prefLabel "Information and communications technology installers and servicers"@en,
+      "Monteurs ICT en telecommunicatie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/75> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/7>;
+    skos:prefLabel "Food processing, wood working, garment and other craft and related trades workers"@en,
+      "Voedselverwerkende beroepen, houtwerkers, kleermakers en andere ambachtslieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/751> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/75>;
+    skos:prefLabel "Food processing and related trades workers"@en, "Slagers, bakkers en overige voedselverwerkende beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7511> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/751>;
+    skos:prefLabel "Butchers, fishmongers and related food preparers"@en, "Slagers, vishandelaren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7512> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/751>;
+    skos:prefLabel "Bakers, pastry-cooks and confectionery makers"@en, "Bakkers en banketbakkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7515> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/751>;
+    skos:prefLabel "Food and beverage tasters and graders"@en, "Productcontroleurs voedingsmiddelen en dranken"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7516> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/751>;
+    skos:prefLabel "Tobacco preparers and tobacco products makers"@en, "Tabaksbereiders en vervaardigers van tabaksproducten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/752> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/75>;
+    skos:prefLabel "Wood treaters, cabinet-makers and related trades workers"@en, "Houtbehandelaars, meubelmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7521> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/752>;
+    skos:prefLabel "Wood treaters"@en, "Houtbehandelaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7522> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/752>;
+    skos:prefLabel "Cabinet-makers and related workers"@en, "Meubelmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7523> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/752>;
+    skos:prefLabel "Woodworking-machine tool setters and operators"@en, "Machinestellers en bedieners van houtbewerkingsmachines"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/753> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/75>;
+    skos:prefLabel "Garment and related trades workers"@en, "Kleermakers, stoffeerders, schoenmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7531> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Tailors, dressmakers, furriers and hatters"@en, "Kleermakers, bontwerkers en hoedenmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7532> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Garment and related pattern-makers and cutters"@en, "Patroonmakers en snijders voor kleding"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7533> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Sewing, embroidery and related workers"@en, "Naaisters, borduursters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7534> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Upholsterers and related workers"@en, "Stoffeerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7535> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Pelt dressers, tanners and fellmongers"@en, "Pelsbereiders en leerlooiers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7536> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/753>;
+    skos:prefLabel "Shoemakers and related workers"@en, "Schoenmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/754> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/75>;
+    skos:prefLabel "Other craft and related workers"@en, "Overige ambachtslieden"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7541> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/754>;
+    skos:prefLabel "Underwater divers"@en, "Duikers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7542> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/754>;
+    skos:prefLabel "Shotfirers and blasters"@en, "Springmeesters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7543> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/754>;
+    skos:prefLabel "Product graders and testers (excluding foods and beverages)"@en, "Productcontroleurs non-food"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7544> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/754>;
+    skos:prefLabel "Fumigators and other pest and weed controllers"@en, "Ongedierte- en onkruidbestrijders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/7549> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/754>;
+    skos:prefLabel "Craft and related workers not elsewhere classified"@en, "Ambachtslieden n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Plant and machine operators, and assemblers"@en, "Bedieners machines en installaties, assemblagemedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/81> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/8>;
+    skos:prefLabel "Stationary plant and machine operators"@en, "Bedieners vaste machines en installaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/811> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Mining and mineral processing plant operators"@en, "Bedieners mijninstallaties en installaties voor de verwerking van mineralen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/811>;
+    skos:prefLabel "Miners and quarriers"@en, "Delfstoffenwinnaars"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/811>;
+    skos:prefLabel "Mineral and stone processing plant operators"@en, "Bedieners installaties verwerking mineralen en gesteente"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8113> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/811>;
+    skos:prefLabel "Well drillers and borers and related workers"@en, "Boorwerkers en boormeesters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8114> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/811>;
+    skos:prefLabel "Cement, stone and other mineral products machine operators"@en, "Machinebedieners vervaardiging cement, stenen en andere minerale producten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/812> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Metal processing and finishing plant operators"@en, "Machinebedieners metaalbewerking, -verwerking en -oppervlaktebehandeling"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8121> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/812>;
+    skos:prefLabel "Metal processing plant operators"@en, "Bedieners installaties metaalbewerkings- en verwerking"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8122> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/812>;
+    skos:prefLabel "Metal finishing, plating and coating machine operators"@en, "Machinebedieners oppervlaktebehandelingen van metalen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/813> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Chemical and photographic products plant and machine operators"@en,
+      "Machinebedieners vervaardiging van chemische en fotografische producten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8131> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/813>;
+    skos:prefLabel "Chemical products plant and machine operators"@en, "Bedieners machines en installaties vervaardiging chemische producten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8132> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/813>;
+    skos:prefLabel "Photographic products machine operators"@en, "Machinebedieners fotolaboratorium"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/814> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Rubber, plastic and paper products machine operators"@en, "Machinebedieners vervaardiging rubber-, kunststof- of papierproducten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8141> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/814>;
+    skos:prefLabel "Rubber products machine operators"@en, "Machinebedieners vervaardiging rubberprodukten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8143> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/814>;
+    skos:prefLabel "Paper products machine operators"@en, "Machinebedieners vervaardiging papierprodukten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/815> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Textile, fur and leather products machine operators"@en, "Machinebedieners vervaardiging textiel-, bont- en leerproducten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8151> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Fibre preparing, spinning and winding machine operators"@en, "Machinebedieners vervaardiging textiele garens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8152> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Weaving and knitting machine operators"@en, "Weefgetouw- en breimachinebedieners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8153> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Sewing machine operators"@en, "Naaimachinebedieners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8154> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Bleaching, dyeing and fabric cleaning machine operators"@en, "Machinebedieners bleken, verven en reinigen van weefsels"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8156> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Shoemaking and related machine operators"@en, "Machinebedieners vervaardigen van schoeisel"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8157> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/815>;
+    skos:prefLabel "Laundry machine operators"@en, "Wasmachinebedieners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/816> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Food and related products machine operators"@en, "Machinebedieners vervaardiging voedingsmiddelen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8160> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/816>;
+    skos:prefLabel "Food and related products machine operators"@en, "Machinebedieners vervaardiging voedingsmiddelen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/817> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Wood processing and papermaking plant operators"@en, "Machinebedieners houtbewerking en papiervervaardiging"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8171> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/817>;
+    skos:prefLabel "Pulp and papermaking plant operators"@en, "Machinebedieners vervaardiging papierpulp en papier"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8172> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/817>;
+    skos:prefLabel "Wood processing plant operators"@en, "Bedieners installaties houtbewerking"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/818> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/81>;
+    skos:prefLabel "Other stationary plant and machine operators"@en, "Bedieners overige vaste machines en installaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8181> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/818>;
+    skos:prefLabel "Glass and ceramics plant operators"@en, "Bedieners installaties vervaardiging glas en aardewerk"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8183> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/818>;
+    skos:prefLabel "Packing, bottling and labelling machine operators"@en, "Verpakkings-, bottel- en etiketteringsmachinebedieners"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8189> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/818>;
+    skos:prefLabel "Stationary plant and machine operators not elsewhere classified"@en,
+      "Bedieners stationaire machines en installaties n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/82> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/8>;
+    skos:prefLabel "Assemblers"@en, "Assemblagemedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/821> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/82>;
+    skos:prefLabel "Assemblers"@en, "Assemblagemedewerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/821>;
+    skos:prefLabel "Mechanical machinery assemblers"@en, "Assemblagemedewerkers mechanische werktuigen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/821>;
+    skos:prefLabel "Electrical and electronic equipment assemblers"@en, "Assemblagemedewerkers elektrische en elektronische apparatuur"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8219> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/821>;
+    skos:prefLabel "Assemblers not elsewhere classified"@en, "Assemblagemedewerkers n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/83> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/8>;
+    skos:prefLabel "Drivers and mobile plant operators"@en, "Bestuurders voertuigen en bedieners mobiele installaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/831> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/83>;
+    skos:prefLabel "Locomotive engine drivers and related workers"@en, "Treinmachinisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8311> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/831>;
+    skos:prefLabel "Locomotive engine drivers"@en, "Treinmachinisten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/831>;
+    skos:prefLabel "Railway brake, signal and switch operators"@en, "Remmers, sein en wisselwachters"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/832> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/83>;
+    skos:prefLabel "Car, van and motorcycle drivers"@en, "Auto-, bestelwagenchauffeurs en bestuurders van motorrijwielen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/832>;
+    skos:prefLabel "Motorcycle drivers"@en, "Bestuurders motorrijwielen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8322> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/832>;
+    skos:prefLabel "Car, taxi and van drivers"@en, "Chauffeurs auto's, taxi's en bestelwagens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/833> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/83>;
+    skos:prefLabel "Heavy truck and bus drivers"@en, "Vrachtwagen- en buschauffeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8331> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/833>;
+    skos:prefLabel "Bus and tram drivers"@en, "Buschauffeurs en trambestuurders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8332> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/833>;
+    skos:prefLabel "Heavy truck and lorry drivers"@en, "Vrachtwagenchauffeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/834> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/83>;
+    skos:prefLabel "Mobile plant operators"@en, "Bedieners mobiele installaties"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8341> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/834>;
+    skos:prefLabel "Mobile farm and forestry plant operators"@en, "Bedieners mobiele land- en bosbouwmachines"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8342> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/834>;
+    skos:prefLabel "Earthmoving and related plant operators"@en, "Bedieners grondverzetmachines"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8343> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/834>;
+    skos:prefLabel "Crane, hoist and related plant operators"@en, "Kraandrijvers en bedieningspersoneel mobiele kranen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8344> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/834>;
+    skos:prefLabel "Lifting truck operators"@en, "Heftruckchauffeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/835> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/83>;
+    skos:prefLabel "Ships' deck crews and related workers"@en, "Dekpersoneel op schepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/8350> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/835>;
+    skos:prefLabel "Ships’ deck crews and related workers"@en, "Dekpersoneel op schepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9> a cnluwv:ISCO_MajorGroup;
+    skos:prefLabel "Elementary occupations"@en, "Elementaire beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/91> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Cleaners and helpers"@en, "Huishoudelijke hulpen en schoonmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/911> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/91>;
+    skos:prefLabel "Domestic, hotel and office cleaners and helpers"@en, "Schoonmakers in huishoudens, hotels en kantoren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9111> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/911>;
+    skos:prefLabel "Domestic cleaners and helpers"@en, "Schoonmakers in huishoudens"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9112> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/911>;
+    skos:prefLabel "Cleaners and helpers in offices, hotels and other establishments"@en,
+      "Schoonmakers in hotels, kantoren"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/912> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/91>;
+    skos:prefLabel "Vehicle, window, laundry and other hand cleaning workers"@en, "Autowassers, glazenwassers en overige schoonmakers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9121> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/912>;
+    skos:prefLabel "Hand launderers and pressers"@en, "Personeel voor het wassen en strijken met de hand"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9122> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/912>;
+    skos:prefLabel "Vehicle cleaners"@en, "Autowassers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9123> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/912>;
+    skos:prefLabel "Window cleaners"@en, "Glazenwassers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9129> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/912>;
+    skos:prefLabel "Other cleaning workers"@en, "Industrieel schoonmakers, stralers, rioolreinigers en schoonmakers n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/92> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Agricultural, forestry and fishery labourers"@en, "Hulparbeiders land- en bosbouw, visserij"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/921> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/92>;
+    skos:prefLabel "Agricultural, forestry and fishery labourers"@en, "Hulparbeiders in de land- en bosbouw en de visserij"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9211> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/921>;
+    skos:prefLabel "Crop farm labourers"@en, "Hulparbeiders akkerbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9212> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/921>;
+    skos:prefLabel "Livestock farm labourers"@en, "Hulparbeiders veeteelt"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9213> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/921>;
+    skos:prefLabel "Mixed crop and livestock farm labourers"@en, "Hulparbeiders op gemengde bedrijven"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9214> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/921>;
+    skos:prefLabel "Garden and horticultural labourers"@en, "Hulparbeiders tuinbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9216> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/921>;
+    skos:prefLabel "Fishery and aquaculture labourers"@en, "Hulparbeiders visserij en visteelt"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/93> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Labourers in mining, construction, manufacturing and transport"@en,
+      "Hulparbeiders mijnbouw, bouwnijverheid, industrie en vervoer"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/931> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/93>;
+    skos:prefLabel "Mining and construction labourers"@en, "Hulparbeiders in de mijnbouw en de bouwnijverheid"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9312> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/931>;
+    skos:prefLabel "Civil engineering labourers"@en, "Hulparbeiders weg- en waterbouw"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9313> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/931>;
+    skos:prefLabel "Building construction labourers"@en, "Bouwvakhulpen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/932> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/93>;
+    skos:prefLabel "Manufacturing labourers"@en, "Inpakkers en overige hulparbeiders in de industrie"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9321> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/932>;
+    skos:prefLabel "Hand packers"@en, "Inpakkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9329> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/932>;
+    skos:prefLabel "Manufacturing labourers not elsewhere classified"@en, "Hulparbeiders industrie n.e.g."@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/933> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/93>;
+    skos:prefLabel "Transport and storage labourers"@en, "Laders en lossers, vakkenvullers, fietskoeriers en koetsiers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9331> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/933>;
+    skos:prefLabel "Hand and pedal vehicle drivers"@en, "Fietskoeriers en fietstaxichauffeurs"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9333> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/933>;
+    skos:prefLabel "Freight handlers"@en, "Laders en lossers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9334> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/933>;
+    skos:prefLabel "Shelf fillers"@en, "Vakkenvullers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/94> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Food preparation assistants"@en, "Keukenhulpen en fastfoodbereiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/941> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/94>;
+    skos:prefLabel "Food preparation assistants"@en, "Keukenhulpen en fastfoodbereiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9411> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/941>;
+    skos:prefLabel "Fast food preparers"@en, "Fastfoodbereiders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9412> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/941>;
+    skos:prefLabel "Kitchen helpers"@en, "Keukenhulpen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/95> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Street and related sales and service workers"@en, "Straatverkopers en op straat uitgeoefende dienstverlenende beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/951> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/95>;
+    skos:prefLabel "Street and related service workers"@en, "Op straat uitgeoefende dienstverlenende beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9510> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/951>;
+    skos:prefLabel "Street and related service workers"@en, "Kranten-, flyeruitdelers en andere op straat uitgeoefende dienstverlenende beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/96> a cnluwv:ISCO_SubMajorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/9>;
+    skos:prefLabel "Refuse workers and other elementary workers"@en, "Vuilnisophalers en overige elementaire beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/961> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/96>;
+    skos:prefLabel "Refuse workers"@en, "Vuilnisophalers en -verwerkers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9611> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/961>;
+    skos:prefLabel "Garbage and recycling collectors"@en, "Vuilnisophalers en ophalers van afval voor recycling"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9612> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/961>;
+    skos:prefLabel "Refuse sorters"@en, "Vuilnissorteerders"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/962> a cnluwv:ISCO_MinorGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/96>;
+    skos:prefLabel "Other elementary workers"@en, "Andere elementaire beroepen"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9621> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/962>;
+    skos:prefLabel "Messengers, package deliverers and luggage porters"@en, "Boden, kruiers en bestellers"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9623> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/962>;
+    skos:prefLabel "Meter readers and vending-machine collectors"@en, "Meteropnemers en geldophalers verkoopautomaten"@nl .
+  
+  <https://linkeddata.competentnl.nl/id/isco/9629> a cnluwv:ISCO_UnitGroup;
+    skos:broader <https://linkeddata.competentnl.nl/id/isco/962>;
+    skos:prefLabel "Elementary workers not elsewhere classified"@en, "Elementaire beroepen n.e.g."@nl .
+}
